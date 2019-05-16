@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		763499798FF3A4376326913D /* Pods_magma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2F7221D29B7E4874D3193 /* Pods_magma.framework */; };
 		D0028346228B958700997C41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0028345228B958700997C41 /* AppDelegate.swift */; };
-		D0028348228B958700997C41 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0028347228B958700997C41 /* FirstViewController.swift */; };
-		D002834A228B958700997C41 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0028349228B958700997C41 /* SecondViewController.swift */; };
+		D0028348228B958700997C41 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0028347228B958700997C41 /* WalletViewController.swift */; };
+		D002834A228B958700997C41 /* TxnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0028349228B958700997C41 /* TxnViewController.swift */; };
 		D002834D228B958700997C41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D002834B228B958700997C41 /* Main.storyboard */; };
 		D002834F228B958D00997C41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D002834E228B958D00997C41 /* Assets.xcassets */; };
 		D0028352228B958D00997C41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0028350228B958D00997C41 /* LaunchScreen.storyboard */; };
+		D0944CBD228D96530065CAF2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CBC228D96530065CAF2 /* SettingsViewController.swift */; };
+		D0944CBF228D9E800065CAF2 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CBE228D9E800065CAF2 /* CustomTabBarController.swift */; };
+		D0944CC1228DAC840065CAF2 /* WalletTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CC0228DAC840065CAF2 /* WalletTableViewController.swift */; };
+		D0944CC5228DB24E0065CAF2 /* WalletTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CC4228DB24E0065CAF2 /* WalletTableViewCell.swift */; };
+		D0944CC7228DB44D0065CAF2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CC6228DB44D0065CAF2 /* Card.swift */; };
+		D0944CC9228DB4800065CAF2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CC8228DB4800065CAF2 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4520519BA374FE4882A3A8E5 /* Pods-magma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-magma.release.xcconfig"; path = "Pods/Target Support Files/Pods-magma/Pods-magma.release.xcconfig"; sourceTree = "<group>"; };
+		702945357C4422D334BA1487 /* Pods-magma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-magma.debug.xcconfig"; path = "Pods/Target Support Files/Pods-magma/Pods-magma.debug.xcconfig"; sourceTree = "<group>"; };
 		D0028342228B958700997C41 /* magma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = magma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0028345228B958700997C41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0028347228B958700997C41 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		D0028349228B958700997C41 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D0028347228B958700997C41 /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		D0028349228B958700997C41 /* TxnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxnViewController.swift; sourceTree = "<group>"; };
 		D002834C228B958700997C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D002834E228B958D00997C41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0028351228B958D00997C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0028353228B958D00997C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0944CBC228D96530065CAF2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D0944CBE228D9E800065CAF2 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		D0944CC0228DAC840065CAF2 /* WalletTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTableViewController.swift; sourceTree = "<group>"; };
+		D0944CC4228DB24E0065CAF2 /* WalletTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTableViewCell.swift; sourceTree = "<group>"; };
+		D0944CC6228DB44D0065CAF2 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		D0944CC8228DB4800065CAF2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DBD2F7221D29B7E4874D3193 /* Pods_magma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_magma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				763499798FF3A4376326913D /* Pods_magma.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DEE300058EBAECE85C8F7FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				702945357C4422D334BA1487 /* Pods-magma.debug.xcconfig */,
+				4520519BA374FE4882A3A8E5 /* Pods-magma.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA519C591236C4DE5ECDCD76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBD2F7221D29B7E4874D3193 /* Pods_magma.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D0028339228B958700997C41 = {
 			isa = PBXGroup;
 			children = (
 				D0028344228B958700997C41 /* magma */,
 				D0028343228B958700997C41 /* Products */,
+				5DEE300058EBAECE85C8F7FA /* Pods */,
+				CA519C591236C4DE5ECDCD76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +92,77 @@
 		D0028344228B958700997C41 /* magma */ = {
 			isa = PBXGroup;
 			children = (
-				D0028345228B958700997C41 /* AppDelegate.swift */,
-				D0028347228B958700997C41 /* FirstViewController.swift */,
-				D0028349228B958700997C41 /* SecondViewController.swift */,
-				D002834B228B958700997C41 /* Main.storyboard */,
-				D002834E228B958D00997C41 /* Assets.xcassets */,
-				D0028350228B958D00997C41 /* LaunchScreen.storyboard */,
-				D0028353228B958D00997C41 /* Info.plist */,
+				D0944CB7228D925C0065CAF2 /* Application */,
+				D0944CB4228D8D7A0065CAF2 /* Utility */,
+				D0944CBA228D930F0065CAF2 /* Models */,
+				D0944CBB228D93250065CAF2 /* Views */,
+				D0944CB3228D8D3A0065CAF2 /* Controllers */,
+				D0944CB9228D92AD0065CAF2 /* Resources */,
+				D0944CB8228D927D0065CAF2 /* Storyboards */,
 			);
 			path = magma;
+			sourceTree = "<group>";
+		};
+		D0944CB3228D8D3A0065CAF2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0028347228B958700997C41 /* WalletViewController.swift */,
+				D0028349228B958700997C41 /* TxnViewController.swift */,
+				D0944CBC228D96530065CAF2 /* SettingsViewController.swift */,
+				D0944CBE228D9E800065CAF2 /* CustomTabBarController.swift */,
+				D0944CC0228DAC840065CAF2 /* WalletTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D0944CB4228D8D7A0065CAF2 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		D0944CB7228D925C0065CAF2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D0028345228B958700997C41 /* AppDelegate.swift */,
+				D0028353228B958D00997C41 /* Info.plist */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		D0944CB8228D927D0065CAF2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D002834B228B958700997C41 /* Main.storyboard */,
+				D0028350228B958D00997C41 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		D0944CB9228D92AD0065CAF2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D002834E228B958D00997C41 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D0944CBA228D930F0065CAF2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D0944CC6228DB44D0065CAF2 /* Card.swift */,
+				D0944CC8228DB4800065CAF2 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D0944CBB228D93250065CAF2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0944CC4228DB24E0065CAF2 /* WalletTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0028356228B958D00997C41 /* Build configuration list for PBXNativeTarget "magma" */;
 			buildPhases = (
+				B4076978B399D92B55A93CBE /* [CP] Check Pods Manifest.lock */,
 				D002833E228B958700997C41 /* Sources */,
 				D002833F228B958700997C41 /* Frameworks */,
 				D0028340228B958700997C41 /* Resources */,
+				CBC4B025CA7770155F89E2BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +233,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B4076978B399D92B55A93CBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-magma-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBC4B025CA7770155F89E2BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-magma/Pods-magma-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwipeableTabBarController/SwipeableTabBarController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeableTabBarController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-magma/Pods-magma-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D002833E228B958700997C41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D002834A228B958700997C41 /* SecondViewController.swift in Sources */,
+				D0944CC5228DB24E0065CAF2 /* WalletTableViewCell.swift in Sources */,
+				D002834A228B958700997C41 /* TxnViewController.swift in Sources */,
 				D0028346228B958700997C41 /* AppDelegate.swift in Sources */,
-				D0028348228B958700997C41 /* FirstViewController.swift in Sources */,
+				D0944CC1228DAC840065CAF2 /* WalletTableViewController.swift in Sources */,
+				D0944CBF228D9E800065CAF2 /* CustomTabBarController.swift in Sources */,
+				D0944CC9228DB4800065CAF2 /* User.swift in Sources */,
+				D0028348228B958700997C41 /* WalletViewController.swift in Sources */,
+				D0944CBD228D96530065CAF2 /* SettingsViewController.swift in Sources */,
+				D0944CC7228DB44D0065CAF2 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +437,7 @@
 		};
 		D0028357228B958D00997C41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 702945357C4422D334BA1487 /* Pods-magma.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +456,7 @@
 		};
 		D0028358228B958D00997C41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4520519BA374FE4882A3A8E5 /* Pods-magma.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

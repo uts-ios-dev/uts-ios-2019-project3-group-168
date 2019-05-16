@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DF03E58D03F1E9E6D2B0C1E2F2FE7D8 /* UIKit+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C1ABC01ED4D6ED979DF01DF6111856 /* UIKit+Extensions.swift */; };
+		140C3D569D7DC5D898B770315C133FE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		1DB1F36C8E0DEE938856B7DC19C8C83E /* Pods-magma-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B702702FF88D39F2DF66F2B64C2439F /* Pods-magma-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3835A60614B0F42A1136169FAEB69AA2 /* SwipeTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB81FE13176923607CBA7EBFCD641A6 /* SwipeTransitionAnimator.swift */; };
+		3BA3E5B5BCE65B3EC43C029BB324C59D /* SwipeableTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB97DEC4CCD99E4A01ECAFA1C0ADD93 /* SwipeableTabBarController-dummy.m */; };
+		5BC4E5BE4105AF563B41FE21A7240726 /* Pods-magma-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 721D984EB37F9D8CB936F506148A06A4 /* Pods-magma-dummy.m */; };
+		74C1436049D13B4FAF6865CC8B3AEBF6 /* SwipeableTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA36ADD9C368AA26DBD0ECE4CC35D36F /* SwipeableTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77DAB4DC5E2AE80D8E9A240EB04E99A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		824A5A487E39288B030167DF37EA8E9D /* SwipeTransitioningProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F7B17EB849C2A41C9640D0E96D94ED /* SwipeTransitioningProtocol.swift */; };
+		D9D337FA96BDE099EFA73EC6BFD0C6A2 /* SwipeableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6159AAAFACAE54318CFD7439377A305A /* SwipeableTabBarController.swift */; };
+		EC5B63DD05EEF67AC3675B86464D2629 /* SwipeAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD074C0561CA1C4023B2EC44518021E /* SwipeAnimationType.swift */; };
+		FD7E98EBE3A2F517A9B5C3F4FB46B86B /* SwipeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FD2BBA1CBE76321B43C96BBDCBFC33 /* SwipeInteractor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22055E9AD5B766B0A47D6ECC091C8BBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AE76830D0FB8AB5A48BC2044DA2EF61;
+			remoteInfo = SwipeableTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FB81FE13176923607CBA7EBFCD641A6 /* SwipeTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitionAnimator.swift; path = SwipeableTabBarController/Classes/SwipeTransitionAnimator.swift; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		30F994A06A5E3AFE400E5C5FF43FF3B9 /* SwipeableTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwipeableTabBarController.modulemap; sourceTree = "<group>"; };
+		3107FCC6E946963AFDE655239B1DECBF /* Pods-magma-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-magma-frameworks.sh"; sourceTree = "<group>"; };
+		367D00588B342855DECCFB39C09FFF0D /* Pods-magma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-magma.debug.xcconfig"; sourceTree = "<group>"; };
+		428C959A589A0372947A4B6365FA6DA1 /* SwipeableTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeableTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		44C1ABC01ED4D6ED979DF01DF6111856 /* UIKit+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Extensions.swift"; path = "SwipeableTabBarController/Classes/UIKit+Extensions.swift"; sourceTree = "<group>"; };
+		4F505B81691DB09D25B2EE075FBAFE10 /* Pods-magma.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-magma.modulemap"; sourceTree = "<group>"; };
+		53B098714C88963743D14A3D2066D9F4 /* Pods-magma-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-magma-resources.sh"; sourceTree = "<group>"; };
+		581DA7E157E9CDFCE4340D53E4FF836A /* Pods-magma-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-magma-acknowledgements.plist"; sourceTree = "<group>"; };
+		5AB97DEC4CCD99E4A01ECAFA1C0ADD93 /* SwipeableTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeableTabBarController-dummy.m"; sourceTree = "<group>"; };
+		6159AAAFACAE54318CFD7439377A305A /* SwipeableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeableTabBarController.swift; path = SwipeableTabBarController/Classes/SwipeableTabBarController.swift; sourceTree = "<group>"; };
+		65F7B17EB849C2A41C9640D0E96D94ED /* SwipeTransitioningProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitioningProtocol.swift; path = SwipeableTabBarController/Classes/SwipeTransitioningProtocol.swift; sourceTree = "<group>"; };
+		66E27A7AC1BA631264A3FA1E01197BBD /* Pods-magma-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-magma-acknowledgements.markdown"; sourceTree = "<group>"; };
+		721D984EB37F9D8CB936F506148A06A4 /* Pods-magma-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-magma-dummy.m"; sourceTree = "<group>"; };
+		75CDDA6062CFC1F18695727F8332B63F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874776A85827F135D85938FFB7F9535D /* Pods_magma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_magma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B702702FF88D39F2DF66F2B64C2439F /* Pods-magma-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-magma-umbrella.h"; sourceTree = "<group>"; };
+		A2FD2BBA1CBE76321B43C96BBDCBFC33 /* SwipeInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeInteractor.swift; path = SwipeableTabBarController/Classes/SwipeInteractor.swift; sourceTree = "<group>"; };
+		A43E832597629FB48186A9AE8E13250F /* SwipeableTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeableTabBarController.xcconfig; sourceTree = "<group>"; };
+		B1C0B48E9ABD4B6EE4008B5B1E975B6E /* SwipeableTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipeableTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9DEDBD00809F5820223DD8663F7C688 /* Pods-magma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-magma.release.xcconfig"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D75888269586D3E6348260829A64A52D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA36ADD9C368AA26DBD0ECE4CC35D36F /* SwipeableTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeableTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		FCD074C0561CA1C4023B2EC44518021E /* SwipeAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAnimationType.swift; path = SwipeableTabBarController/Classes/SwipeAnimationType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27CA310AFA72E9E1F7CFB7A96F6481BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77DAB4DC5E2AE80D8E9A240EB04E99A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB05EB0FD2BE15A2269BA72B83592AD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140C3D569D7DC5D898B770315C133FE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		082D436CD53EAB308215B309FF98CB59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				874776A85827F135D85938FFB7F9535D /* Pods_magma.framework */,
+				B1C0B48E9ABD4B6EE4008B5B1E975B6E /* SwipeableTabBarController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EAE358E2B86DE686EA569C499177AF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AA1DCCE42BD9A7774849CB8B1B13C1C /* SwipeableTabBarController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3AA1DCCE42BD9A7774849CB8B1B13C1C /* SwipeableTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				6159AAAFACAE54318CFD7439377A305A /* SwipeableTabBarController.swift */,
+				FCD074C0561CA1C4023B2EC44518021E /* SwipeAnimationType.swift */,
+				A2FD2BBA1CBE76321B43C96BBDCBFC33 /* SwipeInteractor.swift */,
+				0FB81FE13176923607CBA7EBFCD641A6 /* SwipeTransitionAnimator.swift */,
+				65F7B17EB849C2A41C9640D0E96D94ED /* SwipeTransitioningProtocol.swift */,
+				44C1ABC01ED4D6ED979DF01DF6111856 /* UIKit+Extensions.swift */,
+				8C6C9BD07782892A04B8796FEA81D39B /* Support Files */,
+			);
+			path = SwipeableTabBarController;
+			sourceTree = "<group>";
+		};
+		8C6C9BD07782892A04B8796FEA81D39B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75CDDA6062CFC1F18695727F8332B63F /* Info.plist */,
+				30F994A06A5E3AFE400E5C5FF43FF3B9 /* SwipeableTabBarController.modulemap */,
+				A43E832597629FB48186A9AE8E13250F /* SwipeableTabBarController.xcconfig */,
+				5AB97DEC4CCD99E4A01ECAFA1C0ADD93 /* SwipeableTabBarController-dummy.m */,
+				428C959A589A0372947A4B6365FA6DA1 /* SwipeableTabBarController-prefix.pch */,
+				EA36ADD9C368AA26DBD0ECE4CC35D36F /* SwipeableTabBarController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwipeableTabBarController";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1EAE358E2B86DE686EA569C499177AF7 /* Pods */,
+				082D436CD53EAB308215B309FF98CB59 /* Products */,
+				F5093A221EDD0A4BBD219699E3B92C36 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5093A221EDD0A4BBD219699E3B92C36 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE733796C51E9E943A149FB0C32D497 /* Pods-magma */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FAE733796C51E9E943A149FB0C32D497 /* Pods-magma */ = {
+			isa = PBXGroup;
+			children = (
+				D75888269586D3E6348260829A64A52D /* Info.plist */,
+				4F505B81691DB09D25B2EE075FBAFE10 /* Pods-magma.modulemap */,
+				66E27A7AC1BA631264A3FA1E01197BBD /* Pods-magma-acknowledgements.markdown */,
+				581DA7E157E9CDFCE4340D53E4FF836A /* Pods-magma-acknowledgements.plist */,
+				721D984EB37F9D8CB936F506148A06A4 /* Pods-magma-dummy.m */,
+				3107FCC6E946963AFDE655239B1DECBF /* Pods-magma-frameworks.sh */,
+				53B098714C88963743D14A3D2066D9F4 /* Pods-magma-resources.sh */,
+				8B702702FF88D39F2DF66F2B64C2439F /* Pods-magma-umbrella.h */,
+				367D00588B342855DECCFB39C09FFF0D /* Pods-magma.debug.xcconfig */,
+				C9DEDBD00809F5820223DD8663F7C688 /* Pods-magma.release.xcconfig */,
+			);
+			name = "Pods-magma";
+			path = "Target Support Files/Pods-magma";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		60A47418D985807EA4BD0A857DB1539E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C1436049D13B4FAF6865CC8B3AEBF6 /* SwipeableTabBarController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B05A05BBDE14816005FBFF6AA160D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB1F36C8E0DEE938856B7DC19C8C83E /* Pods-magma-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3AE76830D0FB8AB5A48BC2044DA2EF61 /* SwipeableTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E1220DD702E600509618082630A84BC /* Build configuration list for PBXNativeTarget "SwipeableTabBarController" */;
+			buildPhases = (
+				60A47418D985807EA4BD0A857DB1539E /* Headers */,
+				7CFB9E29589A58F57329CC7AA647717F /* Sources */,
+				FB05EB0FD2BE15A2269BA72B83592AD6 /* Frameworks */,
+				07011D27C0EBFB9F4069D9EDAE948C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeableTabBarController;
+			productName = SwipeableTabBarController;
+			productReference = B1C0B48E9ABD4B6EE4008B5B1E975B6E /* SwipeableTabBarController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		71B6AC22133E8D417A6FB408914B170C /* Pods-magma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77B7EDB9498E38FD72BA22BA6284F0ED /* Build configuration list for PBXNativeTarget "Pods-magma" */;
+			buildPhases = (
+				B7B05A05BBDE14816005FBFF6AA160D5 /* Headers */,
+				09C02DE063EAFAAFA73946EFD38A72C0 /* Sources */,
+				27CA310AFA72E9E1F7CFB7A96F6481BE /* Frameworks */,
+				E97DA857C1F28FC12283FF8203999AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC4AE07BAE60FAB639A571BD8ECECFCB /* PBXTargetDependency */,
+			);
+			name = "Pods-magma";
+			productName = "Pods-magma";
+			productReference = 874776A85827F135D85938FFB7F9535D /* Pods_magma.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 082D436CD53EAB308215B309FF98CB59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71B6AC22133E8D417A6FB408914B170C /* Pods-magma */,
+				3AE76830D0FB8AB5A48BC2044DA2EF61 /* SwipeableTabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07011D27C0EBFB9F4069D9EDAE948C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97DA857C1F28FC12283FF8203999AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09C02DE063EAFAAFA73946EFD38A72C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC4E5BE4105AF563B41FE21A7240726 /* Pods-magma-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFB9E29589A58F57329CC7AA647717F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA3E5B5BCE65B3EC43C029BB324C59D /* SwipeableTabBarController-dummy.m in Sources */,
+				D9D337FA96BDE099EFA73EC6BFD0C6A2 /* SwipeableTabBarController.swift in Sources */,
+				EC5B63DD05EEF67AC3675B86464D2629 /* SwipeAnimationType.swift in Sources */,
+				FD7E98EBE3A2F517A9B5C3F4FB46B86B /* SwipeInteractor.swift in Sources */,
+				3835A60614B0F42A1136169FAEB69AA2 /* SwipeTransitionAnimator.swift in Sources */,
+				824A5A487E39288B030167DF37EA8E9D /* SwipeTransitioningProtocol.swift in Sources */,
+				0DF03E58D03F1E9E6D2B0C1E2F2FE7D8 /* UIKit+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC4AE07BAE60FAB639A571BD8ECECFCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwipeableTabBarController;
+			target = 3AE76830D0FB8AB5A48BC2044DA2EF61 /* SwipeableTabBarController */;
+			targetProxy = 22055E9AD5B766B0A47D6ECC091C8BBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39BC087233E873232DE026E76BC7D67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43E832597629FB48186A9AE8E13250F /* SwipeableTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeableTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = SwipeableTabBarController;
+				PRODUCT_NAME = SwipeableTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B9C918A7884F5E7235027EA1B0429CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 367D00588B342855DECCFB39C09FFF0D /* Pods-magma.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-magma/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-magma/Pods-magma.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC7671FDB00C87D4D5F5F9B98277B7D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9DEDBD00809F5820223DD8663F7C688 /* Pods-magma.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-magma/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-magma/Pods-magma.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B07D48A936B4A5D26A0C30B40D2BFD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43E832597629FB48186A9AE8E13250F /* SwipeableTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeableTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = SwipeableTabBarController;
+				PRODUCT_NAME = SwipeableTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D234CDA64AE12B115F1B6256221DAD59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E2EB35EC3E5A0D101C0408F47ABA4004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E1220DD702E600509618082630A84BC /* Build configuration list for PBXNativeTarget "SwipeableTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07D48A936B4A5D26A0C30B40D2BFD99 /* Debug */,
+				39BC087233E873232DE026E76BC7D67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2EB35EC3E5A0D101C0408F47ABA4004 /* Debug */,
+				D234CDA64AE12B115F1B6256221DAD59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77B7EDB9498E38FD72BA22BA6284F0ED /* Build configuration list for PBXNativeTarget "Pods-magma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9C918A7884F5E7235027EA1B0429CD /* Debug */,
+				AC7671FDB00C87D4D5F5F9B98277B7D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

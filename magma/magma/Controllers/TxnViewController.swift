@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  TxnViewController.swift
 //  magma
 //
 //  Created by Justin Wilkin on 15/5/19.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class TxnViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
 
 }
 

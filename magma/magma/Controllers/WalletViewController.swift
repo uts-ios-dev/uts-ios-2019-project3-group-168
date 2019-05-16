@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  WalletViewController.swift
 //  magma
 //
 //  Created by Justin Wilkin on 15/5/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class WalletViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
