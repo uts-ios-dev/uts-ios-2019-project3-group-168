@@ -1,16 +1,24 @@
 PODS:
+  - IQKeyboardManagerSwift (6.2.1)
+  - SwiftLint (0.31.0)
   - SwipeableTabBarController (2.1.0)
 
 DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - SwiftLint
   - SwipeableTabBarController
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - IQKeyboardManagerSwift
+    - SwiftLint
     - SwipeableTabBarController
 
 SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
+  SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
   SwipeableTabBarController: e6445066473bb548cc74f660c0ebc04d609cde67
 
-PODFILE CHECKSUM: cfa9696bf21a04b0d31f62ccea0a12c3ce5adef1
+PODFILE CHECKSUM: 540bd4f0b458106f0b2f1df40df385714de872f8
 
 COCOAPODS: 1.5.2

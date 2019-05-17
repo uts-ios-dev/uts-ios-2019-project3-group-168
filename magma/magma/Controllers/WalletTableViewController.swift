@@ -9,7 +9,7 @@
 import UIKit
 
 class WalletTableViewController: UITableViewController {
-    private var data: [String] = []
+    private var cards: [String] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +24,7 @@ class WalletTableViewController: UITableViewController {
     
     // Return the amount of items we have in our table's data
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return data.count
+        return cards.count
     }
     
     // Create our cell for our table

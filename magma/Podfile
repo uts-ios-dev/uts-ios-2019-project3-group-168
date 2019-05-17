@@ -7,4 +7,6 @@ target 'magma' do
 
   # Pods for magma
   pod 'SwipeableTabBarController'
+  pod 'IQKeyboardManagerSwift'
+  pod 'SwiftLint'
 end

@@ -9,11 +9,15 @@
 import UIKit
 
 class WalletViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    let cardManager: CardManager = CardManager()
+    
+    // Do initial setup
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // Load our cards into our wallet
+        cardManager.loadCards()
+        print("Card Number: \(cardManager.getCard(id: 1).getNumber())")
     }
 
 }
-
