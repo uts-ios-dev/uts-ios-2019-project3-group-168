@@ -10,7 +10,7 @@ import UIKit
 
 final class Util {
     
-    // MARK: Get Random Numbers
+    // MARK: - Get Random Numbers
     public static func getRandomIntInclusive(start: Int, end: Int) -> Int {
         return Int.random(in: start ... end)
     }
@@ -31,7 +31,7 @@ final class Util {
         return Double.random(in: start ..< end)
     }
     
-    // MARK: User Defaults Utilities
+    // MARK: - User Defaults Utilities
     // Get a string from User Defaults
     public static func getUserDefaultsString(accessKey: String) -> String? {
         let preferences = UserDefaults.standard
@@ -66,6 +66,7 @@ final class Util {
     }
 }
 
+// MARK: - Extensions
 extension UITextField {
     func setLeftPadding(_ amount: CGFloat) {
         let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: amount, height: self.frame.size.height))

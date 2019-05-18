@@ -14,6 +14,7 @@
 		D002834D228B958700997C41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D002834B228B958700997C41 /* Main.storyboard */; };
 		D002834F228B958D00997C41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D002834E228B958D00997C41 /* Assets.xcassets */; };
 		D0028352228B958D00997C41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0028350228B958D00997C41 /* LaunchScreen.storyboard */; };
+		D0407CAA228F025C007DE3D5 /* CardAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0407CA9228F025C007DE3D5 /* CardAPI.swift */; };
 		D0944CBD228D96530065CAF2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CBC228D96530065CAF2 /* SettingsViewController.swift */; };
 		D0944CBF228D9E800065CAF2 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CBE228D9E800065CAF2 /* CustomTabBarController.swift */; };
 		D0944CC1228DAC840065CAF2 /* WalletTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CC0228DAC840065CAF2 /* WalletTableViewController.swift */; };
@@ -23,6 +24,8 @@
 		D0944CCB228E21140065CAF2 /* CardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CCA228E21140065CAF2 /* CardManager.swift */; };
 		D0944CCD228E3C400065CAF2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CCC228E3C400065CAF2 /* Constants.swift */; };
 		D0944CCF228E3F0F0065CAF2 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CCE228E3F0F0065CAF2 /* Util.swift */; };
+		D0F0AC11228FAA4A00B5C77A /* CardStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0AC10228FAA4A00B5C77A /* CardStyle.swift */; };
+		D0F0AC13228FAAA700B5C77A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0AC12228FAAA700B5C77A /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,7 @@
 		D002834E228B958D00997C41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0028351228B958D00997C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0028353228B958D00997C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0407CA9228F025C007DE3D5 /* CardAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAPI.swift; sourceTree = "<group>"; };
 		D0944CBC228D96530065CAF2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D0944CBE228D9E800065CAF2 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		D0944CC0228DAC840065CAF2 /* WalletTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTableViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +49,8 @@
 		D0944CCA228E21140065CAF2 /* CardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
 		D0944CCC228E3C400065CAF2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D0944CCE228E3F0F0065CAF2 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		D0F0AC10228FAA4A00B5C77A /* CardStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStyle.swift; sourceTree = "<group>"; };
+		D0F0AC12228FAAA700B5C77A /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		DBD2F7221D29B7E4874D3193 /* Pods_magma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_magma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -109,6 +115,17 @@
 			path = magma;
 			sourceTree = "<group>";
 		};
+		D0407CAC228F0276007DE3D5 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				D0407CA9228F025C007DE3D5 /* CardAPI.swift */,
+				D0944CCA228E21140065CAF2 /* CardManager.swift */,
+				D0944CC6228DB44D0065CAF2 /* Card.swift */,
+				D0F0AC10228FAA4A00B5C77A /* CardStyle.swift */,
+			);
+			name = Card;
+			sourceTree = "<group>";
+		};
 		D0944CB3228D8D3A0065CAF2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +143,7 @@
 			children = (
 				D0944CCC228E3C400065CAF2 /* Constants.swift */,
 				D0944CCE228E3F0F0065CAF2 /* Util.swift */,
+				D0F0AC12228FAAA700B5C77A /* UIColor.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -159,8 +177,7 @@
 		D0944CBA228D930F0065CAF2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D0944CCA228E21140065CAF2 /* CardManager.swift */,
-				D0944CC6228DB44D0065CAF2 /* Card.swift */,
+				D0407CAC228F0276007DE3D5 /* Card */,
 				D0944CC8228DB4800065CAF2 /* User.swift */,
 			);
 			path = Models;
@@ -275,6 +292,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-magma/Pods-magma-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwipeableTabBarController/SwipeableTabBarController.framework",
 			);
@@ -282,6 +300,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeableTabBarController.framework",
 			);
@@ -315,8 +334,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0944CC5228DB24E0065CAF2 /* WalletTableViewCell.swift in Sources */,
+				D0F0AC11228FAA4A00B5C77A /* CardStyle.swift in Sources */,
 				D0944CCD228E3C400065CAF2 /* Constants.swift in Sources */,
 				D002834A228B958700997C41 /* TxnViewController.swift in Sources */,
+				D0F0AC13228FAAA700B5C77A /* UIColor.swift in Sources */,
+				D0407CAA228F025C007DE3D5 /* CardAPI.swift in Sources */,
 				D0028346228B958700997C41 /* AppDelegate.swift in Sources */,
 				D0944CCB228E21140065CAF2 /* CardManager.swift in Sources */,
 				D0944CC1228DAC840065CAF2 /* WalletTableViewController.swift in Sources */,

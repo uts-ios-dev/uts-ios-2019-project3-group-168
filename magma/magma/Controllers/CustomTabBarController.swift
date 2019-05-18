@@ -10,6 +10,7 @@ import SwipeableTabBarController
 
 class CustomTabBarController: SwipeableTabBarController {
     
+    // MARK: - Setup
     // On loading the tab view set up the scrolling settings
     override func viewDidLoad() {
         // Side by side animates the tabs to move at the same speed

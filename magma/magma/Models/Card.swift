@@ -7,18 +7,23 @@
 //
 
 class Card {
+    // MARK: - Properties
     private var id: Int
     private var name: String
     private var number: String
     private var cvc: String
     private var status: Bool
+    private var style: CardStyle
     
+    // MARK: - Constructors
     init () {
+        // Stub up a dummy card for now
         self.id = 0
-        self.name = ""
-        self.number = "XXXXXXXXXXXXXXXX"
-        self.cvc = "XXX"
-        self.status = false
+        self.name = "John Clarke"
+        self.number = String(Util.getRandomIntInclusive(start: 1000000000000000, end: 9999999999999999))
+        self.cvc = String(Util.getRandomIntInclusive(start: 0, end: 999))
+        self.status = true
+        self.style = CardStyle()
     }
     
     init (id: Int, name: String, number: String, cvc: String, status: Bool) {
@@ -27,8 +32,10 @@ class Card {
         self.number = number
         self.cvc = cvc
         self.status = status
+        self.style = CardStyle()
     }
     
+    // MARK: - Class Methods
     private func maskNumber() -> String {
         var maskedNumber = ""
         for (i, char) in number.enumerated() {
@@ -48,7 +55,7 @@ class Card {
         return maskedNumber
     }
     
-    // MARK: - Retrieval
+    // MARK: - Access
     public func getName() -> String {
         return name
     }
@@ -62,5 +69,9 @@ class Card {
     
     public func getStatus() -> Bool {
         return status
+    }
+    
+    public func getStyle() -> CardStyle {
+        return style
     }
 }

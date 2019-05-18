@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F4C49BBE57F0A32CDE10C94A8494053F"
+               BlueprintIdentifier = "3DDAA79090E34FB9A9596ED58777DAF0"
                BuildableName = "SwipeableTabBarController.framework"
                BlueprintName = "SwipeableTabBarController"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F4C49BBE57F0A32CDE10C94A8494053F"
+            BlueprintIdentifier = "3DDAA79090E34FB9A9596ED58777DAF0"
             BuildableName = "SwipeableTabBarController.framework"
             BlueprintName = "SwipeableTabBarController"
             ReferencedContainer = "container:Pods.xcodeproj">

@@ -10,6 +10,7 @@ import UIKit
 
 class TxnViewController: UIViewController {
 
+    // MARK: - Setup
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
