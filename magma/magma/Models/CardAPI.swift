@@ -36,7 +36,7 @@ class CardAPI {
         let userID = 1234
         let server = Constants.SERVER_ADDRESS + "/getCards?userID=\(userID)"
         
-        AF.request(server).response { response in
+        Alamofire.request(server).response { response in
             if (response.response?.statusCode == 200) {
                 if let data = response.data, let text = String(data: data, encoding: .utf8) {
                     print("Data: \(text)")
