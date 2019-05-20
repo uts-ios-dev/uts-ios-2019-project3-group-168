@@ -33,20 +33,28 @@ class CardAPI {
     // MARK: - Card Management
     // Load our cards from our server, requires a callback to be passed in. This handles the servers response
     // You should not continue until the request is resolved and the onResult callback is called
-    public func loadCards(_ callback: @escaping (Int, String) -> Void) {
-        var server: String {
-            let address = ProcessInfo.processInfo.environment["SERVER_ADDRESS"]
-            if  address != nil {
-                return address! + "/getCards?userID=\(Constants.userID)"
-            }
-            
-            return Constants.DEFAULT_SERVER
-        }
+    public func loadCards(_ callback: @escaping (Int, String) -> Void, controller: UIViewController) {
+        let server: String = Environment().configuration(PlistKey.ServerURL) + Endpoints.GET_CARDS
         
-        Alamofire.request(server).response { response in
-            if (response.response?.statusCode == 200) {
-                if let data = response.data, let text = String(data: data, encoding: .utf8) {
-                    print("Data: \(text)")
+        // Get request for our cards
+        Alamofire.request(server, method: HTTPMethod.get, parameters: [Endpoints.Params.CARD_HOLDER_ID:Constants.userID]).responseJSON { response in
+            
+            if (response.result.isSuccess) {
+                // Reload our local store of cards
+                self.cardManager.reload()
+                
+                let data: JSON = JSON(response.result.value as Any)
+                
+                // Once we have received our card object from the server map it to a card locally
+                let cardArray = data["cards"]
+                
+                if (cardArray != "null") {
+                    // For each card in our cardholders wallet create a local card
+                    for (_, c) in cardArray {
+                        let card = self.cardFromJSON(c)
+                        self.cardManager.newCard(card)
+                    }
+                    
                     callback(Constants.SUCCESS, "")
                 }
             }
@@ -61,38 +69,44 @@ class CardAPI {
     public func getCards() -> [Card] {
         return cardManager.getCards()
     }
-
+    
+    // Send a request to our backend to create a new card
     public func newCard(_ callback: @escaping (Int, String) -> Void) {
-        var server: String {
-            let address = ProcessInfo.processInfo.environment["SERVER_ADDRESS"]
-            if  address != nil {
-                return address! + "/card/new"
-            }
-            
-            return Constants.DEFAULT_SERVER
-        }
+        let server: String = Environment().configuration(PlistKey.ServerURL)
         
-        Alamofire.request(server, method: HTTPMethod.post, parameters: ["cardholderID":Constants.userID]).responseJSON { response in
-            print("Fired Request")
+        // POST to our new card API to get a card object on its callback add the card locally
+        Alamofire.request(server, method: HTTPMethod.post, parameters: [Endpoints.Params.CARD_HOLDER_ID:Constants.userID]).responseJSON { response in
             if (response.result.isSuccess) {
                 let data: JSON = JSON(response.result.value as Any)
                 
-                // Once we have received our card object from the server add the new card
-                let cardID = data["id"].intValue
-                let cardNumber = data["number"].stringValue
-                let cardCVC = data["cvc"].stringValue
-                let cardStatus = data["status"].boolValue
-                let firstName = data["cardholder"]["firstName"].stringValue
-                let middleName = data["cardholder"]["middleName"].stringValue
-                let lastName = data["cardholder"]["lastName"].stringValue
-                let cardName = "\(firstName) \(middleName.prefix(1)) \(lastName)"
+                // Once we have received our card object from the server map it to a card locally
+                let card = self.cardFromJSON(data)
                 
-                let card = Card(id: cardID, name: cardName, number: cardNumber, cvc: cardCVC, status: cardStatus)
-                
+                // Add the card to our card manager
                 self.cardManager.newCard(card)
+                
+                // Notify the caller of the success
                 callback(Constants.SUCCESS, "")
+            } else {
+                // Our server response was not 200 so let the caller know there was an error
+                if let data = response.data, let error = String(data: data, encoding: .utf8) {
+                    callback(Constants.FAILURE, error)
+                }
             }
         }
+    }
+    
+    private func cardFromJSON(_ data: JSON) -> Card {
+        let cardID = data["id"].intValue
+        let cardNumber = data["number"].stringValue
+        let cardCVC = data["cvc"].stringValue
+        let cardStatus = data["status"].boolValue
+        let firstName = data["cardholder"]["firstName"].stringValue
+        let middleName = data["cardholder"]["middleName"].stringValue
+        let lastName = data["cardholder"]["lastName"].stringValue
+        let cardName = "\(firstName) \(middleName.prefix(1)) \(lastName)"
+        
+        return Card(id: cardID, name: cardName, number: cardNumber, cvc: cardCVC, status: cardStatus)
     }
     
     public func removeCard(id: Int) {

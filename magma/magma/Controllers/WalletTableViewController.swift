@@ -10,10 +10,10 @@ import UIKit
 
 class WalletTableViewController: UITableViewController {
     // MARK: - Setup
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         
-        CardAPI.shared().newCard { (resultCode, message) in
+        /*CardAPI.shared().newCard { (resultCode, message) in
             switch resultCode {
             case Constants.SUCCESS:
                 print("Successuflly added card")
@@ -23,10 +23,10 @@ class WalletTableViewController: UITableViewController {
             default:
                 print("Code: \(resultCode) \(message)")
             }
-        }
+        }*/
         
         // Load our cards into our wallet
-        CardAPI.shared().loadCards { (resultCode, message) in
+        CardAPI.shared().loadCards({ (resultCode, message) in
             // If our server respons was successful get our cards
             switch resultCode {
             case Constants.SUCCESS:
@@ -38,7 +38,7 @@ class WalletTableViewController: UITableViewController {
                 print("Code: \(resultCode) \(message)")
             }
             
-        }
+        }, controller: self)
     }
     
     // MARK: - Table View Recycling

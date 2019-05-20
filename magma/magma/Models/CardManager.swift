@@ -8,7 +8,7 @@
 
 class CardManager {
     // MARK: - Properties
-    var cards: [Card]
+    private var cards: [Card]
     
     // MARK: - Constructors
     init () {
@@ -16,11 +16,6 @@ class CardManager {
     }
     
     // MARK: - Access
-    // Retrieves our current user's listed cards
-    public func loadCards() {
-        // Request cards from backend and load them
-    }
-    
     // Return a card given its id
     public func getCard(_ id: Int) -> Card {
         let tempCard = Card()
@@ -41,6 +36,11 @@ class CardManager {
     // Removes a card from our wallet
     public func removeCard(_ id: Int) {
         
+    }
+    
+    // Reloads the cards in our wallet
+    public func reload() {
+        cards.removeAll()
     }
     
     // Deactivates a card in our wallet
