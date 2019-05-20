@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EFF87187B46551C36797F2B899C54212"
+               BlueprintIdentifier = "22DFBA4C929C72092AF6BEF57ACE3305"
                BuildableName = "IQKeyboardManagerSwift.framework"
                BlueprintName = "IQKeyboardManagerSwift"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EFF87187B46551C36797F2B899C54212"
+            BlueprintIdentifier = "22DFBA4C929C72092AF6BEF57ACE3305"
             BuildableName = "IQKeyboardManagerSwift.framework"
             BlueprintName = "IQKeyboardManagerSwift"
             ReferencedContainer = "container:Pods.xcodeproj">
