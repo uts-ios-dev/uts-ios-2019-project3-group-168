@@ -1,0 +1,13 @@
+//
+//  Local.xcconfig
+//  magma
+//
+//  Created by Justin Wilkin on 20/5/19.
+//  Copyright © 2019 Code Candy. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// Server configuration
+SERVER_ADDRESS = http://localhost:3000

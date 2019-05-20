@@ -14,6 +14,9 @@
 		D002834D228B958700997C41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D002834B228B958700997C41 /* Main.storyboard */; };
 		D002834F228B958D00997C41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D002834E228B958D00997C41 /* Assets.xcassets */; };
 		D0028352228B958D00997C41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0028350228B958D00997C41 /* LaunchScreen.storyboard */; };
+		D011A0D42292C58A008F244C /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011A0D32292C58A008F244C /* Endpoints.swift */; };
+		D011A0DE2292DB7C008F244C /* Cloud.plist in Resources */ = {isa = PBXBuildFile; fileRef = D011A0DD2292DB7C008F244C /* Cloud.plist */; };
+		D011A0E02292DEA2008F244C /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011A0DF2292DEA2008F244C /* Environment.swift */; };
 		D0407CAA228F025C007DE3D5 /* CardAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0407CA9228F025C007DE3D5 /* CardAPI.swift */; };
 		D0944CBD228D96530065CAF2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CBC228D96530065CAF2 /* SettingsViewController.swift */; };
 		D0944CBF228D9E800065CAF2 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CBE228D9E800065CAF2 /* CustomTabBarController.swift */; };
@@ -30,7 +33,9 @@
 
 /* Begin PBXFileReference section */
 		4520519BA374FE4882A3A8E5 /* Pods-magma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-magma.release.xcconfig"; path = "Pods/Target Support Files/Pods-magma/Pods-magma.release.xcconfig"; sourceTree = "<group>"; };
+		63F8A7ED08571C1E7DC76CF6 /* Pods-magma.release (local).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-magma.release (local).xcconfig"; path = "Pods/Target Support Files/Pods-magma/Pods-magma.release (local).xcconfig"; sourceTree = "<group>"; };
 		702945357C4422D334BA1487 /* Pods-magma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-magma.debug.xcconfig"; path = "Pods/Target Support Files/Pods-magma/Pods-magma.debug.xcconfig"; sourceTree = "<group>"; };
+		8062309A15980D87B0DEEA5A /* Pods-magma.debug (local).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-magma.debug (local).xcconfig"; path = "Pods/Target Support Files/Pods-magma/Pods-magma.debug (local).xcconfig"; sourceTree = "<group>"; };
 		D0028342228B958700997C41 /* magma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = magma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0028345228B958700997C41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0028347228B958700997C41 /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
@@ -38,7 +43,12 @@
 		D002834C228B958700997C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D002834E228B958D00997C41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0028351228B958D00997C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D0028353228B958D00997C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0028353228B958D00997C41 /* Local.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Local.plist; sourceTree = "<group>"; };
+		D011A0D32292C58A008F244C /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		D011A0D92292DA8D008F244C /* Local.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Local.xcconfig; path = ../Local.xcconfig; sourceTree = "<group>"; };
+		D011A0DA2292DAA9008F244C /* Cloud.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Cloud.xcconfig; sourceTree = "<group>"; };
+		D011A0DD2292DB7C008F244C /* Cloud.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cloud.plist; sourceTree = "<group>"; };
+		D011A0DF2292DEA2008F244C /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		D0407CA9228F025C007DE3D5 /* CardAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAPI.swift; sourceTree = "<group>"; };
 		D0944CBC228D96530065CAF2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D0944CBE228D9E800065CAF2 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		D0944CCE228E3F0F0065CAF2 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		D0F0AC10228FAA4A00B5C77A /* CardStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStyle.swift; sourceTree = "<group>"; };
 		D0F0AC12228FAAA700B5C77A /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		D89C4F202F6282DED364802D /* Pods-magma.debug (cloud).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-magma.debug (cloud).xcconfig"; path = "Pods/Target Support Files/Pods-magma/Pods-magma.debug (cloud).xcconfig"; sourceTree = "<group>"; };
+		DA0B28CEC882D3A519EFF951 /* Pods-magma.release (cloud).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-magma.release (cloud).xcconfig"; path = "Pods/Target Support Files/Pods-magma/Pods-magma.release (cloud).xcconfig"; sourceTree = "<group>"; };
 		DBD2F7221D29B7E4874D3193 /* Pods_magma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_magma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -71,6 +83,10 @@
 			children = (
 				702945357C4422D334BA1487 /* Pods-magma.debug.xcconfig */,
 				4520519BA374FE4882A3A8E5 /* Pods-magma.release.xcconfig */,
+				8062309A15980D87B0DEEA5A /* Pods-magma.debug (local).xcconfig */,
+				D89C4F202F6282DED364802D /* Pods-magma.debug (cloud).xcconfig */,
+				63F8A7ED08571C1E7DC76CF6 /* Pods-magma.release (local).xcconfig */,
+				DA0B28CEC882D3A519EFF951 /* Pods-magma.release (cloud).xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -144,6 +160,8 @@
 				D0944CCC228E3C400065CAF2 /* Constants.swift */,
 				D0944CCE228E3F0F0065CAF2 /* Util.swift */,
 				D0F0AC12228FAAA700B5C77A /* UIColor.swift */,
+				D011A0D32292C58A008F244C /* Endpoints.swift */,
+				D011A0DF2292DEA2008F244C /* Environment.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -152,7 +170,10 @@
 			isa = PBXGroup;
 			children = (
 				D0028345228B958700997C41 /* AppDelegate.swift */,
-				D0028353228B958D00997C41 /* Info.plist */,
+				D0028353228B958D00997C41 /* Local.plist */,
+				D011A0DD2292DB7C008F244C /* Cloud.plist */,
+				D011A0D92292DA8D008F244C /* Local.xcconfig */,
+				D011A0DA2292DAA9008F244C /* Cloud.xcconfig */,
 			);
 			name = Application;
 			sourceTree = "<group>";
@@ -252,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D011A0DE2292DB7C008F244C /* Cloud.plist in Resources */,
 				D0028352228B958D00997C41 /* LaunchScreen.storyboard in Resources */,
 				D002834F228B958D00997C41 /* Assets.xcassets in Resources */,
 				D002834D228B958700997C41 /* Main.storyboard in Resources */,
@@ -349,7 +371,9 @@
 				D0944CC9228DB4800065CAF2 /* User.swift in Sources */,
 				D0028348228B958700997C41 /* WalletViewController.swift in Sources */,
 				D0944CBD228D96530065CAF2 /* SettingsViewController.swift in Sources */,
+				D011A0D42292C58A008F244C /* Endpoints.swift in Sources */,
 				D0944CC7228DB44D0065CAF2 /* Card.swift in Sources */,
+				D011A0E02292DEA2008F244C /* Environment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,8 +399,9 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D0028354228B958D00997C41 /* Debug */ = {
+		D0028354228B958D00997C41 /* Debug (Local) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D011A0D92292DA8D008F244C /* Local.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -434,10 +459,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = "Debug (Local)";
 		};
-		D0028355228B958D00997C41 /* Release */ = {
+		D0028355228B958D00997C41 /* Release (Local) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D011A0D92292DA8D008F244C /* Local.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -489,36 +515,16 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = "Release (Local)";
 		};
-		D0028357228B958D00997C41 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 702945357C4422D334BA1487 /* Pods-magma.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7K8D65LF87;
-				INFOPLIST_FILE = magma/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.codecandy.magma;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/BuildHeaders\"/**";
-			};
-			name = Debug;
-		};
-		D0028358228B958D00997C41 /* Release */ = {
+		D0028357228B958D00997C41 /* Debug (Local) */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4520519BA374FE4882A3A8E5 /* Pods-magma.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7K8D65LF87;
-				INFOPLIST_FILE = magma/Info.plist;
+				INFOPLIST_FILE = magma/Local.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -529,7 +535,185 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/BuildHeaders\"/**";
 			};
-			name = Release;
+			name = "Debug (Local)";
+		};
+		D0028358228B958D00997C41 /* Release (Local) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4520519BA374FE4882A3A8E5 /* Pods-magma.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K8D65LF87;
+				INFOPLIST_FILE = magma/Local.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.codecandy.magma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/BuildHeaders\"/**";
+			};
+			name = "Release (Local)";
+		};
+		D011A0D52292D9B9008F244C /* Release (Cloud) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D011A0DA2292DAA9008F244C /* Cloud.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release (Cloud)";
+		};
+		D011A0D62292D9B9008F244C /* Release (Cloud) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4520519BA374FE4882A3A8E5 /* Pods-magma.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K8D65LF87;
+				INFOPLIST_FILE = magma/Cloud.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.codecandy.magma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/BuildHeaders\"/**";
+			};
+			name = "Release (Cloud)";
+		};
+		D011A0D72292D9E4008F244C /* Debug (Cloud) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D011A0DA2292DAA9008F244C /* Cloud.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug (Cloud)";
+		};
+		D011A0D82292D9E4008F244C /* Debug (Cloud) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4520519BA374FE4882A3A8E5 /* Pods-magma.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K8D65LF87;
+				INFOPLIST_FILE = magma/Cloud.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.codecandy.magma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/BuildHeaders\"/**";
+			};
+			name = "Debug (Cloud)";
 		};
 /* End XCBuildConfiguration section */
 
@@ -537,20 +721,24 @@
 		D002833D228B958700997C41 /* Build configuration list for PBXProject "magma" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0028354228B958D00997C41 /* Debug */,
-				D0028355228B958D00997C41 /* Release */,
+				D0028354228B958D00997C41 /* Debug (Local) */,
+				D011A0D72292D9E4008F244C /* Debug (Cloud) */,
+				D0028355228B958D00997C41 /* Release (Local) */,
+				D011A0D52292D9B9008F244C /* Release (Cloud) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release (Local)";
 		};
 		D0028356228B958D00997C41 /* Build configuration list for PBXNativeTarget "magma" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0028357228B958D00997C41 /* Debug */,
-				D0028358228B958D00997C41 /* Release */,
+				D0028357228B958D00997C41 /* Debug (Local) */,
+				D011A0D82292D9E4008F244C /* Debug (Cloud) */,
+				D0028358228B958D00997C41 /* Release (Local) */,
+				D011A0D62292D9B9008F244C /* Release (Cloud) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release (Local)";
 		};
 /* End XCConfigurationList section */
 	};
