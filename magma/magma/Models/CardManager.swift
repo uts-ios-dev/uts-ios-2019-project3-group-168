@@ -34,10 +34,8 @@ class CardManager {
     
     // MARK: - Manipulation
     // Adds a new card to our wallet
-    public func newCard() -> Card {
-        let card = Card()
+    public func newCard(_ card: Card) {
         cards.append(card)
-        return card
     }
     
     // Removes a card from our wallet

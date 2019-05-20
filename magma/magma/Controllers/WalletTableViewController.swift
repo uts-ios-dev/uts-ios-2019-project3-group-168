@@ -13,21 +13,29 @@ class WalletTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        CardAPI.shared().newCard { (resultCode, message) in
+            switch resultCode {
+            case Constants.SUCCESS:
+                print("Successuflly added card")
+                self.tableView.reloadData()
+            case Constants.FAILURE:
+                print(message)
+            default:
+                print("Code: \(resultCode) \(message)")
+            }
+        }
+        
         // Load our cards into our wallet
         CardAPI.shared().loadCards { (resultCode, message) in
             // If our server respons was successful get our cards
             switch resultCode {
             case Constants.SUCCESS:
-                // On a success reloud our data
-                _ = CardAPI.shared().newCard()
-                _ = CardAPI.shared().newCard()
-                _ = CardAPI.shared().newCard()
-                _ = CardAPI.shared().newCard()
+                // On a success reload our data
                 self.tableView.reloadData()
             case Constants.FAILURE:
                 print(message)
             default:
-                print("Code: \(resultCode), \(message)")
+                print("Code: \(resultCode) \(message)")
             }
             
         }
