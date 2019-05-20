@@ -2,12 +2,14 @@ PODS:
   - Alamofire (4.8.2)
   - IQKeyboardManagerSwift (6.2.1)
   - SwiftLint (0.31.0)
+  - SwiftyJSON (5.0.0)
   - SwipeableTabBarController (2.1.0)
 
 DEPENDENCIES:
   - Alamofire
   - IQKeyboardManagerSwift
   - SwiftLint
+  - SwiftyJSON
   - SwipeableTabBarController
 
 SPEC REPOS:
@@ -15,14 +17,16 @@ SPEC REPOS:
     - Alamofire
     - IQKeyboardManagerSwift
     - SwiftLint
+    - SwiftyJSON
     - SwipeableTabBarController
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
   SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   SwipeableTabBarController: e6445066473bb548cc74f660c0ebc04d609cde67
 
-PODFILE CHECKSUM: c2e71177731e0724a4bb3045c5e5ef0f98d5b225
+PODFILE CHECKSUM: 659ae04c462bfe2267cf32ebd005d20ecf42c5cf
 
 COCOAPODS: 1.5.2

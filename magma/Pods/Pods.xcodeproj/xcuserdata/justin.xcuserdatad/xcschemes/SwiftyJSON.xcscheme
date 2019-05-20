@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CB19E86879B788FDDFDD421C9D2EFC6F"
-               BuildableName = "SwipeableTabBarController.framework"
-               BlueprintName = "SwipeableTabBarController"
+               BlueprintIdentifier = "8E6144FA72DA351891BF95758D77E4BF"
+               BuildableName = "SwiftyJSON.framework"
+               BlueprintName = "SwiftyJSON"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CB19E86879B788FDDFDD421C9D2EFC6F"
-            BuildableName = "SwipeableTabBarController.framework"
-            BlueprintName = "SwipeableTabBarController"
+            BlueprintIdentifier = "8E6144FA72DA351891BF95758D77E4BF"
+            BuildableName = "SwiftyJSON.framework"
+            BlueprintName = "SwiftyJSON"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
