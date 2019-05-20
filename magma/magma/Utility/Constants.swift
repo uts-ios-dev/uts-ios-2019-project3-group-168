@@ -8,7 +8,8 @@
 
 final class Constants {
     // MARK: - Server
-    static let SERVER_ADDRESS = "https://us-central1-magma-payments.cloudfunctions.net/"
+    static let DEFAULT_SERVER = "http://google.com/"
+    static let userID = 1
     
     // MARK: - Response Codes
     static let SUCCESS = 1
