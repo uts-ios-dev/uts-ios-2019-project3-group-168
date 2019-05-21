@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		03F7AC5EDC2C9EB5A2D0F732DE91E66C /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB53ACDF5AAA2E7ED05A983E25BFBC95 /* Notifications.swift */; };
 		142CF7F8928A6D7F7C55A229CC190CE7 /* Pods-magma-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D92A40D5E5D63D7F7F905BB244C8FDC3 /* Pods-magma-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B6099252CA48E4059451BF470BEC50C /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96387F7BAD6CA6FC8D4AB8CF6F065A14 /* SwiftyJSON-dummy.m */; };
+		1B6099252CA48E4059451BF470BEC50C /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF1506A9CDD2924A81695BF01774A92 /* SwiftyJSON-dummy.m */; };
 		22EEFD7730376EDA8CD375797264C90A /* SwipeTransitioningProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1906B832625A48CBD3564F7BF7C3A52 /* SwipeTransitioningProtocol.swift */; };
 		24CAAC74BADCDE6252F4E408AAB412D0 /* SwipeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D08B4DFCCDAF278BFC40DC29AFD53C /* SwipeInteractor.swift */; };
 		252B58C43EA7EFF44462C0E11CF5EACF /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D31757E2707E846DC4C81FE3843F0 /* IQKeyboardManagerSwift-dummy.m */; };
@@ -57,11 +57,11 @@
 		C956FD0AC9A0F02B8B4585166BD20775 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E876BAB4179EFE71F297BF492BFB7289 /* Alamofire-dummy.m */; };
 		C9B0719CA853C3DAA16E1AD8443EBF41 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B6BE85BAB7764D5810157430E1B648 /* IQUIScrollView+Additions.swift */; };
 		D252A8FA26A881AFDFB653857FBF6CB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
-		DC4083F4AD8B4B1DA8519746D3E8FC80 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB806A5880787CA1D86C22DFAC8528 /* SwiftyJSON.swift */; };
+		D577C94686C85781CF73637610C7AA0F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C1C54E3F0B508A6EDF65347C7446C /* SwiftyJSON.swift */; };
 		E00B29202F3815CE28F091C2E940D253 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8AE2C452965F08BDD268A8E330B682 /* IQNSArray+Sort.swift */; };
 		E25D885B839F3264046D535DDD0436FD /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF4F59C4BC0068FE0F80D8E2FB8BD51 /* MultipartFormData.swift */; };
 		E2BDAF118E18F7FDAF737BA2BEED11E0 /* SwipeAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCB76AFDE6695AC00ADE4B69608C92E /* SwipeAnimationType.swift */; };
-		E5FB46F832DB646E0B9E78A7D930D3CE /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4E22581691E2617CB76F78BB76BD74 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FB46F832DB646E0B9E78A7D930D3CE /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB94754B23BED8F3E46F37435D92B33 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E918340DA6CFC47F90C9B19AA3327514 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B864BFE95FAE118C4C3A52725C9B261 /* UIKit.framework */; };
 		EF006DB0868F8AD4944F81FDB309AF21 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A7590225CAE34BF168BEF01EA82DCA /* NetworkReachabilityManager.swift */; };
 		F46F763FE9B59818691BB46DB722424F /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564186E381ED48E8DA56B80A44351FAF /* IQInvocation.swift */; };
@@ -100,12 +100,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		076E05E84F770EC3628BB803E2E8E97D /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		07B6BE85BAB7764D5810157430E1B648 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
 		10188AAC8246EB69E2746056FD29E122 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
 		112DB06B9A8FDAEBE15D1E7E2603292C /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
-		11AB806A5880787CA1D86C22DFAC8528 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
 		17D5053F2A5215D7472A947EDE5B61B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		18BABB3D1E954B745DB968A978B405ED /* Pods-magma-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-magma-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1AB94754B23BED8F3E46F37435D92B33 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		1AF54FC76015D06FFC1102172DAB6108 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B864BFE95FAE118C4C3A52725C9B261 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1C3A82A27F5CC3AC0E50E608271EAD0D /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
@@ -114,8 +115,10 @@
 		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2B8FD28E5211E0AD483C68D78F2B8EDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CCC62B00FB966E41BFC448A6CB0E04D /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		2F4AE16F784E90483B83AC2573AEE840 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F5B3A5FF4134AC579FB2BFC1CE375CD /* UIKit+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Extensions.swift"; path = "SwipeableTabBarController/Classes/UIKit+Extensions.swift"; sourceTree = "<group>"; };
 		30C5248F3F8F5DD6FF2489BCA891824D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		361023B819856FB9AF1D9EF6A3C89EDE /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		3EF5FEAF74CE5336DDAD4D651E538FBF /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		3F0B1AADFF43F76161F291276E4A61FA /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		41D8B5B8F4DA7BA6BAF8D193E071B462 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
@@ -125,7 +128,6 @@
 		4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4AC240AEE5EB29F02733817470188782 /* Pods-magma.debug (local).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-magma.debug (local).xcconfig"; sourceTree = "<group>"; };
 		4C3D31757E2707E846DC4C81FE3843F0 /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
-		4CAC7EA121BCF08C5D8FCB10CEE89B57 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DC76F7762300F7B410DAEAE75C7E086 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
 		4FEA48071FA84FA4D69C9B8592FAE04D /* Pods-magma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-magma.release.xcconfig"; sourceTree = "<group>"; };
 		538300234D6AC4E1986E4C832820D517 /* Pods_magma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_magma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +136,7 @@
 		5900BDA5BFAA04CE5860CA7A2A9ABA49 /* IQKeyboardManagerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.xcconfig; sourceTree = "<group>"; };
 		5935326326107F3F6101A8B9570182E4 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		5DCB76AFDE6695AC00ADE4B69608C92E /* SwipeAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAnimationType.swift; path = SwipeableTabBarController/Classes/SwipeAnimationType.swift; sourceTree = "<group>"; };
+		5EF1506A9CDD2924A81695BF01774A92 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		5FC7FAAF594664934D16B534046AEB3C /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
 		6605BA99E184A649E09545B37B885790 /* SwipeTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitionAnimator.swift; path = SwipeableTabBarController/Classes/SwipeTransitionAnimator.swift; sourceTree = "<group>"; };
 		67D08B4DFCCDAF278BFC40DC29AFD53C /* SwipeInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeInteractor.swift; path = SwipeableTabBarController/Classes/SwipeInteractor.swift; sourceTree = "<group>"; };
@@ -152,7 +155,7 @@
 		89AC791495D2EC8490D615B29D565ADD /* Pods-magma-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-magma-acknowledgements.plist"; sourceTree = "<group>"; };
 		8C5B5F9CDCFFA1E1BC0C09702C33D0F6 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		91C38FBACF6235650512BF236116D452 /* Pods-magma-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-magma-frameworks.sh"; sourceTree = "<group>"; };
-		96387F7BAD6CA6FC8D4AB8CF6F065A14 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		938C1C54E3F0B508A6EDF65347C7446C /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		9DF4F59C4BC0068FE0F80D8E2FB8BD51 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		9E610FF862246D530FC2BC40A0D01CB6 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
 		9E8E50C2CB25A7DF90B8350F086490A0 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
@@ -166,28 +169,25 @@
 		B4C0DBCC1FA0B954198B4A7DB02A2781 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		B696D079928B0C0034C6BABBEA62EF41 /* SwipeableTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwipeableTabBarController.modulemap; sourceTree = "<group>"; };
 		BB53ACDF5AAA2E7ED05A983E25BFBC95 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		C4C8845CA4CCF96ADBF134AC3130DE0B /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		C4F74C4609CABC0338E0263E6C0079E1 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		C5842144AC970EE27710AF5D60457587 /* SwipeableTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeableTabBarController-dummy.m"; sourceTree = "<group>"; };
 		C865ABD15AB33E6C6AA8071563ED6087 /* Pods-magma.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-magma.modulemap"; sourceTree = "<group>"; };
 		C8942657EDF6B0CAA48A656AB8E84D2D /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
 		CC4FFE87CC9806A95205D867540BC3AC /* SwipeableTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipeableTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0E434C4AD28466547F3DC9EDAB25AAE /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		D41BE9C839066403473A930721EEB6A0 /* Pods-magma.release (cloud).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-magma.release (cloud).xcconfig"; sourceTree = "<group>"; };
 		D8D20DA727400E66FE77949984F67249 /* SwipeableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeableTabBarController.swift; path = SwipeableTabBarController/Classes/SwipeableTabBarController.swift; sourceTree = "<group>"; };
 		D92A40D5E5D63D7F7F905BB244C8FDC3 /* Pods-magma-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-magma-umbrella.h"; sourceTree = "<group>"; };
 		DF0079EB7A462715F1B67E0F115AC4C2 /* Pods-magma.debug (cloud).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-magma.debug (cloud).xcconfig"; sourceTree = "<group>"; };
 		E227786129A42E744FC8B91BABF451E3 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
 		E31AE985EC420C321F4A333A12D575F0 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		E52EFD389A6E2F11ACBAB9CBC579C3FA /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		E876BAB4179EFE71F297BF492BFB7289 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		E93BC3E19FAA3B54C0835641053AFFE1 /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
 		E9FD2707D925CF8150850596DB4F0036 /* Pods-magma-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-magma-resources.sh"; sourceTree = "<group>"; };
-		EA4E22581691E2617CB76F78BB76BD74 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		F1906B832625A48CBD3564F7BF7C3A52 /* SwipeTransitioningProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitioningProtocol.swift; path = SwipeableTabBarController/Classes/SwipeTransitioningProtocol.swift; sourceTree = "<group>"; };
 		F3598348CAD38537D4F2A8342B2FA76D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3BAC7C7E7D8482D314E060A66204A12 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		F4A7590225CAE34BF168BEF01EA82DCA /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		FB98CD696D9807B76BA452014BCA63BC /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		FC8AE2C452965F08BDD268A8E330B682 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -260,6 +260,20 @@
 			path = SwipeableTabBarController;
 			sourceTree = "<group>";
 		};
+		52495C07014CB40F9807EB08F7462932 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F4AE16F784E90483B83AC2573AEE840 /* Info.plist */,
+				361023B819856FB9AF1D9EF6A3C89EDE /* SwiftyJSON.modulemap */,
+				076E05E84F770EC3628BB803E2E8E97D /* SwiftyJSON.xcconfig */,
+				5EF1506A9CDD2924A81695BF01774A92 /* SwiftyJSON-dummy.m */,
+				C4C8845CA4CCF96ADBF134AC3130DE0B /* SwiftyJSON-prefix.pch */,
+				1AB94754B23BED8F3E46F37435D92B33 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
 		5E9B6B62E58E304567B092B8D9E21A10 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,15 +320,6 @@
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
-		909A274A047D3F37B66916C4B9A98902 /* SwiftyJSON */ = {
-			isa = PBXGroup;
-			children = (
-				11AB806A5880787CA1D86C22DFAC8528 /* SwiftyJSON.swift */,
-				B26916C21E6F7FDE74DC5DC2D4B860A3 /* Support Files */,
-			);
-			path = SwiftyJSON;
-			sourceTree = "<group>";
-		};
 		96837586292E4EF89444C5F6F7CD1346 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -353,20 +358,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
-		B26916C21E6F7FDE74DC5DC2D4B860A3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4CAC7EA121BCF08C5D8FCB10CEE89B57 /* Info.plist */,
-				FB98CD696D9807B76BA452014BCA63BC /* SwiftyJSON.modulemap */,
-				D0E434C4AD28466547F3DC9EDAB25AAE /* SwiftyJSON.xcconfig */,
-				96387F7BAD6CA6FC8D4AB8CF6F065A14 /* SwiftyJSON-dummy.m */,
-				E52EFD389A6E2F11ACBAB9CBC579C3FA /* SwiftyJSON-prefix.pch */,
-				EA4E22581691E2617CB76F78BB76BD74 /* SwiftyJSON-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyJSON";
 			sourceTree = "<group>";
 		};
 		B42A4BE681BF87260D8EB71B8ED800DC /* Pods-magma */ = {
@@ -424,6 +415,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C4F6861705F4018F746A42D79388CF99 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				938C1C54E3F0B508A6EDF65347C7446C /* SwiftyJSON.swift */,
+				52495C07014CB40F9807EB08F7462932 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -460,7 +460,7 @@
 				5E9B6B62E58E304567B092B8D9E21A10 /* Alamofire */,
 				B963279AD46692FB7EC570EB0AB510F2 /* IQKeyboardManagerSwift */,
 				733AF95A0D1968C23E38B4B73B6B86C6 /* SwiftLint */,
-				909A274A047D3F37B66916C4B9A98902 /* SwiftyJSON */,
+				C4F6861705F4018F746A42D79388CF99 /* SwiftyJSON */,
 				2FA7F00ABB0D8C63A3B26EFB5304D2B1 /* SwipeableTabBarController */,
 			);
 			name = Pods;
@@ -690,7 +690,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B6099252CA48E4059451BF470BEC50C /* SwiftyJSON-dummy.m in Sources */,
-				DC4083F4AD8B4B1DA8519746D3E8FC80 /* SwiftyJSON.swift in Sources */,
+				D577C94686C85781CF73637610C7AA0F /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1185,9 +1185,9 @@
 			};
 			name = Release;
 		};
-		2B2120C465C86EE8493BB2689E92CBC0 /* Release (Cloud) */ = {
+		222EA4C0EC421034C2FADC974278A98D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0E434C4AD28466547F3DC9EDAB25AAE /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = 076E05E84F770EC3628BB803E2E8E97D /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1213,13 +1213,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = "Release (Cloud)";
+			name = Release;
 		};
 		3ED76DE7E313DBED71B231DC2BEB26A7 /* Release (Cloud) */ = {
 			isa = XCBuildConfiguration;
@@ -1293,9 +1293,9 @@
 			};
 			name = "Debug (Cloud)";
 		};
-		4BF82CDCAAC45E17A89DE87DAAB2D100 /* Debug (Local) */ = {
+		4C1E16A48F1DF79418063B1290CF49ED /* Release (Cloud) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0E434C4AD28466547F3DC9EDAB25AAE /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = 076E05E84F770EC3628BB803E2E8E97D /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1321,49 +1321,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = "Debug (Local)";
-		};
-		4FA15B7847FD8BC52571B4A8698D501A /* Release (Local) */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0E434C4AD28466547F3DC9EDAB25AAE /* SwiftyJSON.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyJSON;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = "Release (Local)";
+			name = "Release (Cloud)";
 		};
 		50DC7C7CE8A947CFE86AE3D20477F51B /* Release (Cloud) */ = {
 			isa = XCBuildConfiguration;
@@ -1474,6 +1438,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = "Release (Local)";
+		};
+		802702DA049AF9905B05D3CF641A23C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076E05E84F770EC3628BB803E2E8E97D /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8F5870BB77363238970FB4B657204DC9 /* Release (Local) */ = {
 			isa = XCBuildConfiguration;
@@ -1647,6 +1646,42 @@
 			};
 			name = "Debug (Cloud)";
 		};
+		A79C30FDA7564428475A4786BA104D18 /* Debug (Cloud) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076E05E84F770EC3628BB803E2E8E97D /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Debug (Cloud)";
+		};
 		AC00E0FF07C8812060508E6CD5AA5D90 /* Release (Local) */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8471713708749DC0C2C171895245F9C4 /* SwipeableTabBarController.xcconfig */;
@@ -1682,6 +1717,42 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = "Release (Local)";
+		};
+		AC05A1392185638F1469E912167CF346 /* Debug (Local) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076E05E84F770EC3628BB803E2E8E97D /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Debug (Local)";
 		};
 		B2BE10D853F63BB8E5BDC683635D3AFB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1753,42 +1824,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = "Debug (Cloud)";
-		};
-		BBB3FB5F3066CC3AC0F02DE8FB3D52B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0E434C4AD28466547F3DC9EDAB25AAE /* SwiftyJSON.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyJSON;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		BF118ECC124BC5F39DBA1F04EDF2F157 /* Release (Local) */ = {
 			isa = XCBuildConfiguration;
@@ -1915,77 +1950,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = "Release (Cloud)";
-		};
-		C4CBAA3B743DDF6FBA9EEF034E8BC4D9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0E434C4AD28466547F3DC9EDAB25AAE /* SwiftyJSON.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyJSON;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C662DD99C6FE04A52FE4E996DE19863D /* Debug (Cloud) */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0E434C4AD28466547F3DC9EDAB25AAE /* SwiftyJSON.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyJSON;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = "Debug (Cloud)";
 		};
 		C955B7289B85F9E59D72F809CD8E5426 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2266,6 +2230,42 @@
 			};
 			name = "Release (Local)";
 		};
+		FD1804997EB1EB39D09E089B8CBE5397 /* Release (Local) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076E05E84F770EC3628BB803E2E8E97D /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Release (Local)";
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2298,12 +2298,12 @@
 		63E56F9D8D754536AF70BE11783F4783 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4CBAA3B743DDF6FBA9EEF034E8BC4D9 /* Debug */,
-				C662DD99C6FE04A52FE4E996DE19863D /* Debug (Cloud) */,
-				4BF82CDCAAC45E17A89DE87DAAB2D100 /* Debug (Local) */,
-				BBB3FB5F3066CC3AC0F02DE8FB3D52B6 /* Release */,
-				2B2120C465C86EE8493BB2689E92CBC0 /* Release (Cloud) */,
-				4FA15B7847FD8BC52571B4A8698D501A /* Release (Local) */,
+				802702DA049AF9905B05D3CF641A23C3 /* Debug */,
+				A79C30FDA7564428475A4786BA104D18 /* Debug (Cloud) */,
+				AC05A1392185638F1469E912167CF346 /* Debug (Local) */,
+				222EA4C0EC421034C2FADC974278A98D /* Release */,
+				4C1E16A48F1DF79418063B1290CF49ED /* Release (Cloud) */,
+				FD1804997EB1EB39D09E089B8CBE5397 /* Release (Local) */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

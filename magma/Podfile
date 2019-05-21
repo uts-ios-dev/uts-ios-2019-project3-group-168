@@ -10,5 +10,5 @@ target 'magma' do
   pod 'IQKeyboardManagerSwift'
   pod 'SwiftLint'
   pod 'Alamofire'	
-  pod 'SwiftyJSON', '~> 4.0'
+  pod 'SwiftyJSON', '~> 3.0'
 end
