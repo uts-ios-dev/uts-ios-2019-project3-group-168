@@ -1,44 +1,19 @@
 //
-//  WalletTableViewController.swift
+//  TxnTableViewController.swift
 //  magma
 //
-//  Created by Justin Wilkin on 17/5/19.
+//  Created by Justin Wilkin on 22/5/19.
 //  Copyright © 2019 Code Candy. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-class WalletTableViewController: UITableViewController {
-    // MARK: - Setup
+class TxnTableViewController: UITableViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         self.tableView.backgroundColor = UIColor.white
-        /*CardAPI.shared().newCard { (resultCode, message) in
-            switch resultCode {
-            case Constants.SUCCESS:
-                print("Successuflly added card")
-                self.tableView.reloadData()
-            case Constants.FAILURE:
-                print(message)
-            default:
-                print("Code: \(resultCode) \(message)")
-            }
-        }*/
         
-        // Load our cards into our wallet
-        CardAPI.shared().loadCards({ (resultCode, message) in
-            // If our server respons was successful get our cards
-            switch resultCode {
-            case Constants.SUCCESS:
-                // On a success reload our data
-                self.tableView.reloadData()
-            case Constants.FAILURE:
-                print(message)
-            default:
-                print("Code: \(resultCode) \(message)")
-            }
-            
-        }, controller: self)
     }
     
     // MARK: - Table View Recycling
@@ -71,7 +46,7 @@ class WalletTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "HeaderCell") as? WalletTableViewHeaderCell {
             // Populate the header cell
-            cell.setup("Wallet")
+            cell.setup("Transactions")
             return cell
         }
         return UITableViewCell()
@@ -86,4 +61,5 @@ class WalletTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
     }
+
 }

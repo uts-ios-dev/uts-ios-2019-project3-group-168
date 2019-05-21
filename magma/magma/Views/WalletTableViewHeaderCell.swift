@@ -10,12 +10,14 @@ import UIKit
 
 class WalletTableViewHeaderCell: UITableViewCell {
 
+    @IBOutlet weak var headerLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-    public func setup() {
+    public func setup(_ title: String) {
         backgroundColor = UIColor.white
+        headerLabel.text = title
     }
 }
