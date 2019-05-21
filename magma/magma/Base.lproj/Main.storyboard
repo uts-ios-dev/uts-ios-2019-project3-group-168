@@ -70,6 +70,9 @@
                                         <constraint firstItem="GN0-2o-RcA" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Q8i-2d-ZBW" secondAttribute="top" constant="24.5" id="p4T-kk-GKe"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="headerLabel" destination="GN0-2o-RcA" id="cAS-0N-OgJ"/>
+                                </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellRecycler" id="5KL-Jq-fJU" customClass="WalletTableViewCell" customModule="magma" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="123.5" width="414" height="250"/>

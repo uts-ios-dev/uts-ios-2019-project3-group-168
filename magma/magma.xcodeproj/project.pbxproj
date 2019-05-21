@@ -18,6 +18,8 @@
 		D011A0E02292DEA2008F244C /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011A0DF2292DEA2008F244C /* Environment.swift */; };
 		D011A0E22292E8BA008F244C /* WalletTableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011A0E12292E8BA008F244C /* WalletTableViewHeaderCell.swift */; };
 		D0407CAA228F025C007DE3D5 /* CardAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0407CA9228F025C007DE3D5 /* CardAPI.swift */; };
+		D0486B0A2294BE3A009F6401 /* TxnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0486B092294BE3A009F6401 /* TxnTableViewCell.swift */; };
+		D0486B0C2294BE55009F6401 /* TxnTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0486B0B2294BE55009F6401 /* TxnTableViewController.swift */; };
 		D0944CBD228D96530065CAF2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CBC228D96530065CAF2 /* SettingsViewController.swift */; };
 		D0944CBF228D9E800065CAF2 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CBE228D9E800065CAF2 /* CustomTabBarController.swift */; };
 		D0944CC1228DAC840065CAF2 /* WalletTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CC0228DAC840065CAF2 /* WalletTableViewController.swift */; };
@@ -51,6 +53,8 @@
 		D011A0DF2292DEA2008F244C /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		D011A0E12292E8BA008F244C /* WalletTableViewHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTableViewHeaderCell.swift; sourceTree = "<group>"; };
 		D0407CA9228F025C007DE3D5 /* CardAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAPI.swift; sourceTree = "<group>"; };
+		D0486B092294BE3A009F6401 /* TxnTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxnTableViewCell.swift; sourceTree = "<group>"; };
+		D0486B0B2294BE55009F6401 /* TxnTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxnTableViewController.swift; sourceTree = "<group>"; };
 		D0944CBC228D96530065CAF2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D0944CBE228D9E800065CAF2 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		D0944CC0228DAC840065CAF2 /* WalletTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTableViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +155,7 @@
 				D0944CBC228D96530065CAF2 /* SettingsViewController.swift */,
 				D0944CBE228D9E800065CAF2 /* CustomTabBarController.swift */,
 				D0944CC0228DAC840065CAF2 /* WalletTableViewController.swift */,
+				D0486B0B2294BE55009F6401 /* TxnTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 			children = (
 				D0944CC4228DB24E0065CAF2 /* WalletTableViewCell.swift */,
 				D011A0E12292E8BA008F244C /* WalletTableViewHeaderCell.swift */,
+				D0486B092294BE3A009F6401 /* TxnTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -358,6 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0486B0C2294BE55009F6401 /* TxnTableViewController.swift in Sources */,
 				D0944CC5228DB24E0065CAF2 /* WalletTableViewCell.swift in Sources */,
 				D0F0AC11228FAA4A00B5C77A /* CardStyle.swift in Sources */,
 				D0944CCD228E3C400065CAF2 /* Constants.swift in Sources */,
@@ -368,6 +375,7 @@
 				D0944CCB228E21140065CAF2 /* CardManager.swift in Sources */,
 				D0944CC1228DAC840065CAF2 /* WalletTableViewController.swift in Sources */,
 				D011A0E22292E8BA008F244C /* WalletTableViewHeaderCell.swift in Sources */,
+				D0486B0A2294BE3A009F6401 /* TxnTableViewCell.swift in Sources */,
 				D0944CBF228D9E800065CAF2 /* CustomTabBarController.swift in Sources */,
 				D0944CCF228E3F0F0065CAF2 /* Util.swift in Sources */,
 				D0944CC9228DB4800065CAF2 /* User.swift in Sources */,
@@ -521,7 +529,7 @@
 		};
 		D0028357228B958D00997C41 /* Debug (Local) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4520519BA374FE4882A3A8E5 /* Pods-magma.release.xcconfig */;
+			baseConfigurationReference = 8062309A15980D87B0DEEA5A /* Pods-magma.debug (local).xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,7 +549,7 @@
 		};
 		D0028358228B958D00997C41 /* Release (Local) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4520519BA374FE4882A3A8E5 /* Pods-magma.release.xcconfig */;
+			baseConfigurationReference = 63F8A7ED08571C1E7DC76CF6 /* Pods-magma.release (local).xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -617,7 +625,7 @@
 		};
 		D011A0D62292D9B9008F244C /* Release (Cloud) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4520519BA374FE4882A3A8E5 /* Pods-magma.release.xcconfig */;
+			baseConfigurationReference = DA0B28CEC882D3A519EFF951 /* Pods-magma.release (cloud).xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -699,7 +707,7 @@
 		};
 		D011A0D82292D9E4008F244C /* Debug (Cloud) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4520519BA374FE4882A3A8E5 /* Pods-magma.release.xcconfig */;
+			baseConfigurationReference = D89C4F202F6282DED364802D /* Pods-magma.debug (cloud).xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
