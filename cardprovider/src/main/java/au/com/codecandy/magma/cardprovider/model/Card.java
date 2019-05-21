@@ -3,26 +3,38 @@ package au.com.codecandy.magma.cardprovider.model;
 import java.text.DecimalFormat;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Vector;
 
 public class Card {
-    private int id;
     private String number;
     private String cvc;
     private Boolean status;
     private CardHolder cardHolder;
+    private Vector<Transaction> transactions = new Vector<>();
 
     public Card(CardHolder cardHolder) {
-        id = 1;
         number = generateRandomCardNo();
         cvc = generateRandomCVC();
         status = true;
         this.cardHolder = cardHolder;
     }
 
+    public String getNumber() {
+        return number;
+    }
+
+    public Vector<Transaction> getTransactions() {
+        return transactions;
+    }
+
+    // Add a transaction to our cardholder
+    public void addTransaction(Transaction transaction) {
+        this.transactions.add(transaction);
+    }
+
     // Returns the card as a response object
     public Map<String, Object> toObject() {
         HashMap<String, Object> map = new HashMap<>();
-        map.put("id", id + "");
         map.put("number", number);
         map.put("cvc", cvc);
         map.put("status", status);

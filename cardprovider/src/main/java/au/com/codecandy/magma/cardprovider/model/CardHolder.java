@@ -43,6 +43,16 @@ public class CardHolder {
         return firstName + " " + middleName + " " + lastName;
     }
 
+    public Card getCard(String cardNo) {
+        for (int i = 0; i < cards.size(); i++) {
+            if (cards.get(i).getNumber().equals(cardNo)) {
+                return cards.get(i);
+            }
+        }
+
+        return null;
+    }
+
     public Vector<Card> getCards() {
         return cards;
     }
