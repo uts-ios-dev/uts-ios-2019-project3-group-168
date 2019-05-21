@@ -24,7 +24,6 @@ class WalletTableViewCell: UITableViewCell {
     // MARK: -
     override func awakeFromNib() {
         super.awakeFromNib()
-        
     }
     
     // MARK: - Cell Manipulation

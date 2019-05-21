@@ -12,7 +12,7 @@ class WalletTableViewController: UITableViewController {
     // MARK: - Setup
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
+        self.tableView.backgroundColor = UIColor.white
         /*CardAPI.shared().newCard { (resultCode, message) in
             switch resultCode {
             case Constants.SUCCESS:
@@ -63,9 +63,22 @@ class WalletTableViewController: UITableViewController {
             
             return cell
         }
-        
         // Our reuse cell returned null so create blank cell
         return UITableViewCell()
+    }
+    
+    // Create our header cell for our table
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "HeaderCell") as? WalletTableViewHeaderCell {
+            // Populate the header cell
+            cell.setup()
+            return cell
+        }
+        return UITableViewCell()
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 90
     }
     
     // MARK: - User Input
