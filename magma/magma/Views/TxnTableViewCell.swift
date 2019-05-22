@@ -9,7 +9,9 @@
 import UIKit
 
 class TxnTableViewCell: UITableViewCell {
-
+    
+    // Temporary please remove
+    @IBOutlet weak var txnLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -19,6 +21,11 @@ class TxnTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    // Setup the custom cell for our view using a transaction object
+    func setup(_ transaction: Transaction) {
+        txnLabel.text = "\(transaction.getAmount()) \(transaction.getCurrency())"
     }
 
 }

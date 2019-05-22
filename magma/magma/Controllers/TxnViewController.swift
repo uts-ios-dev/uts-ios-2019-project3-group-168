@@ -13,7 +13,7 @@ class TxnViewController: UIViewController {
     // MARK: - Setup
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.white
     }
 
 }

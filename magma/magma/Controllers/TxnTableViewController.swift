@@ -10,10 +10,22 @@ import Foundation
 import UIKit
 
 class TxnTableViewController: UITableViewController {
+    private var transactions: [Transaction] = []
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         self.tableView.backgroundColor = UIColor.white
         
+        // Load our transactions
+        TransactionAPI.shared().getTransactions { (resultCode, transactions, message)  in
+            if (resultCode == Constants.SUCCESS) {
+                self.transactions = transactions
+                print(transactions)
+                self.tableView.reloadData()
+            } else {
+                print(message)
+            }
+        }
     }
     
     // MARK: - Table View Recycling
@@ -24,17 +36,17 @@ class TxnTableViewController: UITableViewController {
     
     // Return the amount of items we have in our table's data
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return CardAPI.shared().getCards().count
+        return transactions.count
     }
     
     // Create our cell for our table
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // If we can reuse a cell use it
         
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "CellRecycler") as? WalletTableViewCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "CellRecycler") as? TxnTableViewCell {
             // Populate the values of our card view (cell)
-            let card = CardAPI.shared().getCards()[indexPath.row]
-            cell.setup(card)
+            let transaction = transactions[indexPath.row]
+            cell.setup(transaction)
             
             return cell
         }

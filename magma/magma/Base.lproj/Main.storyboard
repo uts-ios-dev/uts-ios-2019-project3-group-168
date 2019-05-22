@@ -27,6 +27,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="BXO-fH-q7D" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="0Ij-fs-FsY"/>
                             <constraint firstItem="BXO-fH-q7D" firstAttribute="trailing" secondItem="PQr-Ze-W5v" secondAttribute="trailing" id="G2J-AK-HuG"/>
                             <constraint firstItem="BXO-fH-q7D" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" id="Upk-l0-2d7"/>
                             <constraint firstAttribute="bottom" secondItem="BXO-fH-q7D" secondAttribute="bottom" id="ddR-dL-le6"/>
@@ -64,10 +65,10 @@
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="GN0-2o-RcA" secondAttribute="trailing" constant="309" id="4Xo-et-oWB"/>
                                         <constraint firstAttribute="bottom" secondItem="GN0-2o-RcA" secondAttribute="bottom" constant="5" id="Kbn-IV-sTW"/>
                                         <constraint firstItem="GN0-2o-RcA" firstAttribute="leading" secondItem="Q8i-2d-ZBW" secondAttribute="leading" constant="20" id="L3r-iB-vAf"/>
                                         <constraint firstItem="GN0-2o-RcA" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Q8i-2d-ZBW" secondAttribute="top" constant="24.5" id="p4T-kk-GKe"/>
+                                        <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="GN0-2o-RcA" secondAttribute="trailing" constant="309" id="zKs-XF-Rpl"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
@@ -140,14 +141,97 @@
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Psk-t3-C5z">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <connections>
+                                    <segue destination="vWT-7B-Cly" kind="embed" id="yv3-Us-YHw"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Psk-t3-C5z" secondAttribute="bottom" id="XF6-1v-civ"/>
+                            <constraint firstItem="Psk-t3-C5z" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" id="ahi-02-icV"/>
+                            <constraint firstItem="Psk-t3-C5z" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="mnc-Xn-1DV"/>
+                            <constraint firstItem="Psk-t3-C5z" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" id="mrX-lD-dhO"/>
+                            <constraint firstItem="Psk-t3-C5z" firstAttribute="trailing" secondItem="O1u-W8-tvY" secondAttribute="trailing" id="y55-Vc-DPg"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Transactions" image="bank" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="360"/>
+            <point key="canvasLocation" x="749.27536231884062" y="359.59821428571428"/>
+        </scene>
+        <!--Txn Table View Controller-->
+        <scene sceneID="bIA-VC-h6N">
+            <objects>
+                <tableViewController id="vWT-7B-Cly" customClass="TxnTableViewController" customModule="magma" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="t3I-rv-kVh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="HeaderCell" rowHeight="68" id="asE-ae-E5Z" userLabel="HeaderCell" customClass="WalletTableViewHeaderCell" customModule="magma" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="55.5" width="414" height="68"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="asE-ae-E5Z" id="GAl-CW-XLH">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="68"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wallet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdJ-qH-ooq">
+                                            <rect key="frame" x="20" y="24.5" width="85" height="38"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="hdJ-qH-ooq" firstAttribute="leading" secondItem="GAl-CW-XLH" secondAttribute="leading" constant="20" id="Rgl-VP-Qp6"/>
+                                        <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="hdJ-qH-ooq" secondAttribute="trailing" constant="309" id="UI7-HZ-c3m"/>
+                                        <constraint firstAttribute="bottom" secondItem="hdJ-qH-ooq" secondAttribute="bottom" constant="5" id="VvK-KZ-62U"/>
+                                        <constraint firstItem="hdJ-qH-ooq" firstAttribute="top" relation="greaterThanOrEqual" secondItem="GAl-CW-XLH" secondAttribute="top" constant="24.5" id="yoW-dL-BG2"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="headerLabel" destination="hdJ-qH-ooq" id="B4D-og-OQc"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellRecycler" id="i76-hw-DMR" customClass="TxnTableViewCell" customModule="magma" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="123.5" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="i76-hw-DMR" id="zAN-xH-dB2">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARb-2M-a4Q">
+                                            <rect key="frame" x="186" y="11.5" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="ARb-2M-a4Q" firstAttribute="centerX" secondItem="zAN-xH-dB2" secondAttribute="centerX" id="PlX-Ym-gw9"/>
+                                        <constraint firstItem="ARb-2M-a4Q" firstAttribute="centerY" secondItem="zAN-xH-dB2" secondAttribute="centerY" id="gTg-9q-IeG"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="txnLabel" destination="ARb-2M-a4Q" id="rYf-o0-T7U"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="vWT-7B-Cly" id="hzD-pX-CnL"/>
+                            <outlet property="delegate" destination="vWT-7B-Cly" id="cX2-8e-2EH"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vGT-zK-6pf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1773.913043478261" y="359.59821428571428"/>
         </scene>
         <!--Settings-->
         <scene sceneID="Diq-cY-jA4">

@@ -16,6 +16,9 @@ struct Endpoints {
     // Cardholder Endpoints
     static let NEW_CARD_HOLDER = "/cardholder/new"
     
+    // Transaction Endpoints
+    static let GET_TRANSACTIONS = "/transactions"
+    
     // Parameters
     struct Params {
         static let CARD_HOLDER_ID = "cardholderID"

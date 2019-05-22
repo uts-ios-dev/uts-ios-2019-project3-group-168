@@ -10,7 +10,7 @@ public class Transaction {
     private Double amount;
     private Currency currency;
     private String location;
-    private int date;
+    private String date;
     private String receiver;
 
     /** Getters **/
@@ -30,7 +30,7 @@ public class Transaction {
         return location;
     }
 
-    public int getDate() {
+    public String getDate() {
         return date;
     }
 
@@ -56,7 +56,7 @@ public class Transaction {
     }
 
     public void setDate() {
-        this.date = new Date().getDate();
+        this.date = new Date().toString();
     }
 
     public void setReceiver(String receiver) {

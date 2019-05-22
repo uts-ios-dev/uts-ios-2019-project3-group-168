@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Currency;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Vector;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 @RestController
 public class TransactionController {
@@ -31,6 +34,7 @@ public class TransactionController {
                 transaction.setDate();
                 transaction.setLocation(location);
                 card.addTransaction(transaction);
+                cardHolder.addTransaction(transaction);
 
                 Map<String, Object> map = new HashMap<>();
                 map.put("transaction", transaction.toObject());
@@ -51,35 +55,34 @@ public class TransactionController {
     }
 
     /** Card Retrieval */
-    /*@GetMapping(value = Constants.transactionMapping)
+    @GetMapping(value = Constants.transactionMapping)
     public Map<String, Object> getCards(@RequestParam("cardholderID") int cardholderID) {
         Logger logger = Logger.getLogger(CardController.class.getName());
 
-        logger.log(Level.INFO, "Got Here");
-
-        // Get our cardholder
         CardHolder cardHolder = State.getInstance().getCardHolderById(cardholderID);
-        if (cardHolder != null) {
-            // Return our vector of cards that belong to the user
-            Vector<Card> cards = cardHolder.getCards();
-            Vector<Map<String, Object>> cardsSerialised = new Vector<>();
 
-            for (int i = 0; i < cards.size(); i++) {
-                cardsSerialised.add(cards.get(i).toObject());
+        logger.log(Level.INFO, cardholderID + "");
+        logger.log(Level.INFO, cardHolder.toObject().toString());
+        if (cardHolder != null) {
+            Vector<Transaction> transactions = cardHolder.getTransactions();
+            Vector<Map<String, Object>> transactionsSerialised = new Vector<>();
+
+            for (int i = 0; i < transactions.size(); i++) {
+                transactionsSerialised.add(transactions.get(i).toObject());
             }
 
             Map <String, Object> map = new HashMap<>();
-            map.put("cardholder", cardholderID);
-            map.put("cards", cardsSerialised);
-
-            return map;
-        } else {
-            Map <String, Object> map = new HashMap<>();
-            map.put("Error", "User not found");
+            map.put("cardholderID", cardHolder.getId());
+            map.put("transactions", transactionsSerialised);
 
             return map;
         }
-    }*/
+
+        Map<String, Object> map = new HashMap<>();
+        map.put("Error", "User not found");
+
+        return map;
+    }
 }
 
 

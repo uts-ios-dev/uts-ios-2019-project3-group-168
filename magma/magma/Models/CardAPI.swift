@@ -51,7 +51,7 @@ class CardAPI {
                 if (cardArray != "null") {
                     // For each card in our cardholders wallet create a local card
                     for (_, c) in cardArray {
-                        let card = self.cardFromJSON(c)
+                        let card = Util.cardFromJSON(c)
                         self.cardManager.newCard(card)
                     }
                     
@@ -80,7 +80,7 @@ class CardAPI {
                 let data: JSON = JSON(response.result.value as Any)
                 
                 // Once we have received our card object from the server map it to a card locally
-                let card = self.cardFromJSON(data)
+                let card = Util.cardFromJSON(data)
                 
                 // Add the card to our card manager
                 self.cardManager.newCard(card)
@@ -94,19 +94,6 @@ class CardAPI {
                 }
             }
         }
-    }
-    
-    private func cardFromJSON(_ data: JSON) -> Card {
-        let cardID = data["id"].intValue
-        let cardNumber = data["number"].stringValue
-        let cardCVC = data["cvc"].stringValue
-        let cardStatus = data["status"].boolValue
-        let firstName = data["cardholder"]["firstName"].stringValue
-        let middleName = data["cardholder"]["middleName"].stringValue
-        let lastName = data["cardholder"]["lastName"].stringValue
-        let cardName = "\(firstName) \(middleName.prefix(1)) \(lastName)"
-        
-        return Card(id: cardID, name: cardName, number: cardNumber, cvc: cardCVC, status: cardStatus)
     }
     
     public func removeCard(id: Int) {

@@ -17,6 +17,7 @@ public class CardHolder {
     private String country;
     private String phone;
     private Vector<Card> cards = new Vector<>();
+    private Vector<Transaction> transactions = new Vector<>();
 
     public CardHolder(int id) {
         this.id = id;
@@ -57,6 +58,10 @@ public class CardHolder {
         return cards;
     }
 
+    public Vector<Transaction> getTransactions() {
+        return transactions;
+    }
+
     /** Setters **/
     public void setFirstName(String name) {
         this.firstName = name;
@@ -73,6 +78,11 @@ public class CardHolder {
     // Add a card to our cardholder
     public void addCard(Card card) {
         this.cards.add(card);
+    }
+
+    // Add a transaction to our cardholder
+    public void addTransaction(Transaction transaction) {
+        this.transactions.add(transaction);
     }
 
     // Returns the cardholder as a response object

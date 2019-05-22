@@ -7,9 +7,9 @@
 //
 
 import UIKit
+import SwiftyJSON
 
 final class Util {
-    
     // MARK: - Get Random Numbers
     public static func getRandomIntInclusive(start: Int, end: Int) -> Int {
         return Int.random(in: start ... end)
@@ -63,6 +63,20 @@ final class Util {
             return UIApplication.shared.delegate?.window??.safeAreaInsets.top ?? 0 > 20
         }
         return false
+    }
+    
+    // Convert a card into an object from JSON
+    public static func cardFromJSON(_ data: JSON) -> Card {
+        let cardID = data["id"].intValue
+        let cardNumber = data["number"].stringValue
+        let cardCVC = data["cvc"].stringValue
+        let cardStatus = data["status"].boolValue
+        let firstName = data["cardholder"]["firstName"].stringValue
+        let middleName = data["cardholder"]["middleName"].stringValue
+        let lastName = data["cardholder"]["lastName"].stringValue
+        let cardName = "\(firstName) \(middleName.prefix(1)) \(lastName)"
+        
+        return Card(id: cardID, name: cardName, number: cardNumber, cvc: cardCVC, status: cardStatus)
     }
 }
 
