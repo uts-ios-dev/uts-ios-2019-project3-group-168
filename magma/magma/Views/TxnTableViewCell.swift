@@ -12,6 +12,15 @@ class TxnTableViewCell: UITableViewCell {
     
     // Temporary please remove
     @IBOutlet weak var txnLabel: UILabel!
+        
+    @IBOutlet weak var cellView: UIView!
+    
+    @IBOutlet weak var dateLabel: UILabel!
+    
+    @IBOutlet weak var locationLabel: UILabel!
+    
+    @IBOutlet weak var priceLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -25,7 +34,10 @@ class TxnTableViewCell: UITableViewCell {
     
     // Setup the custom cell for our view using a transaction object
     func setup(_ transaction: Transaction) {
-        txnLabel.text = "\(transaction.getAmount()) \(transaction.getCurrency())"
+        
+        priceLabel.text = "\(transaction.getAmount()) \(transaction.getCurrency())"
+        txnLabel.text = "\(transaction.getCard().getNumber())"
+        dateLabel.text = "\(transaction.getDate())"
+        locationLabel.text = "\(transaction.getLocation())"
     }
-
 }

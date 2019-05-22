@@ -45,23 +45,23 @@ class User {
     }
     
     // MARK: - setter
-    func setFirstName (_ firstName : String) -> Void {
+    func setFirstName (_ firstName : String) {
         self.firstName = firstName
     }
     
-    func setMiddleName (_ middleName : String) -> Void {
+    func setMiddleName (_ middleName : String) {
         self.middleName = middleName
     }
     
-    func setLastName (_ lastName : String) -> Void {
+    func setLastName (_ lastName : String) {
         self.lastName = lastName
     }
     
-    func setEmail (_ email : String) -> Void {
+    func setEmail (_ email : String) {
         self.email = email
     }
     
-    func setPassword (_ password : String) -> Void {
+    func setPassword (_ password : String) {
         self.password = password
     }
 }

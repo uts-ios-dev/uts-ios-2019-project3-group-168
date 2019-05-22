@@ -15,7 +15,7 @@ class TxnTableViewController: UITableViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         self.tableView.backgroundColor = UIColor.white
-        
+        self.tableView.separatorStyle = .singleLine // separator to be used as a single line
         // Load our transactions
         TransactionAPI.shared().getTransactions { (resultCode, transactions, message)  in
             if (resultCode == Constants.SUCCESS) {

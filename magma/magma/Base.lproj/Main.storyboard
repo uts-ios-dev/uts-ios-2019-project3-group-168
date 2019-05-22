@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -182,7 +182,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wallet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdJ-qH-ooq">
-                                            <rect key="frame" x="20" y="24.5" width="85" height="38"/>
+                                            <rect key="frame" x="20" y="25" width="85" height="38"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -206,19 +206,51 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARb-2M-a4Q">
-                                            <rect key="frame" x="186" y="11.5" width="42" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CardNumber" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARb-2M-a4Q" userLabel="card number label">
+                                            <rect key="frame" x="20" y="2" width="88" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ed-82-MhS">
+                                            <rect key="frame" x="345" y="23" width="49" height="15"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7wu-Sl-rss">
+                                            <rect key="frame" x="359" y="0.0" width="35" height="22"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EGp-gY-GFD">
+                                            <rect key="frame" x="20" y="23" width="27" height="15"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="ARb-2M-a4Q" firstAttribute="centerX" secondItem="zAN-xH-dB2" secondAttribute="centerX" id="PlX-Ym-gw9"/>
-                                        <constraint firstItem="ARb-2M-a4Q" firstAttribute="centerY" secondItem="zAN-xH-dB2" secondAttribute="centerY" id="gTg-9q-IeG"/>
+                                        <constraint firstItem="7wu-Sl-rss" firstAttribute="centerY" secondItem="ARb-2M-a4Q" secondAttribute="centerY" id="2K7-f7-vHL"/>
+                                        <constraint firstItem="EGp-gY-GFD" firstAttribute="baseline" secondItem="0ed-82-MhS" secondAttribute="baseline" id="6iN-7s-CPG"/>
+                                        <constraint firstAttribute="trailing" secondItem="7wu-Sl-rss" secondAttribute="trailing" constant="20" id="ChX-wR-4Uo"/>
+                                        <constraint firstItem="7wu-Sl-rss" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ARb-2M-a4Q" secondAttribute="trailing" constant="8" symbolic="YES" id="FgF-R9-ffg"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="EGp-gY-GFD" secondAttribute="bottom" constant="-5" id="J8Y-hY-Gbx"/>
+                                        <constraint firstAttribute="trailing" secondItem="0ed-82-MhS" secondAttribute="trailing" constant="20" id="Kdc-w2-D39"/>
+                                        <constraint firstItem="EGp-gY-GFD" firstAttribute="leading" secondItem="zAN-xH-dB2" secondAttribute="leading" constant="20" id="LgU-8Z-rc0"/>
+                                        <constraint firstItem="7wu-Sl-rss" firstAttribute="top" secondItem="zAN-xH-dB2" secondAttribute="top" id="LrH-qM-VjC"/>
+                                        <constraint firstItem="0ed-82-MhS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="EGp-gY-GFD" secondAttribute="trailing" constant="8" symbolic="YES" id="W2f-J8-iSW"/>
+                                        <constraint firstItem="ARb-2M-a4Q" firstAttribute="leading" secondItem="zAN-xH-dB2" secondAttribute="leading" constant="20" id="X2k-sh-CBI"/>
+                                        <constraint firstItem="0ed-82-MhS" firstAttribute="top" secondItem="7wu-Sl-rss" secondAttribute="bottom" constant="1" id="cGD-gl-MKC"/>
+                                        <constraint firstItem="EGp-gY-GFD" firstAttribute="top" secondItem="ARb-2M-a4Q" secondAttribute="bottom" constant="3" id="dHj-fx-bI6"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="cellView" destination="zAN-xH-dB2" id="Pzc-iY-nd0"/>
+                                    <outlet property="dateLabel" destination="EGp-gY-GFD" id="mDZ-T2-uug"/>
+                                    <outlet property="locationLabel" destination="0ed-82-MhS" id="SNS-tG-WsL"/>
+                                    <outlet property="priceLabel" destination="7wu-Sl-rss" id="aEj-iH-AUx"/>
                                     <outlet property="txnLabel" destination="ARb-2M-a4Q" id="rYf-o0-T7U"/>
                                 </connections>
                             </tableViewCell>
@@ -279,8 +311,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bank" width="25" height="25"/>
-        <image name="cog" width="25" height="25"/>
-        <image name="wallet" width="25" height="17"/>
+        <image name="bank" width="37.5" height="37.5"/>
+        <image name="cog" width="37.5" height="37.5"/>
+        <image name="wallet" width="50" height="34"/>
     </resources>
 </document>
