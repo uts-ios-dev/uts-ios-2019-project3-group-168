@@ -50,14 +50,22 @@ class CardAPI {
                 
                 if (cardArray != "null") {
                     // For each card in our cardholders wallet create a local card
-                    for (_, c) in cardArray {
+                    // Stubbed out for testing without server
+                    /*for (_, c) in cardArray {
                         let card = Util.cardFromJSON(c)
                         self.cardManager.newCard(card)
-                    }
+                    }*/
                     
-                    callback(Constants.SUCCESS, "")
+                    // callback(Constants.SUCCESS, "")
                 }
             }
+            
+            // Add some cards for testing without server
+            for _ in 0...Util.getRandomIntInclusive(start: 1, end: 8) {
+                self.cardManager.newCard(Card())
+            }
+            
+            callback(Constants.SUCCESS, "")
             
         }
     }

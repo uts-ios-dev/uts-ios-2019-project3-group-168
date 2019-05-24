@@ -74,7 +74,7 @@ class TxnTableViewController: UITableViewController {
     // MARK: - User Input
     // Handle selection of our table view cell
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "transactionOfCard", sender: nil)
+        //performSegue(withIdentifier: "transactionOfCard", sender: nil)
     }
 
 }
