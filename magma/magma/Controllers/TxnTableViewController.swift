@@ -68,10 +68,13 @@ class TxnTableViewController: UITableViewController {
         return 90
     }
     
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 50
+    }
     // MARK: - User Input
     // Handle selection of our table view cell
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        performSegue(withIdentifier: "transactionOfCard", sender: nil)
     }
 
 }

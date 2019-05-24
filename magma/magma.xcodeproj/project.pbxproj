@@ -22,6 +22,8 @@
 		D0486B0C2294BE55009F6401 /* TxnTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0486B0B2294BE55009F6401 /* TxnTableViewController.swift */; };
 		D0486B0F2294CEA7009F6401 /* TransactionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0486B0E2294CEA7009F6401 /* TransactionAPI.swift */; };
 		D0486B112294D0E0009F6401 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0486B102294D0E0009F6401 /* Transaction.swift */; };
+		D0785D5822976BC200DE27F1 /* TxnWithinCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0785D5722976BC200DE27F1 /* TxnWithinCardViewController.swift */; };
+		D0785D5A22976C1E00DE27F1 /* TxnWithinCardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0785D5922976C1E00DE27F1 /* TxnWithinCardViewCell.swift */; };
 		D0944CBD228D96530065CAF2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CBC228D96530065CAF2 /* SettingsViewController.swift */; };
 		D0944CBF228D9E800065CAF2 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CBE228D9E800065CAF2 /* CustomTabBarController.swift */; };
 		D0944CC1228DAC840065CAF2 /* WalletTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CC0228DAC840065CAF2 /* WalletTableViewController.swift */; };
@@ -59,6 +61,8 @@
 		D0486B0B2294BE55009F6401 /* TxnTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxnTableViewController.swift; sourceTree = "<group>"; };
 		D0486B0E2294CEA7009F6401 /* TransactionAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionAPI.swift; sourceTree = "<group>"; };
 		D0486B102294D0E0009F6401 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		D0785D5722976BC200DE27F1 /* TxnWithinCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxnWithinCardViewController.swift; sourceTree = "<group>"; };
+		D0785D5922976C1E00DE27F1 /* TxnWithinCardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxnWithinCardViewCell.swift; sourceTree = "<group>"; };
 		D0944CBC228D96530065CAF2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D0944CBE228D9E800065CAF2 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		D0944CC0228DAC840065CAF2 /* WalletTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTableViewController.swift; sourceTree = "<group>"; };
@@ -169,6 +173,7 @@
 				D0944CBE228D9E800065CAF2 /* CustomTabBarController.swift */,
 				D0944CC0228DAC840065CAF2 /* WalletTableViewController.swift */,
 				D0486B0B2294BE55009F6401 /* TxnTableViewController.swift */,
+				D0785D5722976BC200DE27F1 /* TxnWithinCardViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 				D0944CC4228DB24E0065CAF2 /* WalletTableViewCell.swift */,
 				D011A0E12292E8BA008F244C /* WalletTableViewHeaderCell.swift */,
 				D0486B092294BE3A009F6401 /* TxnTableViewCell.swift */,
+				D0785D5922976C1E00DE27F1 /* TxnWithinCardViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -394,10 +400,12 @@
 				D0944CBF228D9E800065CAF2 /* CustomTabBarController.swift in Sources */,
 				D0944CCF228E3F0F0065CAF2 /* Util.swift in Sources */,
 				D0944CC9228DB4800065CAF2 /* User.swift in Sources */,
+				D0785D5A22976C1E00DE27F1 /* TxnWithinCardViewCell.swift in Sources */,
 				D0028348228B958700997C41 /* WalletViewController.swift in Sources */,
 				D0944CBD228D96530065CAF2 /* SettingsViewController.swift in Sources */,
 				D011A0D42292C58A008F244C /* Endpoints.swift in Sources */,
 				D0944CC7228DB44D0065CAF2 /* Card.swift in Sources */,
+				D0785D5822976BC200DE27F1 /* TxnWithinCardViewController.swift in Sources */,
 				D011A0E02292DEA2008F244C /* Environment.swift in Sources */,
 				D0486B0F2294CEA7009F6401 /* TransactionAPI.swift in Sources */,
 			);
