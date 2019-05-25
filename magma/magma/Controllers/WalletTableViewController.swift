@@ -59,7 +59,10 @@ class WalletTableViewController: UITableViewController {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "CellRecycler") as? WalletTableViewCell {
             // Populate the values of our card view (cell)
             let card = CardAPI.shared().getCards()[indexPath.row]
-            cell.setup(card)
+            // Set up our card view with the current card in our list
+            cell.setup(card, controller: self)
+            // Setup our click inside the card
+            setupOnClick(view: cell.getCardView(), cardCell: cell)
             
             return cell
         }
@@ -82,8 +85,21 @@ class WalletTableViewController: UITableViewController {
     }
     
     // MARK: - User Input
-    // Handle selection of our table view cell
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+    func setupOnClick(view: UIView, cardCell: WalletTableViewCell) {
+        let gesture = CardTapGestureRecognizer(target: self, action: #selector(handleOnClick(_:)))
+        gesture.card = cardCell.getCard()
+        view.addGestureRecognizer(gesture)
+    }
+    
+    // Handle our click event and give the user the option to pay or view card details
+    @objc func handleOnClick(_ sender: CardTapGestureRecognizer) {
+        let card = sender.card
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        // swiftlint:disable:next force_cast
+        let viewController = storyBoard.instantiateViewController(withIdentifier: "cardTxns") as! CardTxnsTableViewController
+        if (card != nil) {
+            viewController.setCard(card!)
+        }
+        self.present(viewController, animated: true, completion: nil)
     }
 }

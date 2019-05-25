@@ -76,5 +76,4 @@ class TxnTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //performSegue(withIdentifier: "transactionOfCard", sender: nil)
     }
-
 }

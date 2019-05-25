@@ -11,6 +11,7 @@ import UIKit
 class WalletTableViewCell: UITableViewCell {
     // MARK: - Properties
     @IBOutlet weak var cardView: UIView!
+    private var card: Card!
     private let paddingLeft: CGFloat = 20
     private let paddingTop: CGFloat = 20
     private let fontSize: CGFloat = 25
@@ -20,6 +21,7 @@ class WalletTableViewCell: UITableViewCell {
     private let detailsPaddingTop: CGFloat = 20
     private let cornerRadius: CGFloat = 10
     private var shadowLayer: CAShapeLayer?
+    private var controller: UITableViewController!
     
     // MARK: -
     override func awakeFromNib() {
@@ -28,7 +30,13 @@ class WalletTableViewCell: UITableViewCell {
     
     // MARK: - Cell Manipulation
     // Setup our card with its styling and details
-    public func setup(_ card: Card) {
+    public func setup(_ card: Card, controller: UITableViewController) {
+        // Set a reference to our view controller
+        self.controller = controller
+        
+        // Set our card as a reference object
+        self.card = card
+        
         // Setup our Card View
         cardView.backgroundColor = UIColor.clear
         cardView.clipsToBounds = false
@@ -138,5 +146,15 @@ class WalletTableViewCell: UITableViewCell {
         detailsView.layer.mask = roundedDetailsMask
         
         return detailsView
+    }
+    
+    // Return our cardview to our controller for handling touch events
+    public func getCardView() -> UIView {
+        return cardView
+    }
+    
+    // Return our card to the controller
+    public func getCard() -> Card {
+        return card
     }
 }

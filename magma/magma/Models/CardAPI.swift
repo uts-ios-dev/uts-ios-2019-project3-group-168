@@ -66,7 +66,6 @@ class CardAPI {
             }
             
             callback(Constants.SUCCESS, "")
-            
         }
     }
     
