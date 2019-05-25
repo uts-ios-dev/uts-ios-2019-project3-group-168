@@ -28,10 +28,15 @@ class TxnWithinCardViewCell: UITableViewCell {
     }
     
     // Setup the custom cell for our view using a transaction object
-    func setup(_ transaction: Transaction) {
-        locationLabel.text = "edit this later"
-        priceLabel.text = "edit this later"
-        dateLabel.text = "edit this later"
+    func setup(_ transaction: Transaction, _ card : Card) -> Bool {
+        // checking if the card number matches the card number in transaction
+        if card.getNumber() == transaction.getCard().getNumber() {
+            locationLabel.text = "\(transaction.getLocation())"
+            priceLabel.text = "\(transaction.getAmount()) \(transaction.getCurrency())"
+            dateLabel.text = "\(transaction.getDate())"
+            return true
+        }
+        return false
     }
 
 }

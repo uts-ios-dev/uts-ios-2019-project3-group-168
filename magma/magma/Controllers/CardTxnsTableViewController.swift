@@ -26,9 +26,15 @@ class CardTxnsTableViewController: UITableViewController {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "recycled") as? TxnWithinCardViewCell {
             // Populate the values of our card view (cell)
             let transaction = transactions[indexPath.row]
-            cell.setup(transaction)
             
-            return cell
+            // variable to check if there are transactions from that card.
+            var isTransactionValid : Bool = false
+            isTransactionValid = cell.setup(transaction, self.card!)
+            
+            // if there are valid transaction we return the cell, or else a blank cell is returned for now
+            if isTransactionValid {
+                return cell
+            }
         }
         // Our reuse cell returned null so create blank cell
         return UITableViewCell()
@@ -50,5 +56,9 @@ class CardTxnsTableViewController: UITableViewController {
     
     public func setCard(_ card: Card) {
         self.card = card
+    }
+    
+    public func setTransaction(_ transaction: [Transaction]) {
+        self.transactions = transaction
     }
 }

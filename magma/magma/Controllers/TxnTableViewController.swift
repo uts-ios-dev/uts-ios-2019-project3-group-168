@@ -69,7 +69,7 @@ class TxnTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 50
+        return 90
     }
     // MARK: - User Input
     // Handle selection of our table view cell

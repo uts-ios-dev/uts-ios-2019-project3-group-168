@@ -9,6 +9,10 @@
 import UIKit
 
 class WalletTableViewController: UITableViewController {
+    
+    // MARK: - Remove later (temp)
+    private var transactions : [Transaction] = []
+    
     // MARK: - Setup
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -99,6 +103,20 @@ class WalletTableViewController: UITableViewController {
         let viewController = storyBoard.instantiateViewController(withIdentifier: "cardTxns") as! CardTxnsTableViewController
         if (card != nil) {
             viewController.setCard(card!)
+            
+            // using the same method as done before to get all transaction
+            TransactionAPI.shared().getTransactions { (resultCode, transactions, message)  in
+                if (resultCode == Constants.SUCCESS) {
+                    self.transactions = transactions
+                    print(transactions)
+                    self.tableView.reloadData()
+                } else {
+                    print(message)
+                }
+            }
+            
+            viewController.setTransaction(self.transactions)
+            
         }
         self.present(viewController, animated: true, completion: nil)
     }
