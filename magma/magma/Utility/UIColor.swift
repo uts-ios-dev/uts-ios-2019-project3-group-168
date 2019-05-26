@@ -40,4 +40,12 @@ extension UIColor {
     class var lightOrange: UIColor {
         return UIColor(red: 255/255, green: 140/255, blue: 110/255, alpha: 1)
     }
+    
+    class var flatGrey: UIColor {
+        return UIColor(red: 176/255, green: 187/255, blue: 198/255, alpha: 1)
+    }
+    
+    class var middleGrey: UIColor {
+        return UIColor(red: 242/255, green: 242/255, blue: 243/255, alpha: 1)
+    }
 }
