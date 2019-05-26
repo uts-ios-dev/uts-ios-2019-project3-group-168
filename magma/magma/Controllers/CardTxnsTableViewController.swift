@@ -15,6 +15,7 @@ class CardTxnsTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        UIApplication.shared.statusBarView?.backgroundColor = UIColor.white
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -22,19 +23,13 @@ class CardTxnsTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        // Need to do : Add cells to the table
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "recycled") as? TxnWithinCardViewCell {
+        // If we can reuse a cell use it
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "CellRecycler") as? TxnTableViewCell {
             // Populate the values of our card view (cell)
             let transaction = transactions[indexPath.row]
+            cell.setup(transaction, isWithinCard: true)
             
-            // variable to check if there are transactions from that card.
-            var isTransactionValid : Bool = false
-            isTransactionValid = cell.setup(transaction, self.card!)
-            
-            // if there are valid transaction we return the cell, or else a blank cell is returned for now
-            if isTransactionValid {
-                return cell
-            }
+            return cell
         }
         // Our reuse cell returned null so create blank cell
         return UITableViewCell()
@@ -45,6 +40,7 @@ class CardTxnsTableViewController: UITableViewController {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "HeaderCard") as? WalletTableViewCell {
             // Populate the header cell
             cell.setup(card, controller: self)
+            cell.backgroundColor = UIColor.white
             return cell
         }
         return UITableViewCell()
@@ -52,6 +48,10 @@ class CardTxnsTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 250
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 90
     }
     
     public func setCard(_ card: Card) {

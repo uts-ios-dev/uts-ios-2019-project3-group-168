@@ -15,7 +15,6 @@ class TxnTableViewController: UITableViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         self.tableView.backgroundColor = UIColor.white
-        self.tableView.separatorStyle = .singleLine // separator to be used as a single line
         // Load our transactions
         TransactionAPI.shared().getTransactions { (resultCode, transactions, message)  in
             if (resultCode == Constants.SUCCESS) {
@@ -42,11 +41,10 @@ class TxnTableViewController: UITableViewController {
     // Create our cell for our table
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // If we can reuse a cell use it
-        
         if let cell = tableView.dequeueReusableCell(withIdentifier: "CellRecycler") as? TxnTableViewCell {
             // Populate the values of our card view (cell)
             let transaction = transactions[indexPath.row]
-            cell.setup(transaction)
+            cell.setup(transaction, isWithinCard: false)
             
             return cell
         }
@@ -74,6 +72,6 @@ class TxnTableViewController: UITableViewController {
     // MARK: - User Input
     // Handle selection of our table view cell
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //performSegue(withIdentifier: "transactionOfCard", sender: nil)
+        
     }
 }

@@ -10,24 +10,10 @@ import UIKit
 
 class WalletTableViewController: UITableViewController {
     
-    // MARK: - Remove later (temp)
-    private var transactions : [Transaction] = []
-    
     // MARK: - Setup
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         self.tableView.backgroundColor = UIColor.white
-        /*CardAPI.shared().newCard { (resultCode, message) in
-            switch resultCode {
-            case Constants.SUCCESS:
-                print("Successuflly added card")
-                self.tableView.reloadData()
-            case Constants.FAILURE:
-                print(message)
-            default:
-                print("Code: \(resultCode) \(message)")
-            }
-        }*/
         
         // Load our cards into our wallet
         CardAPI.shared().loadCards({ (resultCode, message) in
@@ -105,18 +91,13 @@ class WalletTableViewController: UITableViewController {
             viewController.setCard(card!)
             
             // using the same method as done before to get all transaction
-            TransactionAPI.shared().getTransactions { (resultCode, transactions, message)  in
+            TransactionAPI.shared().getTransactionsByCard { (resultCode, transactions, message)  in
                 if (resultCode == Constants.SUCCESS) {
-                    self.transactions = transactions
-                    print(transactions)
-                    self.tableView.reloadData()
+                    viewController.setTransaction(transactions)
                 } else {
                     print(message)
                 }
             }
-            
-            viewController.setTransaction(self.transactions)
-            
         }
         self.present(viewController, animated: true, completion: nil)
     }
