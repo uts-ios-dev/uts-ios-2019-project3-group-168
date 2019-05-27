@@ -49,12 +49,12 @@ class TransactionAPI {
                     }
                     
                     // Stubbed out for testing without server
-                    // callback(Constants.SUCCESS, transactionsArray, "")
+                    callback(Constants.SUCCESS, transactionsArray, "")
                 }
             }
         }
         
-        var transactionArray: [Transaction] = []
+        /*var transactionArray: [Transaction] = []
         
         for _ in 0...Util.getRandomIntInclusive(start: 1, end: 25) {
             let card: Card = Card()
@@ -68,11 +68,11 @@ class TransactionAPI {
             transactionArray.append(transaction)
         }
         
-        callback(Constants.SUCCESS, transactionArray, "")
+        callback(Constants.SUCCESS, transactionArray, "")*/
     }
     
     // Get transactions for an individual card
-    public func getTransactionsByCard(_ callback: @escaping (Int, [Transaction], String) -> Void) {
+    public func getTransactionsByCard(card: Card, _ callback: @escaping (Int, [Transaction], String) -> Void) {
         let server = Environment().configuration(PlistKey.ServerURL) + Endpoints.GET_TRANSACTIONS
         
         Alamofire.request(server, method: HTTPMethod.get, parameters: [Endpoints.Params.CARD_HOLDER_ID:Constants.userID]).responseJSON { response in
@@ -89,16 +89,18 @@ class TransactionAPI {
                     // For each card in our cardholders wallet create a local card
                     for (_, t) in transactionJSONArray {
                         let transaction = self.transactionFromJSON(t)
-                        transactionsArray.append(transaction)
+                        if (transaction.getCard().getNumber() == card.getNumber()) {
+                            transactionsArray.append(transaction)
+                        }
                     }
                     
                     // Stubbed out for testing without server
-                    // callback(Constants.SUCCESS, transactionsArray, "")
+                    callback(Constants.SUCCESS, transactionsArray, "")
                 }
             }
         }
         
-        var transactionArray: [Transaction] = []
+        /*var transactionArray: [Transaction] = []
         
         for _ in 0...Util.getRandomIntInclusive(start: 1, end: 25) {
             let card: Card = Card()
@@ -112,7 +114,7 @@ class TransactionAPI {
             transactionArray.append(transaction)
         }
         
-        callback(Constants.SUCCESS, transactionArray, "")
+        callback(Constants.SUCCESS, transactionArray, "")*/
     }
     
     private func transactionFromJSON(_ data: JSON) -> Transaction {
