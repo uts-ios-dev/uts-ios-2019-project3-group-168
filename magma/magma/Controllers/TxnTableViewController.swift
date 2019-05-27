@@ -35,32 +35,18 @@ class TxnTableViewController: UITableViewController {
     
     // Return the amount of items we have in our table's data
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if (transactions.count == 0) {
-            return 1
-        }
         return transactions.count
     }
     
     // Create our cell for our table
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // If we can reuse a cell use it
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "CellRecycler") as? TxnTableViewCell {
-            // Populate the values of our card view (cell)
-            let transaction = transactions[indexPath.row]
-            cell.setup(transaction, isWithinCard: false)
-            
-            return cell
-        }
-        // Our reuse cell returned null so create blank cell
-        return UITableViewCell()
-    }
-    
-    // Create our header cell for our table
-    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         if (transactions.count > 0) {
-            if let cell = tableView.dequeueReusableCell(withIdentifier: "HeaderCell") as? WalletTableViewHeaderCell {
-                // Populate the header cell
-                cell.setup("Transactions")
+            if let cell = tableView.dequeueReusableCell(withIdentifier: "CellRecycler") as? TxnTableViewCell {
+                // Populate the values of our card view (cell)
+                let transaction = transactions[indexPath.row]
+                cell.setup(transaction, isWithinCard: false)
+                
                 return cell
             }
         }
@@ -81,6 +67,16 @@ class TxnTableViewController: UITableViewController {
         noTransactionsCell.addSubview(label)
         
         return noTransactionsCell
+    }
+    
+    // Create our header cell for our table
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "HeaderCell") as? WalletTableViewHeaderCell {
+            // Populate the header cell
+            cell.setup("Transactions")
+            return cell
+        }
+        return UITableViewCell()
     }
     
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {

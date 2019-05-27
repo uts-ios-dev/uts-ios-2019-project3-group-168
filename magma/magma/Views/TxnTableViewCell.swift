@@ -77,7 +77,8 @@ class TxnTableViewCell: UITableViewCell {
         let rect =  CGRect(x: dateView.frame.width / 2, y: dateView.frame.height / 2, width: dateView.frame.width, height: dateView.frame.height)
         let dateLabel = UILabel(frame: rect)
         let fullDate = transaction.getDate()
-        dateLabel.text = String(fullDate.first!)
+        let number = fullDate.split(separator: " ")
+        dateLabel.text = String(number[2])
         dateLabel.font = UIFont.boldSystemFont(ofSize: 24)
         dateLabel.textColor = UIColor.flatBlack
         dateLabel.frame.size.width = dateLabel.intrinsicContentSize.width
