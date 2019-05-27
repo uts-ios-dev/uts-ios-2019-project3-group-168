@@ -35,6 +35,9 @@ class TxnTableViewController: UITableViewController {
     
     // Return the amount of items we have in our table's data
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if (transactions.count == 0) {
+            return 1
+        }
         return transactions.count
     }
     
@@ -54,12 +57,30 @@ class TxnTableViewController: UITableViewController {
     
     // Create our header cell for our table
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "HeaderCell") as? WalletTableViewHeaderCell {
-            // Populate the header cell
-            cell.setup("Transactions")
-            return cell
+        if (transactions.count > 0) {
+            if let cell = tableView.dequeueReusableCell(withIdentifier: "HeaderCell") as? WalletTableViewHeaderCell {
+                // Populate the header cell
+                cell.setup("Transactions")
+                return cell
+            }
         }
-        return UITableViewCell()
+        
+        // There are no transactions so let the user know
+        let noTransactionsCell = UITableViewCell()
+        let rect =  CGRect(x: 0, y: 0, width: noTransactionsCell.frame.width, height: noTransactionsCell.frame.height)
+        let label = UILabel(frame: rect)
+        label.text = Constants.NO_TRANSACTIONS
+        label.textAlignment = .center
+        label.font = UIFont.systemFont(ofSize: 20)
+        label.textColor = UIColor.flatBlack
+        label.frame.size.width = label.intrinsicContentSize.width
+        label.frame.size.height = label.intrinsicContentSize.height
+        label.frame.origin.x = noTransactionsCell.frame.width - label.frame.size.width
+        label.frame.origin.y = noTransactionsCell.frame.origin.y / 2
+        
+        noTransactionsCell.addSubview(label)
+        
+        return noTransactionsCell
     }
     
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {

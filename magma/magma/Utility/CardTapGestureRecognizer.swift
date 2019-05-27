@@ -10,4 +10,5 @@ import UIKit
 
 class CardTapGestureRecognizer: UITapGestureRecognizer {
     public var card: Card?
+    public var function: String?
 }

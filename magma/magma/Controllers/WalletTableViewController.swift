@@ -89,15 +89,6 @@ class WalletTableViewController: UITableViewController {
         let viewController = storyBoard.instantiateViewController(withIdentifier: "cardTxns") as! CardTxnsTableViewController
         if (card != nil) {
             viewController.setCard(card!)
-            
-            // using the same method as done before to get all transaction
-            TransactionAPI.shared().getTransactionsByCard { (resultCode, transactions, message)  in
-                if (resultCode == Constants.SUCCESS) {
-                    viewController.setTransaction(transactions)
-                } else {
-                    print(message)
-                }
-            }
         }
         self.present(viewController, animated: true, completion: nil)
     }

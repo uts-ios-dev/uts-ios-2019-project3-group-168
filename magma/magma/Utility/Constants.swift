@@ -20,4 +20,9 @@ final class Constants {
     // MARK: - UI Strings
     static let APPLICATION_TITLE = "magma"
     static let CARD_HOLDER_NAME_TITLE = "Card Holder Name"
+    static let NO_TRANSACTIONS = "No transactions to show"
+    
+    // MARK: - Function keys
+    static let FUNCTION_BACK = "back"
+    static let FUNCTION_PAY = "pay"
 }
