@@ -63,8 +63,13 @@ class Card {
     public func getNumber() -> String {
         return maskNumber()
     }
+    
+    public func getUnMaskedNumber() -> String {
+        return number
+    }
+    
     public func getCvc() -> String {
-        return ""
+        return cvc
     }
     
     public func getStatus() -> Bool {

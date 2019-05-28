@@ -9,7 +9,7 @@
 import UIKit
 
 class TxnViewController: UIViewController {
-
+    // Just a wrapper class, used for instantiating dynamically from code
     // MARK: - Setup
     override func viewDidLoad() {
         super.viewDidLoad()

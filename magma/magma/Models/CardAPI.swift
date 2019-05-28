@@ -59,14 +59,6 @@ class CardAPI {
                     callback(Constants.SUCCESS, "")
                 }
             }
-            
-            // Dev Stub
-            /* Add some cards for testing without server
-            for _ in 0...Util.getRandomIntInclusive(start: 1, end: 8) {
-                self.cardManager.newCard(Card())
-            }
-            
-            callback(Constants.SUCCESS, "")*/
         }
     }
     

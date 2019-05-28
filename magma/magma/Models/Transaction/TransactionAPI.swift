@@ -48,27 +48,10 @@ class TransactionAPI {
                         transactionsArray.append(transaction)
                     }
                     
-                    // Stubbed out for testing without server
                     callback(Constants.SUCCESS, transactionsArray, "")
                 }
             }
         }
-        
-        /*var transactionArray: [Transaction] = []
-        
-        for _ in 0...Util.getRandomIntInclusive(start: 1, end: 25) {
-            let card: Card = Card()
-            
-            let amount = round(Util.getRandomDouble(start: 1, end: 1000) * 10) / 10
-            let currency = "AUD"
-            let location = "Syndey, Ultimo"
-            let date = "2nd June 2019"
-            let receiver = "KFC Ultimo"
-            let transaction = Transaction(card: card, amount: amount, currency: currency, location: location, date: date, receiver: receiver)
-            transactionArray.append(transaction)
-        }
-        
-        callback(Constants.SUCCESS, transactionArray, "")*/
     }
     
     // Get transactions for an individual card
@@ -93,28 +76,11 @@ class TransactionAPI {
                             transactionsArray.append(transaction)
                         }
                     }
-                    
-                    // Stubbed out for testing without server
+                
                     callback(Constants.SUCCESS, transactionsArray, "")
                 }
             }
         }
-        
-        /*var transactionArray: [Transaction] = []
-        
-        for _ in 0...Util.getRandomIntInclusive(start: 1, end: 25) {
-            let card: Card = Card()
-            
-            let amount = round(Util.getRandomDouble(start: 1, end: 1000) * 10) / 10
-            let currency = "AUD"
-            let location = "Syndey, Ultimo"
-            let date = "2nd June 2019"
-            let receiver = "KFC Ultimo"
-            let transaction = Transaction(card: card, amount: amount, currency: currency, location: location, date: date, receiver: receiver)
-            transactionArray.append(transaction)
-        }
-        
-        callback(Constants.SUCCESS, transactionArray, "")*/
     }
     
     private func transactionFromJSON(_ data: JSON) -> Transaction {

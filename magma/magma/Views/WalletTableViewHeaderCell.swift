@@ -13,7 +13,6 @@ class WalletTableViewHeaderCell: UITableViewCell {
     @IBOutlet weak var headerLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     public func setup(_ title: String) {
