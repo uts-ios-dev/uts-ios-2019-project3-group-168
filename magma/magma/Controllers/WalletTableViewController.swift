@@ -74,6 +74,20 @@ class WalletTableViewController: UITableViewController {
         return 90
     }
     
+    override func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "FooterCell") as? WalletTableViewFooterCell {
+            // Setup the footer cell to add a card
+            cell.setup()
+            setupOnClick(view: cell)
+            return cell
+        }
+        return UITableViewCell()
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 250
+    }
+    
     // MARK: - User Input
     func setupOnClick(view: UIView, cardCell: WalletTableViewCell) {
         let gesture = CardTapGestureRecognizer(target: self, action: #selector(handleOnClick(_:)))
@@ -81,15 +95,37 @@ class WalletTableViewController: UITableViewController {
         view.addGestureRecognizer(gesture)
     }
     
+    func setupOnClick(view: UIView) {
+        let gesture = CardTapGestureRecognizer(target: self, action: #selector(handleOnClick(_:)))
+        view.addGestureRecognizer(gesture)
+    }
+    
     // Handle our click event and give the user the option to pay or view card details
     @objc func handleOnClick(_ sender: CardTapGestureRecognizer) {
+        // If we clicked on a card go to that card if not create a new card
         let card = sender.card
-        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        // swiftlint:disable:next force_cast
-        let viewController = storyBoard.instantiateViewController(withIdentifier: "cardTxns") as! CardTxnsTableViewController
         if (card != nil) {
-            viewController.setCard(card!)
+            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            // swiftlint:disable:next force_cast
+            let viewController = storyBoard.instantiateViewController(withIdentifier: "cardTxns") as! CardTxnsTableViewController
+            if (card != nil) {
+                viewController.setCard(card!)
+            }
+            self.present(viewController, animated: true, completion: nil)
+        } else {
+            // Add a new card
+            CardAPI.shared().newCard { (resultCode, message) in
+                switch resultCode {
+                case Constants.SUCCESS:
+                    print("Successuflly added card")
+                    self.tableView.reloadData()
+                case Constants.FAILURE:
+                    print(message)
+                default:
+                    print("Code: \(resultCode) \(message)")
+                }
+            }
         }
-        self.present(viewController, animated: true, completion: nil)
+        
     }
 }

@@ -24,6 +24,7 @@
 		D0486B0F2294CEA7009F6401 /* TransactionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0486B0E2294CEA7009F6401 /* TransactionAPI.swift */; };
 		D0486B112294D0E0009F6401 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0486B102294D0E0009F6401 /* Transaction.swift */; };
 		D0785D5822976BC200DE27F1 /* CardTxnsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0785D5722976BC200DE27F1 /* CardTxnsTableViewController.swift */; };
+		D08905D422A6AA810083F860 /* WalletTableViewFooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08905D322A6AA810083F860 /* WalletTableViewFooterCell.swift */; };
 		D0944CBF228D9E800065CAF2 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CBE228D9E800065CAF2 /* CustomTabBarController.swift */; };
 		D0944CC1228DAC840065CAF2 /* WalletTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CC0228DAC840065CAF2 /* WalletTableViewController.swift */; };
 		D0944CC5228DB24E0065CAF2 /* WalletTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0944CC4228DB24E0065CAF2 /* WalletTableViewCell.swift */; };
@@ -62,6 +63,7 @@
 		D0486B0E2294CEA7009F6401 /* TransactionAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionAPI.swift; sourceTree = "<group>"; };
 		D0486B102294D0E0009F6401 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		D0785D5722976BC200DE27F1 /* CardTxnsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTxnsTableViewController.swift; sourceTree = "<group>"; };
+		D08905D322A6AA810083F860 /* WalletTableViewFooterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTableViewFooterCell.swift; sourceTree = "<group>"; };
 		D0944CBE228D9E800065CAF2 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		D0944CC0228DAC840065CAF2 /* WalletTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTableViewController.swift; sourceTree = "<group>"; };
 		D0944CC4228DB24E0065CAF2 /* WalletTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTableViewCell.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 				D0944CC4228DB24E0065CAF2 /* WalletTableViewCell.swift */,
 				D011A0E12292E8BA008F244C /* WalletTableViewHeaderCell.swift */,
 				D0486B092294BE3A009F6401 /* TxnTableViewCell.swift */,
+				D08905D322A6AA810083F860 /* WalletTableViewFooterCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 				D0944CC5228DB24E0065CAF2 /* WalletTableViewCell.swift in Sources */,
 				D0F0AC11228FAA4A00B5C77A /* CardStyle.swift in Sources */,
 				D0944CCD228E3C400065CAF2 /* Constants.swift in Sources */,
+				D08905D422A6AA810083F860 /* WalletTableViewFooterCell.swift in Sources */,
 				D002834A228B958700997C41 /* TxnViewController.swift in Sources */,
 				D0F0AC13228FAAA700B5C77A /* UIColor.swift in Sources */,
 				D0407CAA228F025C007DE3D5 /* CardAPI.swift in Sources */,

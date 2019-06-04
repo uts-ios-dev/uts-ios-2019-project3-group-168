@@ -23,6 +23,7 @@ final class Constants {
     static let CARD_EXPIRY_TITLE = "Expiry"
     static let CVC_TITLE = "CVC"
     static let NO_TRANSACTIONS = "No transactions to show"
+    static let NEW_CARD = "New Card"
     
     // MARK: - Function keys
     static let FUNCTION_BACK = "back"
