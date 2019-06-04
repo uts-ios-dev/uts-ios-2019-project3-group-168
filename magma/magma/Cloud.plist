@@ -52,7 +52,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>SERVER_ADDRESS</key>
-	<string>http://google.com</string>
+	<string>http://35.244.125.101:3000</string>
 	<key>NSFaceIDUsageDescription</key>
 	<string>Face ID for card authentication</string>
 	<key>NSAppTransportSecurity</key>

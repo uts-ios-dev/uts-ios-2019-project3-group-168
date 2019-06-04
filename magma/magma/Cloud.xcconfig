@@ -10,4 +10,4 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 // Server configuration
-SERVER_ADDRESS = http://google.com/
+SERVER_ADDRESS = http://35.244.125.101:3000
