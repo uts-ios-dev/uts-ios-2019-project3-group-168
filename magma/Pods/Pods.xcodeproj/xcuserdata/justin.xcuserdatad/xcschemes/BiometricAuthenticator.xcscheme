@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "14F081005B65060419BECF8ABD5E581D"
-               BuildableName = "SwiftyJSON.framework"
-               BlueprintName = "SwiftyJSON"
+               BlueprintIdentifier = "B97C4F741B2F1C801BEABE7266B2891A"
+               BuildableName = "BiometricAuthenticator.framework"
+               BlueprintName = "BiometricAuthenticator"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "14F081005B65060419BECF8ABD5E581D"
-            BuildableName = "SwiftyJSON.framework"
-            BlueprintName = "SwiftyJSON"
+            BlueprintIdentifier = "B97C4F741B2F1C801BEABE7266B2891A"
+            BuildableName = "BiometricAuthenticator.framework"
+            BlueprintName = "BiometricAuthenticator"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -11,4 +11,5 @@ target 'magma' do
   pod 'SwiftLint'
   pod 'Alamofire'	
   pod 'SwiftyJSON', '~> 3.0'
+  pod 'BiometricAuthenticator', '~> 1.3.0'
 end

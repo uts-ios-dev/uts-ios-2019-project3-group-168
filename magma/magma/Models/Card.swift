@@ -14,6 +14,7 @@ class Card {
     private var cvc: String
     private var status: Bool
     private var style: CardStyle
+    private var expiry: String
     
     // MARK: - Constructors
     init () {
@@ -24,15 +25,17 @@ class Card {
         self.cvc = String(Util.getRandomIntInclusive(start: 0, end: 999))
         self.status = true
         self.style = CardStyle()
+        self.expiry = "10/19"
     }
     
-    init (id: Int, name: String, number: String, cvc: String, status: Bool) {
+    init (id: Int, name: String, number: String, cvc: String, status: Bool, expiry: String) {
         self.id = id
         self.name = name
         self.number = number
         self.cvc = cvc
         self.status = status
         self.style = CardStyle()
+        self.expiry = expiry
     }
     
     // MARK: - Class Methods
@@ -65,7 +68,17 @@ class Card {
     }
     
     public func getUnMaskedNumber() -> String {
-        return number
+        var numberUnmasked = ""
+        for (i, char) in number.enumerated() {
+            // Add a space for formatting
+            if (i % 4 == 0) {
+                numberUnmasked += " "
+            }
+            
+            numberUnmasked += String(char)
+        }
+        
+        return numberUnmasked
     }
     
     public func getCvc() -> String {
@@ -78,5 +91,9 @@ class Card {
     
     public func getStyle() -> CardStyle {
         return style
+    }
+    
+    public func getExpiry() -> String {
+        return expiry
     }
 }

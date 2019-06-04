@@ -53,6 +53,8 @@
 	</array>
 	<key>SERVER_ADDRESS</key>
 	<string>http://google.com</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Face ID for card authentication</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>

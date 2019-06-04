@@ -7,196 +7,225 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03F7AC5EDC2C9EB5A2D0F732DE91E66C /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB53ACDF5AAA2E7ED05A983E25BFBC95 /* Notifications.swift */; };
-		142CF7F8928A6D7F7C55A229CC190CE7 /* Pods-magma-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D92A40D5E5D63D7F7F905BB244C8FDC3 /* Pods-magma-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B6099252CA48E4059451BF470BEC50C /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF1506A9CDD2924A81695BF01774A92 /* SwiftyJSON-dummy.m */; };
-		22EEFD7730376EDA8CD375797264C90A /* SwipeTransitioningProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1906B832625A48CBD3564F7BF7C3A52 /* SwipeTransitioningProtocol.swift */; };
-		24CAAC74BADCDE6252F4E408AAB412D0 /* SwipeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D08B4DFCCDAF278BFC40DC29AFD53C /* SwipeInteractor.swift */; };
-		252B58C43EA7EFF44462C0E11CF5EACF /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D31757E2707E846DC4C81FE3843F0 /* IQKeyboardManagerSwift-dummy.m */; };
-		2810094818F0446DC72B81E67E91CF49 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB82A9FE94D6B6EFA54692147531E5D /* IQUIView+Hierarchy.swift */; };
-		284A2BB2975699D2E4CF183D169E64F4 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704AB258069AE5F4C6C47FF0ECB8DB3B /* IQKeyboardManagerConstantsInternal.swift */; };
-		299399DB2E6492380F961C1704BD7886 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C0DBCC1FA0B954198B4A7DB02A2781 /* ServerTrustPolicy.swift */; };
-		2D52BCC7DE4967AB11EF319F5C485FCE /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5600D1FE873CA9DB13E34E5C7AE723 /* Result.swift */; };
-		2FB02EB0D87E766F91B6A406B2330A3A /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC7FAAF594664934D16B534046AEB3C /* IQToolbar.swift */; };
-		2FC2D8B1DACE11C689DCA142C5DEC552 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5935326326107F3F6101A8B9570182E4 /* Validation.swift */; };
-		31FC22FD3BFC9576F615114B71A36B4A /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF5FEAF74CE5336DDAD4D651E538FBF /* AFError.swift */; };
-		351C1634CF87FAF831FF121CDEB9BDEB /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10188AAC8246EB69E2746056FD29E122 /* IQTitleBarButtonItem.swift */; };
-		368EAB756D59A0E51FC2B6ED3DFBD1F9 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57957098467945C34D3C9D55C1E2817B /* IQBarButtonItem.swift */; };
-		3AB8155BC809AD4602428A4F30094ADF /* SwipeableTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 481B9A99F09CAEE6DCAD7864B4F0B1CC /* SwipeableTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47457119C55974ABEFAFD3C49244F4F3 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5B5F9CDCFFA1E1BC0C09702C33D0F6 /* Alamofire.swift */; };
-		4A5D39BE4FE1830BFB188101C56CFEF1 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8E50C2CB25A7DF90B8350F086490A0 /* Response.swift */; };
-		4BA8A94606B0C08F1BCB9322D0344D46 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E227786129A42E744FC8B91BABF451E3 /* IQKeyboardManagerConstants.swift */; };
-		4C69040770ED34A4B732AA97FC3EFE41 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234E62B25DA998DF1386D7E1C34A63EE /* Timeline.swift */; };
-		4CE645CC3DAD6F291E182B974FD2371A /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A613B144CD06E67E9C269746AB1EED6 /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E726CF1D4E4B61E096B2DCDDA60D191 /* SwipeTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6605BA99E184A649E09545B37B885790 /* SwipeTransitionAnimator.swift */; };
-		4EF1D9E2B227D6C102F0D226EA6F3112 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		03F7AC5EDC2C9EB5A2D0F732DE91E66C /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E86178966A0FEAD8011333854338D8 /* Notifications.swift */; };
+		0D007F0755992EA7471FFFB533912E7F /* BiometricAuthenticator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CFBA7B59DEDF8BD6A4E56E416F3374D /* BiometricAuthenticator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2469A996593A8C8D1F9675F945CA887D /* SwipeTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA88FA86A7BD8FE895A9E14E2F76828 /* SwipeTransitionAnimator.swift */; };
+		252B58C43EA7EFF44462C0E11CF5EACF /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6542C02766021068AF6C0B48DF064408 /* IQKeyboardManagerSwift-dummy.m */; };
+		2810094818F0446DC72B81E67E91CF49 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815599A6D3DDAF537E336F0FDD9FAF38 /* IQUIView+Hierarchy.swift */; };
+		284A2BB2975699D2E4CF183D169E64F4 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A5613C1AF7222AD171CC83F7D3B633 /* IQKeyboardManagerConstantsInternal.swift */; };
+		299399DB2E6492380F961C1704BD7886 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DEC7BCB1A429C414BFAFF9A1FE6B57 /* ServerTrustPolicy.swift */; };
+		2BC41513D082F8D099D803C88F9CDA30 /* SwipeableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAFCF2C76DA16E8726A99E7339DE661 /* SwipeableTabBarController.swift */; };
+		2D52BCC7DE4967AB11EF319F5C485FCE /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AECE8CC1684FC96E15278CCCA41167 /* Result.swift */; };
+		2FB02EB0D87E766F91B6A406B2330A3A /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EDF84AAB966D0A1BA63ADED6996063 /* IQToolbar.swift */; };
+		2FC2D8B1DACE11C689DCA142C5DEC552 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEEB0188A6221085975CC2E183C32A8 /* Validation.swift */; };
+		31FC22FD3BFC9576F615114B71A36B4A /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3806C2AF8FF4E9AD198D9613005ADAE1 /* AFError.swift */; };
+		351C1634CF87FAF831FF121CDEB9BDEB /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA807149F57769B54EB74EAB0E5E52CA /* IQTitleBarButtonItem.swift */; };
+		368EAB756D59A0E51FC2B6ED3DFBD1F9 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37769647867F126BAAF7883FD9D63117 /* IQBarButtonItem.swift */; };
+		47457119C55974ABEFAFD3C49244F4F3 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FAB22A805745CBC7054A81C056BA48 /* Alamofire.swift */; };
+		4A5D39BE4FE1830BFB188101C56CFEF1 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EB7D4FDAC78769B672BC2BF832130F /* Response.swift */; };
+		4BA8A94606B0C08F1BCB9322D0344D46 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C2A549DB39DDDB5D384F61FA467F /* IQKeyboardManagerConstants.swift */; };
+		4C69040770ED34A4B732AA97FC3EFE41 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C615CF24EC1B61E0B2A48B3436C484 /* Timeline.swift */; };
+		4CDA17E4473A91ECB47E6331942DE71B /* SwipeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6793CD0FD1A3C13D9BBD12E0B17683B /* SwipeInteractor.swift */; };
+		4CE645CC3DAD6F291E182B974FD2371A /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BADC178BF39FF13523D5DEA2C23ECDF /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5222468E077A0E244A9CE5126A821013 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
-		569BC341BD472C8BB97E88B2C67405B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
-		5A7FE520F6A0876F91DEA8894A9D2A8D /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C4B561CD622AF5DB05E6E3EA8DBE4A /* IQUITextFieldView+Additions.swift */; };
-		5DAF784FA833544782D38929210AA4CA /* Pods-magma-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A75C8D0D04D6FC315B85E38B30F5523B /* Pods-magma-dummy.m */; };
-		623F13DB7FD03626D3E39A12D8350E43 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F74C4609CABC0338E0263E6C0079E1 /* SessionManager.swift */; };
-		666A4FCF9A0BF529BE9A1263827DAE7A /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DB06B9A8FDAEBE15D1E7E2603292C /* IQTextView.swift */; };
-		68B01DC65131D018FEB16BBA4CD9A21F /* SwipeableTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5842144AC970EE27710AF5D60457587 /* SwipeableTabBarController-dummy.m */; };
-		6D42849F81227A37B6042D797D44F430 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1FF4EF50E09D0AEC9DE97AC2EB4AE6E5 /* IQKeyboardManager.bundle */; };
-		6FCAF2CD7F2B66F608691F6046F28F49 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8942657EDF6B0CAA48A656AB8E84D2D /* IQKeyboardManager.swift */; };
-		75AD8227773DB02511FE1FECF8F0D1F1 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F365CF1D07973285CF2D2A4F5D2F21 /* SessionDelegate.swift */; };
+		584B3094E75084A595087680A397FE0F /* SwipeTransitioningProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B686B9B73410E92F83063831C4C7D5 /* SwipeTransitioningProtocol.swift */; };
+		5A7FE520F6A0876F91DEA8894A9D2A8D /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC94082F5B71EDCD6C53FCABCFF5479 /* IQUITextFieldView+Additions.swift */; };
+		623F13DB7FD03626D3E39A12D8350E43 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62E86F385241FB28CC043F0EC6BE37A /* SessionManager.swift */; };
+		666A4FCF9A0BF529BE9A1263827DAE7A /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AA7DB85710C47621CB39CE14679DB6 /* IQTextView.swift */; };
+		6D42849F81227A37B6042D797D44F430 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE99243F239AB64157B4DB792B21B8F6 /* IQKeyboardManager.bundle */; };
+		6D69AA953CAC587B423889E8F898F65C /* SwipeableTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C325B1E6636EE533AECAA75F947DA1 /* SwipeableTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FCAF2CD7F2B66F608691F6046F28F49 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29718C329564B521BF8CED85B0696EE /* IQKeyboardManager.swift */; };
+		70368B5881573288494582AF241B51BF /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE7645C8E5F61518D843810B82B354A /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7341ED70765FF941BAFD74A7F6460676 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266D4D26FDAD84AC1805B2ABFD5AA79 /* UIDeviceExtension.swift */; };
+		75AD8227773DB02511FE1FECF8F0D1F1 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6F98333976CFD58982791B5E8D16A /* SessionDelegate.swift */; };
+		7627977C689AC67D051650F9E677FD8C /* Pods-magma-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D92A40D5E5D63D7F7F905BB244C8FDC3 /* Pods-magma-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7688EB505BD8D5F308262C50445BC1EB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C5248F3F8F5DD6FF2489BCA891824D /* QuartzCore.framework */; };
-		7806628CE023006FFE3BE296EFD6C8D9 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EBB3047877E834C6876F5E3F396E58 /* DispatchQueue+Alamofire.swift */; };
+		77D16B0F9A4E132DA7467DA045F526CF /* SwipeableTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE805D8352DC17468CF2AD7777659F46 /* SwipeableTabBarController-dummy.m */; };
+		7806628CE023006FFE3BE296EFD6C8D9 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0964F2D7540C198AD32E3DF7C6EBA49 /* DispatchQueue+Alamofire.swift */; };
 		793DA0472E554A08DC5BFDFBC642CCEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
-		7D984845493B1CE3A83C7E79A03FBDB0 /* UIKit+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B3A5FF4134AC579FB2BFC1CE375CD /* UIKit+Extensions.swift */; };
-		8093121900AFB5230CFD93E8EBFE9CF6 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B1AADFF43F76161F291276E4A61FA /* Request.swift */; };
-		88E57E93A722131F433475B9172E5290 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC76F7762300F7B410DAEAE75C7E086 /* IQKeyboardReturnKeyHandler.swift */; };
-		8FE98B7370220B3D38A47D8FA9C396C9 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E31AE985EC420C321F4A333A12D575F0 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91468A0A33B152A6E460E563D58E5546 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705F046A9242F41F8D387494B5773EC6 /* IQPreviousNextView.swift */; };
-		A362E7A95D264E68A6C30BBC529A24E5 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC62B00FB966E41BFC448A6CB0E04D /* TaskDelegate.swift */; };
-		A459AA29CFCF2C8BF2BFF2690B71F456 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E610FF862246D530FC2BC40A0D01CB6 /* IQUIView+IQKeyboardToolbar.swift */; };
-		A4E13C2ABCEC5D593C7D51D29E11F34E /* SwipeableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D20DA727400E66FE77949984F67249 /* SwipeableTabBarController.swift */; };
-		AB2A35B2E9EF831EF07689C2BFE5F8F0 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8B5B8F4DA7BA6BAF8D193E071B462 /* IQUIViewController+Additions.swift */; };
+		8093121900AFB5230CFD93E8EBFE9CF6 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15084A972D9F50AE61226BF4E126F122 /* Request.swift */; };
+		848F2FA0E27907A21952B1CC636A58AA /* Pods-magma-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A75C8D0D04D6FC315B85E38B30F5523B /* Pods-magma-dummy.m */; };
+		88D773A36F14F976DB12F80F5A5F1E02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		88E57E93A722131F433475B9172E5290 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323F6D5EDDAAC2A618063D7244F23247 /* IQKeyboardReturnKeyHandler.swift */; };
+		8B61C71BF310B4E1A80A05F5E73D7ECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		8FE98B7370220B3D38A47D8FA9C396C9 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CB58983DEB4FD769D9718B1641FDED /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91468A0A33B152A6E460E563D58E5546 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B8D11E43B64B425E3307B5AC0A8185 /* IQPreviousNextView.swift */; };
+		A362E7A95D264E68A6C30BBC529A24E5 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6428F636BD0D417CE2DA80BDEDDA4A5A /* TaskDelegate.swift */; };
+		A459AA29CFCF2C8BF2BFF2690B71F456 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C7A0275B8DB9B1880534ED57799BC /* IQUIView+IQKeyboardToolbar.swift */; };
+		A6789D4CD05D127AF01BEA84014B02FD /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CFFF1F5C5BF0CC8323B15D96303E1F /* SwiftyJSON-dummy.m */; };
+		AB2A35B2E9EF831EF07689C2BFE5F8F0 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B444F110329CD62CFEBD2AD8BC4AB63 /* IQUIViewController+Additions.swift */; };
 		B21653D2AE4FBD0CAAB02B5C689CA3BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D5053F2A5215D7472A947EDE5B61B6 /* CoreGraphics.framework */; };
-		BD57C5076A4ECF0D6C1AFDC109C6C2BB /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4694D968730AA28ACC55AD5881FBDA7A /* ParameterEncoding.swift */; };
-		C956FD0AC9A0F02B8B4585166BD20775 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E876BAB4179EFE71F297BF492BFB7289 /* Alamofire-dummy.m */; };
-		C9B0719CA853C3DAA16E1AD8443EBF41 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B6BE85BAB7764D5810157430E1B648 /* IQUIScrollView+Additions.swift */; };
-		D252A8FA26A881AFDFB653857FBF6CB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
-		D577C94686C85781CF73637610C7AA0F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C1C54E3F0B508A6EDF65347C7446C /* SwiftyJSON.swift */; };
-		E00B29202F3815CE28F091C2E940D253 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8AE2C452965F08BDD268A8E330B682 /* IQNSArray+Sort.swift */; };
-		E25D885B839F3264046D535DDD0436FD /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF4F59C4BC0068FE0F80D8E2FB8BD51 /* MultipartFormData.swift */; };
-		E2BDAF118E18F7FDAF737BA2BEED11E0 /* SwipeAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCB76AFDE6695AC00ADE4B69608C92E /* SwipeAnimationType.swift */; };
-		E5FB46F832DB646E0B9E78A7D930D3CE /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB94754B23BED8F3E46F37435D92B33 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD57C5076A4ECF0D6C1AFDC109C6C2BB /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB55262E44A1B355BF5D3B5620FAF8 /* ParameterEncoding.swift */; };
+		C436A7AD4AC87C81DEE4C0C834127E31 /* BiometricAuthenticator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3545F8A72315849DA84CBBC028D23C6 /* BiometricAuthenticator-dummy.m */; };
+		C956FD0AC9A0F02B8B4585166BD20775 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DBB5743C089FC319BDD557A61C6A8D /* Alamofire-dummy.m */; };
+		C972E41EAF63A5423F6C6FD7E81663A4 /* BiometricAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE239C39550E0060620E119EC3F98320 /* BiometricAuthenticator.swift */; };
+		C9B0719CA853C3DAA16E1AD8443EBF41 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B005EF3DEBD1C8AA7A3E985DA7617771 /* IQUIScrollView+Additions.swift */; };
+		D33447A96AC346C63E859703C7AC5FC4 /* SwipeAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69754BE7DA2169A90F80D1A9102A238 /* SwipeAnimationType.swift */; };
+		E00B29202F3815CE28F091C2E940D253 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62635BD438E0E40C85E300906F4EAD6F /* IQNSArray+Sort.swift */; };
+		E25D885B839F3264046D535DDD0436FD /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A461BD656207304874844BDC3E71AE /* MultipartFormData.swift */; };
 		E918340DA6CFC47F90C9B19AA3327514 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B864BFE95FAE118C4C3A52725C9B261 /* UIKit.framework */; };
-		EF006DB0868F8AD4944F81FDB309AF21 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A7590225CAE34BF168BEF01EA82DCA /* NetworkReachabilityManager.swift */; };
-		F46F763FE9B59818691BB46DB722424F /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564186E381ED48E8DA56B80A44351FAF /* IQInvocation.swift */; };
-		FA2D1B448A6505F96A2453C375E1390C /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3A82A27F5CC3AC0E50E608271EAD0D /* ResponseSerialization.swift */; };
+		EAD73046B237518936410B94FC2A9747 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		EC2951560DB7E309295EE2564470F0DD /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69581576ADF53A40D94E13AE4838CBB /* SwiftyJSON.swift */; };
+		EF006DB0868F8AD4944F81FDB309AF21 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D7DAE29CD270EFAB086A9E2F1030C /* NetworkReachabilityManager.swift */; };
+		F2BB5E1D21E802536C21F0D1917693C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		F4682E5CB35AC6181488EBAC0B389C22 /* UIKit+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE5452CC4D5EC1308571D907A7FA2CA /* UIKit+Extensions.swift */; };
+		F46F763FE9B59818691BB46DB722424F /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A548D59517F6CA0F32A3C2978DEE2162 /* IQInvocation.swift */; };
+		FA2D1B448A6505F96A2453C375E1390C /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CFEEE588B9975A19433287CE0022A0 /* ResponseSerialization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		326753D3186D06722D705070017FF054 /* PBXContainerItemProxy */ = {
+		12295A420657CF63F004E65A17DA30DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 795AEC9D55D11AD7C0AA9E2837F05310;
 			remoteInfo = Alamofire;
 		};
-		3806564C0592B0959F13C6137E1BD0B6 /* PBXContainerItemProxy */ = {
+		16B8D968A76F9AD71D5410FCB7D82EA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 53B763C730BF9A32FC857C66F59F6D66;
+			remoteGlobalIDString = B97C4F741B2F1C801BEABE7266B2891A;
+			remoteInfo = BiometricAuthenticator;
+		};
+		1C18864208D1522532AFEBD2F001B450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14F081005B65060419BECF8ABD5E581D;
 			remoteInfo = SwiftyJSON;
 		};
-		8C4E767DF4929B8367CF2F78DEEC9696 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DBF57C08CF5FE2F3CEDF4A4136C3952D;
-			remoteInfo = SwipeableTabBarController;
-		};
-		F532847DD4DC475E5771518EDBA82909 /* PBXContainerItemProxy */ = {
+		52E8E65A63C6EC1AB762CFE4E91E1B20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 22DFBA4C929C72092AF6BEF57ACE3305;
 			remoteInfo = IQKeyboardManagerSwift;
 		};
+		EB2AAF123AF84F717AC942BEBBF2D35E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C881C79D8E228BC57E37BC1BC94B70F;
+			remoteInfo = SwipeableTabBarController;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		076E05E84F770EC3628BB803E2E8E97D /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
-		07B6BE85BAB7764D5810157430E1B648 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
-		10188AAC8246EB69E2746056FD29E122 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
-		112DB06B9A8FDAEBE15D1E7E2603292C /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
+		00DBB5743C089FC319BDD557A61C6A8D /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		0687787CF52A225441CEC40B3B6E7B10 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B444F110329CD62CFEBD2AD8BC4AB63 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		10C615CF24EC1B61E0B2A48B3436C484 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		14BD4293AECC9C0626961B7158D0B442 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CFFF1F5C5BF0CC8323B15D96303E1F /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		15084A972D9F50AE61226BF4E126F122 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		17D5053F2A5215D7472A947EDE5B61B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		18BABB3D1E954B745DB968A978B405ED /* Pods-magma-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-magma-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1AB94754B23BED8F3E46F37435D92B33 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		1AF54FC76015D06FFC1102172DAB6108 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B387284CA2913D83DA1D69A61206055 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B864BFE95FAE118C4C3A52725C9B261 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		1C3A82A27F5CC3AC0E50E608271EAD0D /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		1FF4EF50E09D0AEC9DE97AC2EB4AE6E5 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
-		234E62B25DA998DF1386D7E1C34A63EE /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		206A77D90DD25D0BCA20389B8BFE40AD /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2B8FD28E5211E0AD483C68D78F2B8EDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CCC62B00FB966E41BFC448A6CB0E04D /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		2F4AE16F784E90483B83AC2573AEE840 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F5B3A5FF4134AC579FB2BFC1CE375CD /* UIKit+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Extensions.swift"; path = "SwipeableTabBarController/Classes/UIKit+Extensions.swift"; sourceTree = "<group>"; };
+		2BADC178BF39FF13523D5DEA2C23ECDF /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
+		2CFBA7B59DEDF8BD6A4E56E416F3374D /* BiometricAuthenticator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BiometricAuthenticator-umbrella.h"; sourceTree = "<group>"; };
 		30C5248F3F8F5DD6FF2489BCA891824D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		361023B819856FB9AF1D9EF6A3C89EDE /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		3EF5FEAF74CE5336DDAD4D651E538FBF /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		3F0B1AADFF43F76161F291276E4A61FA /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		41D8B5B8F4DA7BA6BAF8D193E071B462 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
-		4694D968730AA28ACC55AD5881FBDA7A /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		481B9A99F09CAEE6DCAD7864B4F0B1CC /* SwipeableTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeableTabBarController-umbrella.h"; sourceTree = "<group>"; };
-		48E184D7846C813A3A630867B6D5237E /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		323F6D5EDDAAC2A618063D7244F23247 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		33CB58983DEB4FD769D9718B1641FDED /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		34B8D11E43B64B425E3307B5AC0A8185 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
+		3574A5B9DD875A6B78B8D80A1691D658 /* BiometricAuthenticator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BiometricAuthenticator-prefix.pch"; sourceTree = "<group>"; };
+		35DEC7BCB1A429C414BFAFF9A1FE6B57 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		37769647867F126BAAF7883FD9D63117 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
+		3806C2AF8FF4E9AD198D9613005ADAE1 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		43A461BD656207304874844BDC3E71AE /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4AC240AEE5EB29F02733817470188782 /* Pods-magma.debug (local).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-magma.debug (local).xcconfig"; sourceTree = "<group>"; };
-		4C3D31757E2707E846DC4C81FE3843F0 /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
-		4DC76F7762300F7B410DAEAE75C7E086 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		4D7C7A0275B8DB9B1880534ED57799BC /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		4DC6F98333976CFD58982791B5E8D16A /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		4F9A887E15203D423D2BE1B934D679A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FEA48071FA84FA4D69C9B8592FAE04D /* Pods-magma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-magma.release.xcconfig"; sourceTree = "<group>"; };
-		538300234D6AC4E1986E4C832820D517 /* Pods_magma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_magma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		564186E381ED48E8DA56B80A44351FAF /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
-		57957098467945C34D3C9D55C1E2817B /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
-		5900BDA5BFAA04CE5860CA7A2A9ABA49 /* IQKeyboardManagerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.xcconfig; sourceTree = "<group>"; };
-		5935326326107F3F6101A8B9570182E4 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		5DCB76AFDE6695AC00ADE4B69608C92E /* SwipeAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAnimationType.swift; path = SwipeableTabBarController/Classes/SwipeAnimationType.swift; sourceTree = "<group>"; };
-		5EF1506A9CDD2924A81695BF01774A92 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		5FC7FAAF594664934D16B534046AEB3C /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
-		6605BA99E184A649E09545B37B885790 /* SwipeTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitionAnimator.swift; path = SwipeableTabBarController/Classes/SwipeTransitionAnimator.swift; sourceTree = "<group>"; };
-		67D08B4DFCCDAF278BFC40DC29AFD53C /* SwipeInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeInteractor.swift; path = SwipeableTabBarController/Classes/SwipeInteractor.swift; sourceTree = "<group>"; };
-		6A4E9F7447E4113C169AA30519C238A0 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		6DB82A9FE94D6B6EFA54692147531E5D /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
-		70053DB7A36F9117FE1C086164EC49E3 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		704AB258069AE5F4C6C47FF0ECB8DB3B /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
-		705F046A9242F41F8D387494B5773EC6 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
-		71C4B561CD622AF5DB05E6E3EA8DBE4A /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
-		726B144946536F0DE20092084A07E174 /* SwipeableTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeableTabBarController-prefix.pch"; sourceTree = "<group>"; };
-		77F365CF1D07973285CF2D2A4F5D2F21 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		7A5600D1FE873CA9DB13E34E5C7AE723 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		7A613B144CD06E67E9C269746AB1EED6 /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
-		7C7C1916C3AE2DBC3F6CF46923855BDD /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		8471713708749DC0C2C171895245F9C4 /* SwipeableTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeableTabBarController.xcconfig; sourceTree = "<group>"; };
+		50D58ED3E1782C395F19FDDFE8F99534 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		50FAB22A805745CBC7054A81C056BA48 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		59FDB58999D5D6719EA6954DB900AED7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6041C702746AA607D34BDFDC9BE79123 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		62635BD438E0E40C85E300906F4EAD6F /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		6266D4D26FDAD84AC1805B2ABFD5AA79 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDeviceExtension.swift; path = BiometricAuthenticator/Classes/Utility/UIDeviceExtension.swift; sourceTree = "<group>"; };
+		6304898C1FAEF1D472B72F1764E5D7C6 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		6428F636BD0D417CE2DA80BDEDDA4A5A /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		64EE16FC3BB19B9931925B1C426F05AB /* SwipeableTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeableTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		6542C02766021068AF6C0B48DF064408 /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
+		67A5613C1AF7222AD171CC83F7D3B633 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		69E86178966A0FEAD8011333854338D8 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		6A2801474DAA33B783EFB54C5CDD18BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AA88FA86A7BD8FE895A9E14E2F76828 /* SwipeTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitionAnimator.swift; path = SwipeableTabBarController/Classes/SwipeTransitionAnimator.swift; sourceTree = "<group>"; };
+		6ADB55262E44A1B355BF5D3B5620FAF8 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		720D7DAE29CD270EFAB086A9E2F1030C /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		815599A6D3DDAF537E336F0FDD9FAF38 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		838F9AE18911ACB3A25DCEFD83AC7B1A /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
 		89AC791495D2EC8490D615B29D565ADD /* Pods-magma-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-magma-acknowledgements.plist"; sourceTree = "<group>"; };
-		8C5B5F9CDCFFA1E1BC0C09702C33D0F6 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		90B686B9B73410E92F83063831C4C7D5 /* SwipeTransitioningProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitioningProtocol.swift; path = SwipeableTabBarController/Classes/SwipeTransitioningProtocol.swift; sourceTree = "<group>"; };
 		91C38FBACF6235650512BF236116D452 /* Pods-magma-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-magma-frameworks.sh"; sourceTree = "<group>"; };
-		938C1C54E3F0B508A6EDF65347C7446C /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
-		9DF4F59C4BC0068FE0F80D8E2FB8BD51 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		9E610FF862246D530FC2BC40A0D01CB6 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
-		9E8E50C2CB25A7DF90B8350F086490A0 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		94A7594F7F9820F47D0721C32C496C23 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9930C2A549DB39DDDB5D384F61FA467F /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		9CE5452CC4D5EC1308571D907A7FA2CA /* UIKit+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Extensions.swift"; path = "SwipeableTabBarController/Classes/UIKit+Extensions.swift"; sourceTree = "<group>"; };
+		9D7800476A6A5C9E8549B2C367098BBA /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0964F2D7540C198AD32E3DF7C6EBA49 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		A0D0D9C740893358C777DB73B898730C /* SwipeableTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwipeableTabBarController.modulemap; sourceTree = "<group>"; };
+		A1C325B1E6636EE533AECAA75F947DA1 /* SwipeableTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeableTabBarController-umbrella.h"; sourceTree = "<group>"; };
 		A1D7190B87069094EBA712D08A31AB2E /* Pods-magma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-magma.debug.xcconfig"; sourceTree = "<group>"; };
-		A4CE4941FC9003CD4C1AB9E9A88ABBA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3E6B0B6495B65C117262E257EAC9F3C /* BiometricAuthenticator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BiometricAuthenticator.xcconfig; sourceTree = "<group>"; };
+		A548D59517F6CA0F32A3C2978DEE2162 /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
+		A58C87A82E0BF9563BF32C0445A2ED1B /* IQKeyboardManagerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.xcconfig; sourceTree = "<group>"; };
 		A75C8D0D04D6FC315B85E38B30F5523B /* Pods-magma-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-magma-dummy.m"; sourceTree = "<group>"; };
 		A8959F5F7C3B8037294C922768832DBA /* Pods-magma.release (local).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-magma.release (local).xcconfig"; sourceTree = "<group>"; };
+		A8EDF84AAB966D0A1BA63ADED6996063 /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
+		ADC94082F5B71EDCD6C53FCABCFF5479 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
 		AF5DCE1A50D3FE49ACB61AB5227E8885 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B27535A323C45E96088531C1DA69B741 /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
-		B3EBB3047877E834C6876F5E3F396E58 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		B4C0DBCC1FA0B954198B4A7DB02A2781 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		B696D079928B0C0034C6BABBEA62EF41 /* SwipeableTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwipeableTabBarController.modulemap; sourceTree = "<group>"; };
-		BB53ACDF5AAA2E7ED05A983E25BFBC95 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		C4C8845CA4CCF96ADBF134AC3130DE0B /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
-		C4F74C4609CABC0338E0263E6C0079E1 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		C5842144AC970EE27710AF5D60457587 /* SwipeableTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeableTabBarController-dummy.m"; sourceTree = "<group>"; };
+		B005EF3DEBD1C8AA7A3E985DA7617771 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		B4F41629F3A14780CCEF9601B7CC0622 /* BiometricAuthenticator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BiometricAuthenticator.modulemap; sourceTree = "<group>"; };
+		B69754BE7DA2169A90F80D1A9102A238 /* SwipeAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAnimationType.swift; path = SwipeableTabBarController/Classes/SwipeAnimationType.swift; sourceTree = "<group>"; };
+		B808031720B7E908D794EC307D2759AC /* SwipeableTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipeableTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA483A4CFBC617509DA4AEAAC2726E95 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		BA807149F57769B54EB74EAB0E5E52CA /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		C3AA7DB85710C47621CB39CE14679DB6 /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
+		C62E86F385241FB28CC043F0EC6BE37A /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		C865ABD15AB33E6C6AA8071563ED6087 /* Pods-magma.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-magma.modulemap"; sourceTree = "<group>"; };
-		C8942657EDF6B0CAA48A656AB8E84D2D /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
-		CC4FFE87CC9806A95205D867540BC3AC /* SwipeableTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipeableTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE7645C8E5F61518D843810B82B354A /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		CE239C39550E0060620E119EC3F98320 /* BiometricAuthenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BiometricAuthenticator.swift; path = BiometricAuthenticator/Classes/BiometricAuthenticator.swift; sourceTree = "<group>"; };
+		CE805D8352DC17468CF2AD7777659F46 /* SwipeableTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeableTabBarController-dummy.m"; sourceTree = "<group>"; };
+		CE99243F239AB64157B4DB792B21B8F6 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		D29718C329564B521BF8CED85B0696EE /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
+		D3545F8A72315849DA84CBBC028D23C6 /* BiometricAuthenticator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BiometricAuthenticator-dummy.m"; sourceTree = "<group>"; };
 		D41BE9C839066403473A930721EEB6A0 /* Pods-magma.release (cloud).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-magma.release (cloud).xcconfig"; sourceTree = "<group>"; };
-		D8D20DA727400E66FE77949984F67249 /* SwipeableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeableTabBarController.swift; path = SwipeableTabBarController/Classes/SwipeableTabBarController.swift; sourceTree = "<group>"; };
+		D6793CD0FD1A3C13D9BBD12E0B17683B /* SwipeInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeInteractor.swift; path = SwipeableTabBarController/Classes/SwipeInteractor.swift; sourceTree = "<group>"; };
 		D92A40D5E5D63D7F7F905BB244C8FDC3 /* Pods-magma-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-magma-umbrella.h"; sourceTree = "<group>"; };
+		DBF3888792BE2710E18DB08173C41EBF /* Pods_magma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_magma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF0079EB7A462715F1B67E0F115AC4C2 /* Pods-magma.debug (cloud).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-magma.debug (cloud).xcconfig"; sourceTree = "<group>"; };
-		E227786129A42E744FC8B91BABF451E3 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
-		E31AE985EC420C321F4A333A12D575F0 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		E876BAB4179EFE71F297BF492BFB7289 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		E93BC3E19FAA3B54C0835641053AFFE1 /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
+		E7CFEEE588B9975A19433287CE0022A0 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		E7E8BA6150DBF87D0EE3AE9D19471CEB /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		E8EB7D4FDAC78769B672BC2BF832130F /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		E9FD2707D925CF8150850596DB4F0036 /* Pods-magma-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-magma-resources.sh"; sourceTree = "<group>"; };
-		F1906B832625A48CBD3564F7BF7C3A52 /* SwipeTransitioningProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitioningProtocol.swift; path = SwipeableTabBarController/Classes/SwipeTransitioningProtocol.swift; sourceTree = "<group>"; };
-		F3598348CAD38537D4F2A8342B2FA76D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3BAC7C7E7D8482D314E060A66204A12 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		F4A7590225CAE34BF168BEF01EA82DCA /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		FC8AE2C452965F08BDD268A8E330B682 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		EEAFCF2C76DA16E8726A99E7339DE661 /* SwipeableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeableTabBarController.swift; path = SwipeableTabBarController/Classes/SwipeableTabBarController.swift; sourceTree = "<group>"; };
+		F03F7350590E565013CA59D71734C4F1 /* SwipeableTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeableTabBarController.xcconfig; sourceTree = "<group>"; };
+		F2B38AE4F55ADC3B73B2308448E8A785 /* BiometricAuthenticator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BiometricAuthenticator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F0318DB77E3864AC446756A13B848F /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
+		F69581576ADF53A40D94E13AE4838CBB /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		F8AECE8CC1684FC96E15278CCCA41167 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		FCEEB0188A6221085975CC2E183C32A8 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		16A4714E2A40FE4C1823E3280500E500 /* Frameworks */ = {
+		154F65C9D8D223D07B224963FE4B3189 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				569BC341BD472C8BB97E88B2C67405B0 /* Foundation.framework in Frameworks */,
+				F2BB5E1D21E802536C21F0D1917693C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4176838A21CCD762DDE0D471ED053AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B61C71BF310B4E1A80A05F5E73D7ECE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,11 +240,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		513DAA6AE52AC15E7A1BB6D1438EA2B1 /* Frameworks */ = {
+		7859094F9118F48D6EBC9AF8AA22CDD5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D252A8FA26A881AFDFB653857FBF6CB7 /* Foundation.framework in Frameworks */,
+				EAD73046B237518936410B94FC2A9747 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,134 +256,138 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7FFC40D0309254529D19F682F5B95CC /* Frameworks */ = {
+		B3F6B45EC89806C391ECAC865528FBAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EF1D9E2B227D6C102F0D226EA6F3112 /* Foundation.framework in Frameworks */,
+				88D773A36F14F976DB12F80F5A5F1E02 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A0744AFC32B27FFF3241C7DA3997002 /* Resources */ = {
+		10EBF6AF5370237F015FF41E19BBE2CC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1FF4EF50E09D0AEC9DE97AC2EB4AE6E5 /* IQKeyboardManager.bundle */,
+				18867CC2F8296B125F55F28BEB29C170 /* Alamofire */,
+				3ADC69135F3E4C7BD1E29535AFEFD6CC /* BiometricAuthenticator */,
+				D8339761A2A26693AEE965562359566A /* IQKeyboardManagerSwift */,
+				E572B973CA0F483E091BF3F81F805C49 /* SwiftLint */,
+				C383F92BD027CE898BEB5235E744DAF5 /* SwiftyJSON */,
+				64748665095FFCA48FAFC0593B57E3C0 /* SwipeableTabBarController */,
 			);
-			name = Resources;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		2FA7F00ABB0D8C63A3B26EFB5304D2B1 /* SwipeableTabBarController */ = {
+		18867CC2F8296B125F55F28BEB29C170 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				D8D20DA727400E66FE77949984F67249 /* SwipeableTabBarController.swift */,
-				5DCB76AFDE6695AC00ADE4B69608C92E /* SwipeAnimationType.swift */,
-				67D08B4DFCCDAF278BFC40DC29AFD53C /* SwipeInteractor.swift */,
-				6605BA99E184A649E09545B37B885790 /* SwipeTransitionAnimator.swift */,
-				F1906B832625A48CBD3564F7BF7C3A52 /* SwipeTransitioningProtocol.swift */,
-				2F5B3A5FF4134AC579FB2BFC1CE375CD /* UIKit+Extensions.swift */,
-				714478F6A105827921B0B19157359FF1 /* Support Files */,
-			);
-			path = SwipeableTabBarController;
-			sourceTree = "<group>";
-		};
-		52495C07014CB40F9807EB08F7462932 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2F4AE16F784E90483B83AC2573AEE840 /* Info.plist */,
-				361023B819856FB9AF1D9EF6A3C89EDE /* SwiftyJSON.modulemap */,
-				076E05E84F770EC3628BB803E2E8E97D /* SwiftyJSON.xcconfig */,
-				5EF1506A9CDD2924A81695BF01774A92 /* SwiftyJSON-dummy.m */,
-				C4C8845CA4CCF96ADBF134AC3130DE0B /* SwiftyJSON-prefix.pch */,
-				1AB94754B23BED8F3E46F37435D92B33 /* SwiftyJSON-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyJSON";
-			sourceTree = "<group>";
-		};
-		5E9B6B62E58E304567B092B8D9E21A10 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				3EF5FEAF74CE5336DDAD4D651E538FBF /* AFError.swift */,
-				8C5B5F9CDCFFA1E1BC0C09702C33D0F6 /* Alamofire.swift */,
-				B3EBB3047877E834C6876F5E3F396E58 /* DispatchQueue+Alamofire.swift */,
-				9DF4F59C4BC0068FE0F80D8E2FB8BD51 /* MultipartFormData.swift */,
-				F4A7590225CAE34BF168BEF01EA82DCA /* NetworkReachabilityManager.swift */,
-				BB53ACDF5AAA2E7ED05A983E25BFBC95 /* Notifications.swift */,
-				4694D968730AA28ACC55AD5881FBDA7A /* ParameterEncoding.swift */,
-				3F0B1AADFF43F76161F291276E4A61FA /* Request.swift */,
-				9E8E50C2CB25A7DF90B8350F086490A0 /* Response.swift */,
-				1C3A82A27F5CC3AC0E50E608271EAD0D /* ResponseSerialization.swift */,
-				7A5600D1FE873CA9DB13E34E5C7AE723 /* Result.swift */,
-				B4C0DBCC1FA0B954198B4A7DB02A2781 /* ServerTrustPolicy.swift */,
-				77F365CF1D07973285CF2D2A4F5D2F21 /* SessionDelegate.swift */,
-				C4F74C4609CABC0338E0263E6C0079E1 /* SessionManager.swift */,
-				2CCC62B00FB966E41BFC448A6CB0E04D /* TaskDelegate.swift */,
-				234E62B25DA998DF1386D7E1C34A63EE /* Timeline.swift */,
-				5935326326107F3F6101A8B9570182E4 /* Validation.swift */,
-				AD98DA9013F59B819AF999AE453C6D94 /* Support Files */,
+				3806C2AF8FF4E9AD198D9613005ADAE1 /* AFError.swift */,
+				50FAB22A805745CBC7054A81C056BA48 /* Alamofire.swift */,
+				A0964F2D7540C198AD32E3DF7C6EBA49 /* DispatchQueue+Alamofire.swift */,
+				43A461BD656207304874844BDC3E71AE /* MultipartFormData.swift */,
+				720D7DAE29CD270EFAB086A9E2F1030C /* NetworkReachabilityManager.swift */,
+				69E86178966A0FEAD8011333854338D8 /* Notifications.swift */,
+				6ADB55262E44A1B355BF5D3B5620FAF8 /* ParameterEncoding.swift */,
+				15084A972D9F50AE61226BF4E126F122 /* Request.swift */,
+				E8EB7D4FDAC78769B672BC2BF832130F /* Response.swift */,
+				E7CFEEE588B9975A19433287CE0022A0 /* ResponseSerialization.swift */,
+				F8AECE8CC1684FC96E15278CCCA41167 /* Result.swift */,
+				35DEC7BCB1A429C414BFAFF9A1FE6B57 /* ServerTrustPolicy.swift */,
+				4DC6F98333976CFD58982791B5E8D16A /* SessionDelegate.swift */,
+				C62E86F385241FB28CC043F0EC6BE37A /* SessionManager.swift */,
+				6428F636BD0D417CE2DA80BDEDDA4A5A /* TaskDelegate.swift */,
+				10C615CF24EC1B61E0B2A48B3436C484 /* Timeline.swift */,
+				FCEEB0188A6221085975CC2E183C32A8 /* Validation.swift */,
+				8AEB0CD9DEDD4668014993F2398AD738 /* Support Files */,
 			);
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		714478F6A105827921B0B19157359FF1 /* Support Files */ = {
+		303A2ED64AF3E99CD6C1C39153C11908 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2B8FD28E5211E0AD483C68D78F2B8EDD /* Info.plist */,
-				B696D079928B0C0034C6BABBEA62EF41 /* SwipeableTabBarController.modulemap */,
-				8471713708749DC0C2C171895245F9C4 /* SwipeableTabBarController.xcconfig */,
-				C5842144AC970EE27710AF5D60457587 /* SwipeableTabBarController-dummy.m */,
-				726B144946536F0DE20092084A07E174 /* SwipeableTabBarController-prefix.pch */,
-				481B9A99F09CAEE6DCAD7864B4F0B1CC /* SwipeableTabBarController-umbrella.h */,
+				CE99243F239AB64157B4DB792B21B8F6 /* IQKeyboardManager.bundle */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SwipeableTabBarController";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		733AF95A0D1968C23E38B4B73B6B86C6 /* SwiftLint */ = {
+		3ADC69135F3E4C7BD1E29535AFEFD6CC /* BiometricAuthenticator */ = {
 			isa = PBXGroup;
 			children = (
+				CE239C39550E0060620E119EC3F98320 /* BiometricAuthenticator.swift */,
+				6266D4D26FDAD84AC1805B2ABFD5AA79 /* UIDeviceExtension.swift */,
+				673CE90A1804C2FC67E3A3F78820B848 /* Support Files */,
 			);
-			path = SwiftLint;
+			path = BiometricAuthenticator;
 			sourceTree = "<group>";
 		};
-		96837586292E4EF89444C5F6F7CD1346 /* Products */ = {
+		4BF0A19AC60A285C6DAF283A0273EBDE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1AF54FC76015D06FFC1102172DAB6108 /* Alamofire.framework */,
-				70053DB7A36F9117FE1C086164EC49E3 /* IQKeyboardManagerSwift.framework */,
-				538300234D6AC4E1986E4C832820D517 /* Pods_magma.framework */,
-				48E184D7846C813A3A630867B6D5237E /* SwiftyJSON.framework */,
-				CC4FFE87CC9806A95205D867540BC3AC /* SwipeableTabBarController.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9EED1CEBBB3471B1A3BD8DACF13B55B3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F3598348CAD38537D4F2A8342B2FA76D /* Info.plist */,
-				B27535A323C45E96088531C1DA69B741 /* IQKeyboardManagerSwift.modulemap */,
-				5900BDA5BFAA04CE5860CA7A2A9ABA49 /* IQKeyboardManagerSwift.xcconfig */,
-				4C3D31757E2707E846DC4C81FE3843F0 /* IQKeyboardManagerSwift-dummy.m */,
-				E93BC3E19FAA3B54C0835641053AFFE1 /* IQKeyboardManagerSwift-prefix.pch */,
-				7A613B144CD06E67E9C269746AB1EED6 /* IQKeyboardManagerSwift-umbrella.h */,
+				6A2801474DAA33B783EFB54C5CDD18BF /* Info.plist */,
+				838F9AE18911ACB3A25DCEFD83AC7B1A /* IQKeyboardManagerSwift.modulemap */,
+				A58C87A82E0BF9563BF32C0445A2ED1B /* IQKeyboardManagerSwift.xcconfig */,
+				6542C02766021068AF6C0B48DF064408 /* IQKeyboardManagerSwift-dummy.m */,
+				F4F0318DB77E3864AC446756A13B848F /* IQKeyboardManagerSwift-prefix.pch */,
+				2BADC178BF39FF13523D5DEA2C23ECDF /* IQKeyboardManagerSwift-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/IQKeyboardManagerSwift";
 			sourceTree = "<group>";
 		};
-		AD98DA9013F59B819AF999AE453C6D94 /* Support Files */ = {
+		5D5DE8DB634FA432523C1B12911D58C1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7C7C1916C3AE2DBC3F6CF46923855BDD /* Alamofire.modulemap */,
-				6A4E9F7447E4113C169AA30519C238A0 /* Alamofire.xcconfig */,
-				E876BAB4179EFE71F297BF492BFB7289 /* Alamofire-dummy.m */,
-				F3BAC7C7E7D8482D314E060A66204A12 /* Alamofire-prefix.pch */,
-				E31AE985EC420C321F4A333A12D575F0 /* Alamofire-umbrella.h */,
-				A4CE4941FC9003CD4C1AB9E9A88ABBA2 /* Info.plist */,
+				59FDB58999D5D6719EA6954DB900AED7 /* Info.plist */,
+				BA483A4CFBC617509DA4AEAAC2726E95 /* SwiftyJSON.modulemap */,
+				206A77D90DD25D0BCA20389B8BFE40AD /* SwiftyJSON.xcconfig */,
+				14CFFF1F5C5BF0CC8323B15D96303E1F /* SwiftyJSON-dummy.m */,
+				50D58ED3E1782C395F19FDDFE8F99534 /* SwiftyJSON-prefix.pch */,
+				CAE7645C8E5F61518D843810B82B354A /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		64748665095FFCA48FAFC0593B57E3C0 /* SwipeableTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				EEAFCF2C76DA16E8726A99E7339DE661 /* SwipeableTabBarController.swift */,
+				B69754BE7DA2169A90F80D1A9102A238 /* SwipeAnimationType.swift */,
+				D6793CD0FD1A3C13D9BBD12E0B17683B /* SwipeInteractor.swift */,
+				6AA88FA86A7BD8FE895A9E14E2F76828 /* SwipeTransitionAnimator.swift */,
+				90B686B9B73410E92F83063831C4C7D5 /* SwipeTransitioningProtocol.swift */,
+				9CE5452CC4D5EC1308571D907A7FA2CA /* UIKit+Extensions.swift */,
+				DCB57D9A5B7B8B4BAB8C3260EF315DDB /* Support Files */,
+			);
+			path = SwipeableTabBarController;
+			sourceTree = "<group>";
+		};
+		673CE90A1804C2FC67E3A3F78820B848 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4F41629F3A14780CCEF9601B7CC0622 /* BiometricAuthenticator.modulemap */,
+				A3E6B0B6495B65C117262E257EAC9F3C /* BiometricAuthenticator.xcconfig */,
+				D3545F8A72315849DA84CBBC028D23C6 /* BiometricAuthenticator-dummy.m */,
+				3574A5B9DD875A6B78B8D80A1691D658 /* BiometricAuthenticator-prefix.pch */,
+				2CFBA7B59DEDF8BD6A4E56E416F3374D /* BiometricAuthenticator-umbrella.h */,
+				4F9A887E15203D423D2BE1B934D679A8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BiometricAuthenticator";
+			sourceTree = "<group>";
+		};
+		8AEB0CD9DEDD4668014993F2398AD738 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7E8BA6150DBF87D0EE3AE9D19471CEB /* Alamofire.modulemap */,
+				6304898C1FAEF1D472B72F1764E5D7C6 /* Alamofire.xcconfig */,
+				00DBB5743C089FC319BDD557A61C6A8D /* Alamofire-dummy.m */,
+				6041C702746AA607D34BDFDC9BE79123 /* Alamofire-prefix.pch */,
+				33CB58983DEB4FD769D9718B1641FDED /* Alamofire-umbrella.h */,
+				1B387284CA2913D83DA1D69A61206055 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Alamofire";
@@ -382,31 +415,6 @@
 			path = "Target Support Files/Pods-magma";
 			sourceTree = "<group>";
 		};
-		B963279AD46692FB7EC570EB0AB510F2 /* IQKeyboardManagerSwift */ = {
-			isa = PBXGroup;
-			children = (
-				57957098467945C34D3C9D55C1E2817B /* IQBarButtonItem.swift */,
-				564186E381ED48E8DA56B80A44351FAF /* IQInvocation.swift */,
-				C8942657EDF6B0CAA48A656AB8E84D2D /* IQKeyboardManager.swift */,
-				E227786129A42E744FC8B91BABF451E3 /* IQKeyboardManagerConstants.swift */,
-				704AB258069AE5F4C6C47FF0ECB8DB3B /* IQKeyboardManagerConstantsInternal.swift */,
-				4DC76F7762300F7B410DAEAE75C7E086 /* IQKeyboardReturnKeyHandler.swift */,
-				FC8AE2C452965F08BDD268A8E330B682 /* IQNSArray+Sort.swift */,
-				705F046A9242F41F8D387494B5773EC6 /* IQPreviousNextView.swift */,
-				112DB06B9A8FDAEBE15D1E7E2603292C /* IQTextView.swift */,
-				10188AAC8246EB69E2746056FD29E122 /* IQTitleBarButtonItem.swift */,
-				5FC7FAAF594664934D16B534046AEB3C /* IQToolbar.swift */,
-				07B6BE85BAB7764D5810157430E1B648 /* IQUIScrollView+Additions.swift */,
-				71C4B561CD622AF5DB05E6E3EA8DBE4A /* IQUITextFieldView+Additions.swift */,
-				6DB82A9FE94D6B6EFA54692147531E5D /* IQUIView+Hierarchy.swift */,
-				9E610FF862246D530FC2BC40A0D01CB6 /* IQUIView+IQKeyboardToolbar.swift */,
-				41D8B5B8F4DA7BA6BAF8D193E071B462 /* IQUIViewController+Additions.swift */,
-				1A0744AFC32B27FFF3241C7DA3997002 /* Resources */,
-				9EED1CEBBB3471B1A3BD8DACF13B55B3 /* Support Files */,
-			);
-			path = IQKeyboardManagerSwift;
-			sourceTree = "<group>";
-		};
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -415,11 +423,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C4F6861705F4018F746A42D79388CF99 /* SwiftyJSON */ = {
+		C383F92BD027CE898BEB5235E744DAF5 /* SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
-				938C1C54E3F0B508A6EDF65347C7446C /* SwiftyJSON.swift */,
-				52495C07014CB40F9807EB08F7462932 /* Support Files */,
+				F69581576ADF53A40D94E13AE4838CBB /* SwiftyJSON.swift */,
+				5D5DE8DB634FA432523C1B12911D58C1 /* Support Files */,
 			);
 			path = SwiftyJSON;
 			sourceTree = "<group>";
@@ -429,10 +437,48 @@
 			children = (
 				24390EFD555DD124430DFF9724065945 /* Podfile */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				E97B2DBDC803B23A2EB1FAB9C0CD9702 /* Pods */,
-				96837586292E4EF89444C5F6F7CD1346 /* Products */,
+				10EBF6AF5370237F015FF41E19BBE2CC /* Pods */,
+				D3AEFCB240CC0BB55FF1467D9A3C7469 /* Products */,
 				D956A3CDD983EADA7A8E35083C74D45E /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D3AEFCB240CC0BB55FF1467D9A3C7469 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0687787CF52A225441CEC40B3B6E7B10 /* Alamofire.framework */,
+				F2B38AE4F55ADC3B73B2308448E8A785 /* BiometricAuthenticator.framework */,
+				14BD4293AECC9C0626961B7158D0B442 /* IQKeyboardManagerSwift.framework */,
+				DBF3888792BE2710E18DB08173C41EBF /* Pods_magma.framework */,
+				9D7800476A6A5C9E8549B2C367098BBA /* SwiftyJSON.framework */,
+				B808031720B7E908D794EC307D2759AC /* SwipeableTabBarController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8339761A2A26693AEE965562359566A /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				37769647867F126BAAF7883FD9D63117 /* IQBarButtonItem.swift */,
+				A548D59517F6CA0F32A3C2978DEE2162 /* IQInvocation.swift */,
+				D29718C329564B521BF8CED85B0696EE /* IQKeyboardManager.swift */,
+				9930C2A549DB39DDDB5D384F61FA467F /* IQKeyboardManagerConstants.swift */,
+				67A5613C1AF7222AD171CC83F7D3B633 /* IQKeyboardManagerConstantsInternal.swift */,
+				323F6D5EDDAAC2A618063D7244F23247 /* IQKeyboardReturnKeyHandler.swift */,
+				62635BD438E0E40C85E300906F4EAD6F /* IQNSArray+Sort.swift */,
+				34B8D11E43B64B425E3307B5AC0A8185 /* IQPreviousNextView.swift */,
+				C3AA7DB85710C47621CB39CE14679DB6 /* IQTextView.swift */,
+				BA807149F57769B54EB74EAB0E5E52CA /* IQTitleBarButtonItem.swift */,
+				A8EDF84AAB966D0A1BA63ADED6996063 /* IQToolbar.swift */,
+				B005EF3DEBD1C8AA7A3E985DA7617771 /* IQUIScrollView+Additions.swift */,
+				ADC94082F5B71EDCD6C53FCABCFF5479 /* IQUITextFieldView+Additions.swift */,
+				815599A6D3DDAF537E336F0FDD9FAF38 /* IQUIView+Hierarchy.swift */,
+				4D7C7A0275B8DB9B1880534ED57799BC /* IQUIView+IQKeyboardToolbar.swift */,
+				0B444F110329CD62CFEBD2AD8BC4AB63 /* IQUIViewController+Additions.swift */,
+				303A2ED64AF3E99CD6C1C39153C11908 /* Resources */,
+				4BF0A19AC60A285C6DAF283A0273EBDE /* Support Files */,
+			);
+			path = IQKeyboardManagerSwift;
 			sourceTree = "<group>";
 		};
 		D956A3CDD983EADA7A8E35083C74D45E /* Targets Support Files */ = {
@@ -441,6 +487,20 @@
 				B42A4BE681BF87260D8EB71B8ED800DC /* Pods-magma */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DCB57D9A5B7B8B4BAB8C3260EF315DDB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94A7594F7F9820F47D0721C32C496C23 /* Info.plist */,
+				A0D0D9C740893358C777DB73B898730C /* SwipeableTabBarController.modulemap */,
+				F03F7350590E565013CA59D71734C4F1 /* SwipeableTabBarController.xcconfig */,
+				CE805D8352DC17468CF2AD7777659F46 /* SwipeableTabBarController-dummy.m */,
+				64EE16FC3BB19B9931925B1C426F05AB /* SwipeableTabBarController-prefix.pch */,
+				A1C325B1E6636EE533AECAA75F947DA1 /* SwipeableTabBarController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwipeableTabBarController";
 			sourceTree = "<group>";
 		};
 		DD35F57B08FA07466EF52BE52CC46A1D /* iOS */ = {
@@ -454,16 +514,11 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E97B2DBDC803B23A2EB1FAB9C0CD9702 /* Pods */ = {
+		E572B973CA0F483E091BF3F81F805C49 /* SwiftLint */ = {
 			isa = PBXGroup;
 			children = (
-				5E9B6B62E58E304567B092B8D9E21A10 /* Alamofire */,
-				B963279AD46692FB7EC570EB0AB510F2 /* IQKeyboardManagerSwift */,
-				733AF95A0D1968C23E38B4B73B6B86C6 /* SwiftLint */,
-				C4F6861705F4018F746A42D79388CF99 /* SwiftyJSON */,
-				2FA7F00ABB0D8C63A3B26EFB5304D2B1 /* SwipeableTabBarController */,
 			);
-			name = Pods;
+			path = SwiftLint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -477,19 +532,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1CA39B22A6982E69BDA1C6D251991517 /* Headers */ = {
+		81C858B5F98AC7D3DAF0632AEBE55B7A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AB8155BC809AD4602428A4F30094ADF /* SwipeableTabBarController-umbrella.h in Headers */,
+				7627977C689AC67D051650F9E677FD8C /* Pods-magma-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		422663C2714EF701D791760FFF09839B /* Headers */ = {
+		8DEC1C4942D7E7E0AA122C7E6AF8CD61 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5FB46F832DB646E0B9E78A7D930D3CE /* SwiftyJSON-umbrella.h in Headers */,
+				6D69AA953CAC587B423889E8F898F65C /* SwipeableTabBarController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933626DCA8200D49A94240DD1A74A354 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D007F0755992EA7471FFFB533912E7F /* BiometricAuthenticator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0855C505080298381051665F8CEA86C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70368B5881573288494582AF241B51BF /* SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,37 +572,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9B67470FF57FF204923BE6F056439D7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				142CF7F8928A6D7F7C55A229CC190CE7 /* Pods-magma-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1800D20861601EDC989C25DC6543A24C /* Pods-magma */ = {
+		14F081005B65060419BECF8ABD5E581D /* SwiftyJSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4BA897DC267B7C98358C3685FCF5FC6 /* Build configuration list for PBXNativeTarget "Pods-magma" */;
+			buildConfigurationList = 69BF98B1EED97C60979801C7D8629545 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
 			buildPhases = (
-				E9B67470FF57FF204923BE6F056439D7 /* Headers */,
-				0D0A84ED3BE36EB4DC5716853E021878 /* Sources */,
-				16A4714E2A40FE4C1823E3280500E500 /* Frameworks */,
-				BD20A2DEDF4A2CF90CE38C52531DC942 /* Resources */,
+				A0855C505080298381051665F8CEA86C /* Headers */,
+				379CFB3BE70CB3A58FBB6542E8886C48 /* Sources */,
+				154F65C9D8D223D07B224963FE4B3189 /* Frameworks */,
+				4895D724572B324D49519D3FF8246E17 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F8FA3B4C591BA8B4F9F53C009692D379 /* PBXTargetDependency */,
-				549BCE2DBAB22D9D5B589E63FAC73BA3 /* PBXTargetDependency */,
-				D757A83DDB5088934B8B2067056C4A5C /* PBXTargetDependency */,
-				4B72491A5CC26F127A6B4573AD508BA0 /* PBXTargetDependency */,
 			);
-			name = "Pods-magma";
-			productName = "Pods-magma";
-			productReference = 538300234D6AC4E1986E4C832820D517 /* Pods_magma.framework */;
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 9D7800476A6A5C9E8549B2C367098BBA /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		22DFBA4C929C72092AF6BEF57ACE3305 /* IQKeyboardManagerSwift */ = {
@@ -549,25 +608,7 @@
 			);
 			name = IQKeyboardManagerSwift;
 			productName = IQKeyboardManagerSwift;
-			productReference = 70053DB7A36F9117FE1C086164EC49E3 /* IQKeyboardManagerSwift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		53B763C730BF9A32FC857C66F59F6D66 /* SwiftyJSON */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 63E56F9D8D754536AF70BE11783F4783 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
-			buildPhases = (
-				422663C2714EF701D791760FFF09839B /* Headers */,
-				4571483EA854B26BA6635D3AB6AE002E /* Sources */,
-				513DAA6AE52AC15E7A1BB6D1438EA2B1 /* Frameworks */,
-				A3F54E35E506315380358491F0BABE73 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftyJSON;
-			productName = SwiftyJSON;
-			productReference = 48E184D7846C813A3A630867B6D5237E /* SwiftyJSON.framework */;
+			productReference = 14BD4293AECC9C0626961B7158D0B442 /* IQKeyboardManagerSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		795AEC9D55D11AD7C0AA9E2837F05310 /* Alamofire */ = {
@@ -585,17 +626,17 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 1AF54FC76015D06FFC1102172DAB6108 /* Alamofire.framework */;
+			productReference = 0687787CF52A225441CEC40B3B6E7B10 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DBF57C08CF5FE2F3CEDF4A4136C3952D /* SwipeableTabBarController */ = {
+		7C881C79D8E228BC57E37BC1BC94B70F /* SwipeableTabBarController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAF7778EE5B56F99B257CC44194B370A /* Build configuration list for PBXNativeTarget "SwipeableTabBarController" */;
+			buildConfigurationList = 573374F40A3351A4C553169BFCC81677 /* Build configuration list for PBXNativeTarget "SwipeableTabBarController" */;
 			buildPhases = (
-				1CA39B22A6982E69BDA1C6D251991517 /* Headers */,
-				527B60BA6531641F0FBCD931C1A0C99F /* Sources */,
-				C7FFC40D0309254529D19F682F5B95CC /* Frameworks */,
-				1C72584844EE68F068525F5DEDFDBFF1 /* Resources */,
+				8DEC1C4942D7E7E0AA122C7E6AF8CD61 /* Headers */,
+				F30773D7AB49D2CCEAB3A620C816AC85 /* Sources */,
+				B3F6B45EC89806C391ECAC865528FBAE /* Frameworks */,
+				EF8BD376BE27912A58BAE274E995057C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -603,7 +644,48 @@
 			);
 			name = SwipeableTabBarController;
 			productName = SwipeableTabBarController;
-			productReference = CC4FFE87CC9806A95205D867540BC3AC /* SwipeableTabBarController.framework */;
+			productReference = B808031720B7E908D794EC307D2759AC /* SwipeableTabBarController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		89F3D8C16A4D1720C025574D0578D621 /* Pods-magma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C0FBA26BC897156E45CD6AC4B8BACA /* Build configuration list for PBXNativeTarget "Pods-magma" */;
+			buildPhases = (
+				81C858B5F98AC7D3DAF0632AEBE55B7A /* Headers */,
+				0F12B3B406E3D8C5FEAEC738AFBDD6AF /* Sources */,
+				4176838A21CCD762DDE0D471ED053AF7 /* Frameworks */,
+				D67B5436289487AA63F88D3EFB7F74F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC3658D594B912876DC0EAA105176929 /* PBXTargetDependency */,
+				F12C67812E94B707E4C4C4DBD64887B8 /* PBXTargetDependency */,
+				84A6B03468AD16F4EBAEF9C3A68E4029 /* PBXTargetDependency */,
+				F0E9A8E267958F9B070001A2122C07C1 /* PBXTargetDependency */,
+				54BD95AAE1DF6331D069F9195B37B387 /* PBXTargetDependency */,
+			);
+			name = "Pods-magma";
+			productName = "Pods-magma";
+			productReference = DBF3888792BE2710E18DB08173C41EBF /* Pods_magma.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B97C4F741B2F1C801BEABE7266B2891A /* BiometricAuthenticator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69EB06BE95D57739705A2E10C7B97694 /* Build configuration list for PBXNativeTarget "BiometricAuthenticator" */;
+			buildPhases = (
+				933626DCA8200D49A94240DD1A74A354 /* Headers */,
+				0424E162CDAB4D6C51F9B30D8DD879E6 /* Sources */,
+				7859094F9118F48D6EBC9AF8AA22CDD5 /* Frameworks */,
+				C3CD697FB39CA4588E5CAD63F8E11296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiometricAuthenticator;
+			productName = BiometricAuthenticator;
+			productReference = F2B38AE4F55ADC3B73B2308448E8A785 /* BiometricAuthenticator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -624,27 +706,21 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 96837586292E4EF89444C5F6F7CD1346 /* Products */;
+			productRefGroup = D3AEFCB240CC0BB55FF1467D9A3C7469 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				795AEC9D55D11AD7C0AA9E2837F05310 /* Alamofire */,
+				B97C4F741B2F1C801BEABE7266B2891A /* BiometricAuthenticator */,
 				22DFBA4C929C72092AF6BEF57ACE3305 /* IQKeyboardManagerSwift */,
-				1800D20861601EDC989C25DC6543A24C /* Pods-magma */,
-				53B763C730BF9A32FC857C66F59F6D66 /* SwiftyJSON */,
-				DBF57C08CF5FE2F3CEDF4A4136C3952D /* SwipeableTabBarController */,
+				89F3D8C16A4D1720C025574D0578D621 /* Pods-magma */,
+				14F081005B65060419BECF8ABD5E581D /* SwiftyJSON */,
+				7C881C79D8E228BC57E37BC1BC94B70F /* SwipeableTabBarController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1C72584844EE68F068525F5DEDFDBFF1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1D4687FC6C5F917293273D754FFE7A54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -652,14 +728,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3F54E35E506315380358491F0BABE73 /* Resources */ = {
+		4895D724572B324D49519D3FF8246E17 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD20A2DEDF4A2CF90CE38C52531DC942 /* Resources */ = {
+		C3CD697FB39CA4588E5CAD63F8E11296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67B5436289487AA63F88D3EFB7F74F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -674,23 +757,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		0D0A84ED3BE36EB4DC5716853E021878 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		EF8BD376BE27912A58BAE274E995057C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DAF784FA833544782D38929210AA4CA /* Pods-magma-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4571483EA854B26BA6635D3AB6AE002E /* Sources */ = {
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0424E162CDAB4D6C51F9B30D8DD879E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B6099252CA48E4059451BF470BEC50C /* SwiftyJSON-dummy.m in Sources */,
-				D577C94686C85781CF73637610C7AA0F /* SwiftyJSON.swift in Sources */,
+				C436A7AD4AC87C81DEE4C0C834127E31 /* BiometricAuthenticator-dummy.m in Sources */,
+				C972E41EAF63A5423F6C6FD7E81663A4 /* BiometricAuthenticator.swift in Sources */,
+				7341ED70765FF941BAFD74A7F6460676 /* UIDeviceExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F12B3B406E3D8C5FEAEC738AFBDD6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848F2FA0E27907A21952B1CC636A58AA /* Pods-magma-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379CFB3BE70CB3A58FBB6542E8886C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6789D4CD05D127AF01BEA84014B02FD /* SwiftyJSON-dummy.m in Sources */,
+				EC2951560DB7E309295EE2564470F0DD /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -715,20 +815,6 @@
 				2810094818F0446DC72B81E67E91CF49 /* IQUIView+Hierarchy.swift in Sources */,
 				A459AA29CFCF2C8BF2BFF2690B71F456 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
 				AB2A35B2E9EF831EF07689C2BFE5F8F0 /* IQUIViewController+Additions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		527B60BA6531641F0FBCD931C1A0C99F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				68B01DC65131D018FEB16BBA4CD9A21F /* SwipeableTabBarController-dummy.m in Sources */,
-				A4E13C2ABCEC5D593C7D51D29E11F34E /* SwipeableTabBarController.swift in Sources */,
-				E2BDAF118E18F7FDAF737BA2BEED11E0 /* SwipeAnimationType.swift in Sources */,
-				24CAAC74BADCDE6252F4E408AAB412D0 /* SwipeInteractor.swift in Sources */,
-				4E726CF1D4E4B61E096B2DCDDA60D191 /* SwipeTransitionAnimator.swift in Sources */,
-				22EEFD7730376EDA8CD375797264C90A /* SwipeTransitioningProtocol.swift in Sources */,
-				7D984845493B1CE3A83C7E79A03FBDB0 /* UIKit+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -757,37 +843,201 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F30773D7AB49D2CCEAB3A620C816AC85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D16B0F9A4E132DA7467DA045F526CF /* SwipeableTabBarController-dummy.m in Sources */,
+				2BC41513D082F8D099D803C88F9CDA30 /* SwipeableTabBarController.swift in Sources */,
+				D33447A96AC346C63E859703C7AC5FC4 /* SwipeAnimationType.swift in Sources */,
+				4CDA17E4473A91ECB47E6331942DE71B /* SwipeInteractor.swift in Sources */,
+				2469A996593A8C8D1F9675F945CA887D /* SwipeTransitionAnimator.swift in Sources */,
+				584B3094E75084A595087680A397FE0F /* SwipeTransitioningProtocol.swift in Sources */,
+				F4682E5CB35AC6181488EBAC0B389C22 /* UIKit+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4B72491A5CC26F127A6B4573AD508BA0 /* PBXTargetDependency */ = {
+		54BD95AAE1DF6331D069F9195B37B387 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwipeableTabBarController;
-			target = DBF57C08CF5FE2F3CEDF4A4136C3952D /* SwipeableTabBarController */;
-			targetProxy = 8C4E767DF4929B8367CF2F78DEEC9696 /* PBXContainerItemProxy */;
+			target = 7C881C79D8E228BC57E37BC1BC94B70F /* SwipeableTabBarController */;
+			targetProxy = EB2AAF123AF84F717AC942BEBBF2D35E /* PBXContainerItemProxy */;
 		};
-		549BCE2DBAB22D9D5B589E63FAC73BA3 /* PBXTargetDependency */ = {
+		84A6B03468AD16F4EBAEF9C3A68E4029 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IQKeyboardManagerSwift;
 			target = 22DFBA4C929C72092AF6BEF57ACE3305 /* IQKeyboardManagerSwift */;
-			targetProxy = F532847DD4DC475E5771518EDBA82909 /* PBXContainerItemProxy */;
+			targetProxy = 52E8E65A63C6EC1AB762CFE4E91E1B20 /* PBXContainerItemProxy */;
 		};
-		D757A83DDB5088934B8B2067056C4A5C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyJSON;
-			target = 53B763C730BF9A32FC857C66F59F6D66 /* SwiftyJSON */;
-			targetProxy = 3806564C0592B0959F13C6137E1BD0B6 /* PBXContainerItemProxy */;
-		};
-		F8FA3B4C591BA8B4F9F53C009692D379 /* PBXTargetDependency */ = {
+		DC3658D594B912876DC0EAA105176929 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 795AEC9D55D11AD7C0AA9E2837F05310 /* Alamofire */;
-			targetProxy = 326753D3186D06722D705070017FF054 /* PBXContainerItemProxy */;
+			targetProxy = 12295A420657CF63F004E65A17DA30DA /* PBXContainerItemProxy */;
+		};
+		F0E9A8E267958F9B070001A2122C07C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 14F081005B65060419BECF8ABD5E581D /* SwiftyJSON */;
+			targetProxy = 1C18864208D1522532AFEBD2F001B450 /* PBXContainerItemProxy */;
+		};
+		F12C67812E94B707E4C4C4DBD64887B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BiometricAuthenticator;
+			target = B97C4F741B2F1C801BEABE7266B2891A /* BiometricAuthenticator */;
+			targetProxy = 16B8D968A76F9AD71D5410FCB7D82EA9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		010B6A303C978943BFF9ABD1A030AB01 /* Debug (Cloud) */ = {
+		04A471C7CD7B8E3B2CB9357A5DD55894 /* Debug (Local) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6304898C1FAEF1D472B72F1764E5D7C6 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Debug (Local)";
+		};
+		05E585294D1314870FEF8BC47BCF3436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A58C87A82E0BF9563BF32C0445A2ED1B /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		07DC9ACEF0DCC8F3EEC1F6ED39B12B76 /* Release (Cloud) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6304898C1FAEF1D472B72F1764E5D7C6 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Release (Cloud)";
+		};
+		1879AE6FAF36046564D3A8C44B98A4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F03F7350590E565013CA59D71734C4F1 /* SwipeableTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeableTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = SwipeableTabBarController;
+				PRODUCT_NAME = SwipeableTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		19D75B703C69A482DB23D73C759DB9B4 /* Debug (Cloud) */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DF0079EB7A462715F1B67E0F115AC4C2 /* Pods-magma.debug (cloud).xcconfig */;
 			buildSettings = {
@@ -826,84 +1076,9 @@
 			};
 			name = "Debug (Cloud)";
 		};
-		03F336DE88E62344C445611BD672FEFF /* Release */ = {
+		1AE09D41E16B5E74A3114EA8EFC69323 /* Release (Cloud) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FEA48071FA84FA4D69C9B8592FAE04D /* Pods-magma.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-magma/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-magma/Pods-magma.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		04A471C7CD7B8E3B2CB9357A5DD55894 /* Debug (Local) */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A4E9F7447E4113C169AA30519C238A0 /* Alamofire.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = "Debug (Local)";
-		};
-		0549A97D3EB71E1219A39E5429EDE051 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8471713708749DC0C2C171895245F9C4 /* SwipeableTabBarController.xcconfig */;
+			baseConfigurationReference = F03F7350590E565013CA59D71734C4F1 /* SwipeableTabBarController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -926,117 +1101,6 @@
 				MODULEMAP_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController.modulemap";
 				PRODUCT_MODULE_NAME = SwipeableTabBarController;
 				PRODUCT_NAME = SwipeableTabBarController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		05E585294D1314870FEF8BC47BCF3436 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5900BDA5BFAA04CE5860CA7A2A9ABA49 /* IQKeyboardManagerSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
-				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
-				PRODUCT_NAME = IQKeyboardManagerSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		06CFA498C6824265B0CB986BEEE96121 /* Debug (Local) */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AC240AEE5EB29F02733817470188782 /* Pods-magma.debug (local).xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-magma/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-magma/Pods-magma.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = "Debug (Local)";
-		};
-		07DC9ACEF0DCC8F3EEC1F6ED39B12B76 /* Release (Cloud) */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A4E9F7447E4113C169AA30519C238A0 /* Alamofire.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1047,42 +1111,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = "Release (Cloud)";
-		};
-		09FC1517D65A61285BFBA0B1B159E909 /* Debug (Cloud) */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8471713708749DC0C2C171895245F9C4 /* SwipeableTabBarController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwipeableTabBarController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController.modulemap";
-				PRODUCT_MODULE_NAME = SwipeableTabBarController;
-				PRODUCT_NAME = SwipeableTabBarController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = "Debug (Cloud)";
 		};
 		213CF9AFF36AF2BB2FB93FCBA04CEC3A /* Debug (Local) */ = {
 			isa = XCBuildConfiguration;
@@ -1151,7 +1179,7 @@
 		};
 		218198B220AC1159ABAC6DDE223E5E34 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A4E9F7447E4113C169AA30519C238A0 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 6304898C1FAEF1D472B72F1764E5D7C6 /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1185,9 +1213,80 @@
 			};
 			name = Release;
 		};
-		222EA4C0EC421034C2FADC974278A98D /* Release */ = {
+		30BDC4A660B6BB7C1B002E2F9E8C8D21 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 076E05E84F770EC3628BB803E2E8E97D /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = A3E6B0B6495B65C117262E257EAC9F3C /* BiometricAuthenticator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BiometricAuthenticator/BiometricAuthenticator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BiometricAuthenticator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BiometricAuthenticator/BiometricAuthenticator.modulemap";
+				PRODUCT_MODULE_NAME = BiometricAuthenticator;
+				PRODUCT_NAME = BiometricAuthenticator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37BB48973D98BDECB7670816490F7973 /* Debug (Local) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F03F7350590E565013CA59D71734C4F1 /* SwipeableTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeableTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = SwipeableTabBarController;
+				PRODUCT_NAME = SwipeableTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Debug (Local)";
+		};
+		40B7B1729A9A86E30721D30BE08CDC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 206A77D90DD25D0BCA20389B8BFE40AD /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1221,45 +1320,9 @@
 			};
 			name = Release;
 		};
-		3ED76DE7E313DBED71B231DC2BEB26A7 /* Release (Cloud) */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8471713708749DC0C2C171895245F9C4 /* SwipeableTabBarController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwipeableTabBarController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController.modulemap";
-				PRODUCT_MODULE_NAME = SwipeableTabBarController;
-				PRODUCT_NAME = SwipeableTabBarController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = "Release (Cloud)";
-		};
 		4485B75185255B3F376F661D4780578B /* Debug (Cloud) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5900BDA5BFAA04CE5860CA7A2A9ABA49 /* IQKeyboardManagerSwift.xcconfig */;
+			baseConfigurationReference = A58C87A82E0BF9563BF32C0445A2ED1B /* IQKeyboardManagerSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1293,9 +1356,9 @@
 			};
 			name = "Debug (Cloud)";
 		};
-		4C1E16A48F1DF79418063B1290CF49ED /* Release (Cloud) */ = {
+		4CC72A5536F16E9C451969DEFB40D2E0 /* Release (Cloud) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 076E05E84F770EC3628BB803E2E8E97D /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = A3E6B0B6495B65C117262E257EAC9F3C /* BiometricAuthenticator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1306,18 +1369,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/BiometricAuthenticator/BiometricAuthenticator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BiometricAuthenticator/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyJSON;
-				PRODUCT_NAME = SwiftyJSON;
+				MODULEMAP_FILE = "Target Support Files/BiometricAuthenticator/BiometricAuthenticator.modulemap";
+				PRODUCT_MODULE_NAME = BiometricAuthenticator;
+				PRODUCT_NAME = BiometricAuthenticator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1329,9 +1392,45 @@
 			};
 			name = "Release (Cloud)";
 		};
+		4D9B775478808DECA39117DF74D8B191 /* Release (Local) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F03F7350590E565013CA59D71734C4F1 /* SwipeableTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeableTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = SwipeableTabBarController;
+				PRODUCT_NAME = SwipeableTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Release (Local)";
+		};
 		50DC7C7CE8A947CFE86AE3D20477F51B /* Release (Cloud) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5900BDA5BFAA04CE5860CA7A2A9ABA49 /* IQKeyboardManagerSwift.xcconfig */;
+			baseConfigurationReference = A58C87A82E0BF9563BF32C0445A2ED1B /* IQKeyboardManagerSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1367,7 +1466,7 @@
 		};
 		51B9110AE1D86BCA219C8A3740321641 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5900BDA5BFAA04CE5860CA7A2A9ABA49 /* IQKeyboardManagerSwift.xcconfig */;
+			baseConfigurationReference = A58C87A82E0BF9563BF32C0445A2ED1B /* IQKeyboardManagerSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1400,9 +1499,297 @@
 			};
 			name = Debug;
 		};
-		6BD206F3C4948D166B1F01FAF8A4B968 /* Release (Local) */ = {
+		528A1EE149DABF42B3C9C3208DFC5021 /* Debug (Cloud) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8959F5F7C3B8037294C922768832DBA /* Pods-magma.release (local).xcconfig */;
+			baseConfigurationReference = F03F7350590E565013CA59D71734C4F1 /* SwipeableTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeableTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = SwipeableTabBarController;
+				PRODUCT_NAME = SwipeableTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Debug (Cloud)";
+		};
+		559EADA506E7EB0CB7A806E6618BB44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F03F7350590E565013CA59D71734C4F1 /* SwipeableTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeableTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = SwipeableTabBarController;
+				PRODUCT_NAME = SwipeableTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		617F89B388633A464B393D9A9B069EB6 /* Debug (Local) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E6B0B6495B65C117262E257EAC9F3C /* BiometricAuthenticator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BiometricAuthenticator/BiometricAuthenticator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BiometricAuthenticator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BiometricAuthenticator/BiometricAuthenticator.modulemap";
+				PRODUCT_MODULE_NAME = BiometricAuthenticator;
+				PRODUCT_NAME = BiometricAuthenticator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Debug (Local)";
+		};
+		69215928F8D63924A6B06194E2055CE3 /* Debug (Cloud) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 206A77D90DD25D0BCA20389B8BFE40AD /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Debug (Cloud)";
+		};
+		6B9202B8D2F8BCBD487EF1CFFA14F188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1D7190B87069094EBA712D08A31AB2E /* Pods-magma.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-magma/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-magma/Pods-magma.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E9D60A9519972079943EC66A2B0DE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 206A77D90DD25D0BCA20389B8BFE40AD /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E45ED8756492776B853B0A2AC55E4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E6B0B6495B65C117262E257EAC9F3C /* BiometricAuthenticator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BiometricAuthenticator/BiometricAuthenticator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BiometricAuthenticator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BiometricAuthenticator/BiometricAuthenticator.modulemap";
+				PRODUCT_MODULE_NAME = BiometricAuthenticator;
+				PRODUCT_NAME = BiometricAuthenticator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E7FAE5282E917473B3ECAE26BB7FF16 /* Debug (Cloud) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E6B0B6495B65C117262E257EAC9F3C /* BiometricAuthenticator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BiometricAuthenticator/BiometricAuthenticator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BiometricAuthenticator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BiometricAuthenticator/BiometricAuthenticator.modulemap";
+				PRODUCT_MODULE_NAME = BiometricAuthenticator;
+				PRODUCT_NAME = BiometricAuthenticator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Debug (Cloud)";
+		};
+		7E9C57A52921B2507BD03A0FF7773294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FEA48071FA84FA4D69C9B8592FAE04D /* Pods-magma.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1437,46 +1824,11 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = "Release (Local)";
-		};
-		802702DA049AF9905B05D3CF641A23C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 076E05E84F770EC3628BB803E2E8E97D /* SwiftyJSON.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyJSON;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+			name = Release;
 		};
 		8F5870BB77363238970FB4B657204DC9 /* Release (Local) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5900BDA5BFAA04CE5860CA7A2A9ABA49 /* IQKeyboardManagerSwift.xcconfig */;
+			baseConfigurationReference = A58C87A82E0BF9563BF32C0445A2ED1B /* IQKeyboardManagerSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1510,9 +1862,9 @@
 			};
 			name = "Release (Local)";
 		};
-		9414C219EECDAF3C70F22C5305595D0C /* Debug */ = {
+		9C3B2B816D8AD4A7F88BEA35BF608C31 /* Release (Local) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8471713708749DC0C2C171895245F9C4 /* SwipeableTabBarController.xcconfig */;
+			baseConfigurationReference = 206A77D90DD25D0BCA20389B8BFE40AD /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1523,8 +1875,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwipeableTabBarController/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1532,44 +1884,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController.modulemap";
-				PRODUCT_MODULE_NAME = SwipeableTabBarController;
-				PRODUCT_NAME = SwipeableTabBarController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		99953278B4DA6CE1832AB47A11F4AF79 /* Debug (Local) */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8471713708749DC0C2C171895245F9C4 /* SwipeableTabBarController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwipeableTabBarController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController.modulemap";
-				PRODUCT_MODULE_NAME = SwipeableTabBarController;
-				PRODUCT_NAME = SwipeableTabBarController;
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1579,7 +1896,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = "Debug (Local)";
+			name = "Release (Local)";
 		};
 		A609C42B60741C60AC762C4CB098710C /* Debug (Cloud) */ = {
 			isa = XCBuildConfiguration;
@@ -1646,81 +1963,9 @@
 			};
 			name = "Debug (Cloud)";
 		};
-		A79C30FDA7564428475A4786BA104D18 /* Debug (Cloud) */ = {
+		B080634B058B43BE6FC85B7104ED6AB1 /* Debug (Local) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 076E05E84F770EC3628BB803E2E8E97D /* SwiftyJSON.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyJSON;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = "Debug (Cloud)";
-		};
-		AC00E0FF07C8812060508E6CD5AA5D90 /* Release (Local) */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8471713708749DC0C2C171895245F9C4 /* SwipeableTabBarController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwipeableTabBarController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwipeableTabBarController/SwipeableTabBarController.modulemap";
-				PRODUCT_MODULE_NAME = SwipeableTabBarController;
-				PRODUCT_NAME = SwipeableTabBarController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = "Release (Local)";
-		};
-		AC05A1392185638F1469E912167CF346 /* Debug (Local) */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 076E05E84F770EC3628BB803E2E8E97D /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = 206A77D90DD25D0BCA20389B8BFE40AD /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1756,7 +2001,7 @@
 		};
 		B2BE10D853F63BB8E5BDC683635D3AFB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A4E9F7447E4113C169AA30519C238A0 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 6304898C1FAEF1D472B72F1764E5D7C6 /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1789,9 +2034,48 @@
 			};
 			name = Debug;
 		};
+		B319A03578684A5A5D6E172265912603 /* Debug (Local) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC240AEE5EB29F02733817470188782 /* Pods-magma.debug (local).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-magma/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-magma/Pods-magma.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Debug (Local)";
+		};
 		B943F97F3DCCC88CC498933B015B122A /* Debug (Cloud) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A4E9F7447E4113C169AA30519C238A0 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 6304898C1FAEF1D472B72F1764E5D7C6 /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1951,44 +2235,6 @@
 			};
 			name = "Release (Cloud)";
 		};
-		C955B7289B85F9E59D72F809CD8E5426 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1D7190B87069094EBA712D08A31AB2E /* Pods-magma.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-magma/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-magma/Pods-magma.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		D234CDA64AE12B115F1B6256221DAD59 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2119,43 +2365,7 @@
 			};
 			name = Debug;
 		};
-		ECAF9024194B70C3EDECF150516996AE /* Debug (Local) */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5900BDA5BFAA04CE5860CA7A2A9ABA49 /* IQKeyboardManagerSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
-				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
-				PRODUCT_NAME = IQKeyboardManagerSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = "Debug (Local)";
-		};
-		F2C7D626537F217BF4E64CE3654A23C7 /* Release (Cloud) */ = {
+		E7CEB2626DBD5D045D6A3E4DD2416528 /* Release (Cloud) */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D41BE9C839066403473A930721EEB6A0 /* Pods-magma.release (cloud).xcconfig */;
 			buildSettings = {
@@ -2194,9 +2404,120 @@
 			};
 			name = "Release (Cloud)";
 		};
+		EC012AB025406EC329055C66D0C5772A /* Release (Cloud) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 206A77D90DD25D0BCA20389B8BFE40AD /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Release (Cloud)";
+		};
+		EC9B16DC8915573EB058886FA5C4F3BE /* Release (Local) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8959F5F7C3B8037294C922768832DBA /* Pods-magma.release (local).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-magma/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-magma/Pods-magma.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Release (Local)";
+		};
+		ECAF9024194B70C3EDECF150516996AE /* Debug (Local) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A58C87A82E0BF9563BF32C0445A2ED1B /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Debug (Local)";
+		};
 		F9D84588B5A06B117C3505F13FAC8550 /* Release (Local) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A4E9F7447E4113C169AA30519C238A0 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 6304898C1FAEF1D472B72F1764E5D7C6 /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2230,9 +2551,9 @@
 			};
 			name = "Release (Local)";
 		};
-		FD1804997EB1EB39D09E089B8CBE5397 /* Release (Local) */ = {
+		FA9CC8F69331BD3A41751F7571C9F655 /* Release (Local) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 076E05E84F770EC3628BB803E2E8E97D /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = A3E6B0B6495B65C117262E257EAC9F3C /* BiometricAuthenticator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2243,18 +2564,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/BiometricAuthenticator/BiometricAuthenticator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BiometricAuthenticator/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyJSON;
-				PRODUCT_NAME = SwiftyJSON;
+				MODULEMAP_FILE = "Target Support Files/BiometricAuthenticator/BiometricAuthenticator.modulemap";
+				PRODUCT_MODULE_NAME = BiometricAuthenticator;
+				PRODUCT_NAME = BiometricAuthenticator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -2295,15 +2616,54 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63E56F9D8D754536AF70BE11783F4783 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+		573374F40A3351A4C553169BFCC81677 /* Build configuration list for PBXNativeTarget "SwipeableTabBarController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				802702DA049AF9905B05D3CF641A23C3 /* Debug */,
-				A79C30FDA7564428475A4786BA104D18 /* Debug (Cloud) */,
-				AC05A1392185638F1469E912167CF346 /* Debug (Local) */,
-				222EA4C0EC421034C2FADC974278A98D /* Release */,
-				4C1E16A48F1DF79418063B1290CF49ED /* Release (Cloud) */,
-				FD1804997EB1EB39D09E089B8CBE5397 /* Release (Local) */,
+				559EADA506E7EB0CB7A806E6618BB44D /* Debug */,
+				528A1EE149DABF42B3C9C3208DFC5021 /* Debug (Cloud) */,
+				37BB48973D98BDECB7670816490F7973 /* Debug (Local) */,
+				1879AE6FAF36046564D3A8C44B98A4A0 /* Release */,
+				1AE09D41E16B5E74A3114EA8EFC69323 /* Release (Cloud) */,
+				4D9B775478808DECA39117DF74D8B191 /* Release (Local) */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69BF98B1EED97C60979801C7D8629545 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9D60A9519972079943EC66A2B0DE75 /* Debug */,
+				69215928F8D63924A6B06194E2055CE3 /* Debug (Cloud) */,
+				B080634B058B43BE6FC85B7104ED6AB1 /* Debug (Local) */,
+				40B7B1729A9A86E30721D30BE08CDC4A /* Release */,
+				EC012AB025406EC329055C66D0C5772A /* Release (Cloud) */,
+				9C3B2B816D8AD4A7F88BEA35BF608C31 /* Release (Local) */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69EB06BE95D57739705A2E10C7B97694 /* Build configuration list for PBXNativeTarget "BiometricAuthenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BDC4A660B6BB7C1B002E2F9E8C8D21 /* Debug */,
+				7E7FAE5282E917473B3ECAE26BB7FF16 /* Debug (Cloud) */,
+				617F89B388633A464B393D9A9B069EB6 /* Debug (Local) */,
+				7E45ED8756492776B853B0A2AC55E4E0 /* Release */,
+				4CC72A5536F16E9C451969DEFB40D2E0 /* Release (Cloud) */,
+				FA9CC8F69331BD3A41751F7571C9F655 /* Release (Local) */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96C0FBA26BC897156E45CD6AC4B8BACA /* Build configuration list for PBXNativeTarget "Pods-magma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9202B8D2F8BCBD487EF1CFFA14F188 /* Debug */,
+				19D75B703C69A482DB23D73C759DB9B4 /* Debug (Cloud) */,
+				B319A03578684A5A5D6E172265912603 /* Debug (Local) */,
+				7E9C57A52921B2507BD03A0FF7773294 /* Release */,
+				E7CEB2626DBD5D045D6A3E4DD2416528 /* Release (Cloud) */,
+				EC9B16DC8915573EB058886FA5C4F3BE /* Release (Local) */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2317,32 +2677,6 @@
 				05E585294D1314870FEF8BC47BCF3436 /* Release */,
 				50DC7C7CE8A947CFE86AE3D20477F51B /* Release (Cloud) */,
 				8F5870BB77363238970FB4B657204DC9 /* Release (Local) */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AAF7778EE5B56F99B257CC44194B370A /* Build configuration list for PBXNativeTarget "SwipeableTabBarController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9414C219EECDAF3C70F22C5305595D0C /* Debug */,
-				09FC1517D65A61285BFBA0B1B159E909 /* Debug (Cloud) */,
-				99953278B4DA6CE1832AB47A11F4AF79 /* Debug (Local) */,
-				0549A97D3EB71E1219A39E5429EDE051 /* Release */,
-				3ED76DE7E313DBED71B231DC2BEB26A7 /* Release (Cloud) */,
-				AC00E0FF07C8812060508E6CD5AA5D90 /* Release (Local) */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C4BA897DC267B7C98358C3685FCF5FC6 /* Build configuration list for PBXNativeTarget "Pods-magma" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C955B7289B85F9E59D72F809CD8E5426 /* Debug */,
-				010B6A303C978943BFF9ABD1A030AB01 /* Debug (Cloud) */,
-				06CFA498C6824265B0CB986BEEE96121 /* Debug (Local) */,
-				03F336DE88E62344C445611BD672FEFF /* Release */,
-				F2C7D626537F217BF4E64CE3654A23C7 /* Release (Cloud) */,
-				6BD206F3C4948D166B1F01FAF8A4B968 /* Release (Local) */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

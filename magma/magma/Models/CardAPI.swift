@@ -53,7 +53,6 @@ class CardAPI {
                     for (_, c) in cardArray {
                         let card = Util.cardFromJSON(c)
                         self.cardManager.newCard(card)
-                        print(card.getNumber())
                     }
                     
                     callback(Constants.SUCCESS, "")
@@ -72,7 +71,7 @@ class CardAPI {
     
     // Send a request to our backend to create a new card
     public func newCard(_ callback: @escaping (Int, String) -> Void) {
-        let server: String = Environment().configuration(PlistKey.ServerURL)
+        let server: String = Environment().configuration(PlistKey.ServerURL) + Endpoints.NEW_CARD
         
         // POST to our new card API to get a card object on its callback add the card locally
         Alamofire.request(server, method: HTTPMethod.post, parameters: [Endpoints.Params.CARD_HOLDER_ID:Constants.userID]).responseJSON { response in

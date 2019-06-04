@@ -4,7 +4,6 @@ import au.com.codecandy.magma.cardprovider.model.Card;
 import au.com.codecandy.magma.cardprovider.model.CardHolder;
 import au.com.codecandy.magma.cardprovider.service.State;
 import au.com.codecandy.magma.cardprovider.utility.Constants;
-import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;

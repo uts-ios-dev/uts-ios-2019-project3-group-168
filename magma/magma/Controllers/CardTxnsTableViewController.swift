@@ -7,24 +7,32 @@
 //
 
 import UIKit
+import BiometricAuthenticator
 
 // This is the view controller for the transaction that is to be displayed after clicking on the card
 class CardTxnsTableViewController: UITableViewController {
     private var transactions: [Transaction] = []
     private var card: Card!
+    private let bioAuth = BiometricAuthenticator()
+    private var cardViewCell: WalletTableViewCell!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         UIApplication.shared.statusBarView?.backgroundColor = UIColor.white
         // Get all of our transactions for our card
         TransactionAPI.shared().getTransactionsByCard(card: card!, { (resultCode, transactions, message)  in
-            if (resultCode == Constants.SUCCESS) {
+            switch (resultCode) {
+            case Constants.SUCCESS:
                 self.transactions = transactions
+                print(transactions)
                 self.tableView.reloadData()
-            } else {
+            case Constants.FAILURE:
                 print(message)
+            default:
+                print("There was an error in our API call")
             }
         })
+        
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -42,7 +50,6 @@ class CardTxnsTableViewController: UITableViewController {
                 // Populate the values of our card view (cell)
                 let transaction = transactions[indexPath.row]
                 cell.setup(transaction, isWithinCard: true)
-                
                 return cell
             }
         }
@@ -71,7 +78,7 @@ class CardTxnsTableViewController: UITableViewController {
             // Populate the header cell
             cell.setup(card, controller: self)
             cell.backgroundColor = UIColor.white
-            
+            cardViewCell = cell
             setupButtons(cell)
             
             return cell
@@ -131,8 +138,20 @@ class CardTxnsTableViewController: UITableViewController {
             let viewController = storyBoard.instantiateViewController(withIdentifier: "homeViewController")
             self.present(viewController, animated: true, completion: nil)
         } else if (sender.function == Constants.FUNCTION_PAY) {
-            // TODO: Handle pay
-            print("Paying")
+            // Check if faceid or touch id is enabled then authenticate them that way
+            if bioAuth.isTouchIdEnabledOnDevice() || bioAuth.isFaceIdEnabledOnDevice() {
+                self.bioAuth.authenticateWithBiometrics(localizedReason: "Login to continue", successBlock: {
+                    print("Successfully Authenticated")
+                    // On our completed auth show the card details
+                    self.cardViewCell.showPayCard()
+                }, failureBlock: { (error) in
+                    if let error = error {
+                        print("error: \(error.code)")
+                    }
+                })
+            } else {
+                print("Biometric Authentication is not enabled")
+            }
         }
     }
 }

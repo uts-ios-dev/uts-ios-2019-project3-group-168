@@ -13,6 +13,7 @@ class WalletViewController: UIViewController {
     // MARK: - Setup
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
 
 }

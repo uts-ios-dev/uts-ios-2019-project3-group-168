@@ -17,12 +17,15 @@ class TxnTableViewController: UITableViewController {
         self.tableView.backgroundColor = UIColor.white
         // Load our transactions
         TransactionAPI.shared().getTransactions { (resultCode, transactions, message)  in
-            if (resultCode == Constants.SUCCESS) {
+            switch (resultCode) {
+            case Constants.SUCCESS:
                 self.transactions = transactions
                 print(transactions)
                 self.tableView.reloadData()
-            } else {
+            case Constants.FAILURE:
                 print(message)
+            default:
+                print("There was an error in our API call")
             }
         }
     }

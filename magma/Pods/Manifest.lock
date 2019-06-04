@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.8.2)
+  - BiometricAuthenticator (1.3.0)
   - IQKeyboardManagerSwift (6.2.1)
   - SwiftLint (0.31.0)
   - SwiftyJSON (3.1.4)
@@ -7,6 +8,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - BiometricAuthenticator (~> 1.3.0)
   - IQKeyboardManagerSwift
   - SwiftLint
   - SwiftyJSON (~> 3.0)
@@ -15,6 +17,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - BiometricAuthenticator
     - IQKeyboardManagerSwift
     - SwiftLint
     - SwiftyJSON
@@ -22,11 +25,12 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  BiometricAuthenticator: d2d915c02ecc5fe7afdc8cb5a79cf2c8b4ef8dd7
   IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
   SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
   SwipeableTabBarController: e6445066473bb548cc74f660c0ebc04d609cde67
 
-PODFILE CHECKSUM: 256bca0e1bf3df483dfa9a886cbdb8800cbefdcb
+PODFILE CHECKSUM: 4b01338f2fcadec85cff03f88436ebd0de3bb539
 
 COCOAPODS: 1.5.2

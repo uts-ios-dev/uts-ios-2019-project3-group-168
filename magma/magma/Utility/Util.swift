@@ -74,9 +74,10 @@ final class Util {
         let firstName = data["cardholder"]["firstName"].stringValue
         let middleName = data["cardholder"]["middleName"].stringValue
         let lastName = data["cardholder"]["lastName"].stringValue
+        let expiry = "10/19"
         let cardName = "\(firstName) \(middleName.prefix(1)) \(lastName)"
         
-        return Card(id: cardID, name: cardName, number: cardNumber, cvc: cardCVC, status: cardStatus)
+        return Card(id: cardID, name: cardName, number: cardNumber, cvc: cardCVC, status: cardStatus, expiry: expiry)
     }
 }
 
