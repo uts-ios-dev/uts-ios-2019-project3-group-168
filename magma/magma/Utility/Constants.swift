@@ -21,6 +21,7 @@ final class Constants {
     static let APPLICATION_TITLE = "magma"
     static let CARD_HOLDER_NAME_TITLE = "Card Holder Name"
     static let CARD_EXPIRY_TITLE = "Expiry"
+    static let CVC_TITLE = "CVC"
     static let NO_TRANSACTIONS = "No transactions to show"
     
     // MARK: - Function keys

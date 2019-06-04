@@ -92,9 +92,10 @@ class WalletTableViewCell: UITableViewCell {
     
     // Add our card number to our card
     func addCardNumber(_ card: Card, _ logoView: UILabel) -> UILabel {
-        let label = UILabel(frame: CGRect(x: paddingLeft, y: logoView.frame.origin.y + 40, width: 0, height: 0))
+        let label = UILabel(frame: CGRect(x: paddingLeft - 5, y: logoView.frame.origin.y + 40, width: 0, height: 0))
         label.text = card.getNumber()
         label.font = label.font.withSize(fontSize)
+        label.textAlignment = .left
         label.textColor = UIColor.white
         label.frame.size.width = label.intrinsicContentSize.width
         label.frame.size.height = label.intrinsicContentSize.height
@@ -160,6 +161,55 @@ class WalletTableViewCell: UITableViewCell {
         return card
     }
     
+    // Add our expiry and expiry title to the details view
+    public func addExpiry() {
+        // Add our title to the card
+        let rect = CGRect(x: detailsView.frame.width - paddingLeft * 4, y: detailsSubtitlePaddingTop, width: 0, height: 0)
+        let expiryTitle = UILabel(frame: rect)
+        expiryTitle.text = Constants.CARD_EXPIRY_TITLE
+        expiryTitle.font = expiryTitle.font.withSize(detailsSubtitleFontSize)
+        expiryTitle.textColor = UIColor.white
+        expiryTitle.textAlignment = .right
+        expiryTitle.frame.size.width = expiryTitle.intrinsicContentSize.width
+        expiryTitle.frame.size.height = expiryTitle.intrinsicContentSize.height
+        detailsView.addSubview(expiryTitle)
+        
+        // Add the expiry to the card
+        let xPos = detailsView.frame.width - paddingLeft * 4
+        let expiryRect = CGRect(x: xPos, y: expiryTitle.frame.origin.y + detailsPaddingTop, width: 0, height: 0)
+        let expiryLabel = UILabel(frame: expiryRect)
+        expiryLabel.text = card.getExpiry()
+        expiryLabel.font = expiryLabel.font.withSize(detailsFontSize)
+        expiryLabel.textColor = UIColor.white
+        expiryLabel.textAlignment = .right
+        expiryLabel.frame.size.width = expiryLabel.intrinsicContentSize.width
+        expiryLabel.frame.size.height = expiryLabel.intrinsicContentSize.height
+        detailsView.addSubview(expiryLabel)
+    }
+    
+    // Add the cvc to the main card
+    public func addCVC() {
+        // Add our title to the card
+        let rect = CGRect(x: paddingLeft, y: paddingTop * 5, width: 0, height: 0)
+        let cvcTitle = UILabel(frame: rect)
+        cvcTitle.text = Constants.CVC_TITLE
+        cvcTitle.font = cvcTitle.font.withSize(detailsSubtitleFontSize)
+        cvcTitle.textColor = UIColor.white
+        cvcTitle.frame.size.width = cvcTitle.intrinsicContentSize.width
+        cvcTitle.frame.size.height = cvcTitle.intrinsicContentSize.height
+        cardView.addSubview(cvcTitle)
+        
+        // Add the cvc to the card
+        let cvcRect = CGRect(x: paddingLeft, y: cvcTitle.frame.origin.y + detailsPaddingTop / 1.5, width: 0, height: 0)
+        let label = UILabel(frame: cvcRect)
+        label.text = card.getCvc()
+        label.font = label.font.withSize(detailsFontSize)
+        label.textColor = UIColor.white
+        label.frame.size.width = label.intrinsicContentSize.width
+        label.frame.size.height = label.intrinsicContentSize.height
+        cardView.addSubview(label)
+    }
+    
     // Show the details used to pay
     public func showPayCard() {
         // Run the ui on the main thread otherwise we cannot update the ui
@@ -170,28 +220,8 @@ class WalletTableViewCell: UITableViewCell {
             self.cardNumberLabel.frame.size.height = self.cardNumberLabel.intrinsicContentSize.height
             self.cardNumberLabel.font =  self.cardNumberLabel.font.withSize(self.fontSize - 2)
             
-            // Add our expiry and expiry title to the details view
-            let rect = CGRect(x: self.detailsView.frame.width - self.paddingLeft * 4, y: self.detailsSubtitlePaddingTop, width: 0, height: 0)
-            let expiryTitle = UILabel(frame: rect)
-            expiryTitle.text = Constants.CARD_EXPIRY_TITLE
-            expiryTitle.font = expiryTitle.font.withSize(self.detailsSubtitleFontSize)
-            expiryTitle.textColor = UIColor.white
-            expiryTitle.textAlignment = .right
-            expiryTitle.frame.size.width = expiryTitle.intrinsicContentSize.width
-            expiryTitle.frame.size.height = expiryTitle.intrinsicContentSize.height
-            self.detailsView.addSubview(expiryTitle)
-            
-            // Add the expiry to the card
-            let xPos = self.detailsView.frame.width - self.paddingLeft * 4
-            let expiryRect = CGRect(x: xPos, y: expiryTitle.frame.origin.y + self.detailsPaddingTop, width: 0, height: 0)
-            let expiryLabel = UILabel(frame: expiryRect)
-            expiryLabel.text = self.card.getExpiry()
-            expiryLabel.font = expiryLabel.font.withSize(self.detailsFontSize)
-            expiryLabel.textColor = UIColor.white
-            expiryLabel.textAlignment = .right
-            expiryLabel.frame.size.width = expiryLabel.intrinsicContentSize.width
-            expiryLabel.frame.size.height = expiryLabel.intrinsicContentSize.height
-            self.detailsView.addSubview(expiryLabel)
+            self.addExpiry()
+            self.addCVC()
         }
     }
 }
