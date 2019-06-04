@@ -134,9 +134,7 @@ class CardTxnsTableViewController: UITableViewController {
     // Handle our click event and give the user the option to pay or view card details
     @objc func handleOnClick(_ sender: CardTapGestureRecognizer) {
         if (sender.function == Constants.FUNCTION_BACK) {
-            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-            let viewController = storyBoard.instantiateViewController(withIdentifier: "homeViewController")
-            self.present(viewController, animated: true, completion: nil)
+            dismiss(animated: true, completion: nil)
         } else if (sender.function == Constants.FUNCTION_PAY) {
             // Check if faceid or touch id is enabled then authenticate them that way
             if bioAuth.isTouchIdEnabledOnDevice() || bioAuth.isFaceIdEnabledOnDevice() {
